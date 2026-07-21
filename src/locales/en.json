@@ -10,14 +10,7 @@
       "twitterDescription": "Gakuran Wiki covers Roblox codes, fighting styles, controls, and PvP tips for the Japanese school roleplay fighting game."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
