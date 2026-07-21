@@ -1,1 +1,568 @@
-{}
+{
+  "en": {
+    "characters": [
+      {
+        "slug": "gakuran-faces",
+        "file": "gakuran-faces"
+      },
+      {
+        "slug": "gakuran-hair-colors",
+        "file": "gakuran-hair-colors"
+      },
+      {
+        "slug": "gakuran-hairstyles",
+        "file": "gakuran-hairstyles"
+      },
+      {
+        "slug": "gakuran-height",
+        "file": "gakuran-height"
+      },
+      {
+        "slug": "gakuran-name-ideas",
+        "file": "gakuran-name-ideas"
+      },
+      {
+        "slug": "gakuran-names",
+        "file": "gakuran-names"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "gakuran-codes",
+        "file": "gakuran-codes"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "gakuran-best-build",
+        "file": "gakuran-best-build"
+      },
+      {
+        "slug": "gakuran-combat",
+        "file": "gakuran-combat"
+      },
+      {
+        "slug": "gakuran-fighting",
+        "file": "gakuran-fighting"
+      },
+      {
+        "slug": "gakuran-height-build",
+        "file": "gakuran-height-build"
+      },
+      {
+        "slug": "gakuran-how-to-fight",
+        "file": "gakuran-how-to-fight"
+      }
+    ],
+    "controls": [
+      {
+        "slug": "gakuran-console-controls",
+        "file": "gakuran-console-controls"
+      },
+      {
+        "slug": "gakuran-controls",
+        "file": "gakuran-controls"
+      },
+      {
+        "slug": "gakuran-fighting-controls",
+        "file": "gakuran-fighting-controls"
+      },
+      {
+        "slug": "gakuran-keybinds",
+        "file": "gakuran-keybinds"
+      },
+      {
+        "slug": "gakuran-keyboard-controls",
+        "file": "gakuran-keyboard-controls"
+      },
+      {
+        "slug": "gakuran-pc-controls",
+        "file": "gakuran-pc-controls"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "gakuran-beginner-guide",
+        "file": "gakuran-beginner-guide"
+      },
+      {
+        "slug": "gakuran-complete-guide",
+        "file": "gakuran-complete-guide"
+      },
+      {
+        "slug": "gakuran-gameplay",
+        "file": "gakuran-gameplay"
+      },
+      {
+        "slug": "gakuran-guide",
+        "file": "gakuran-guide"
+      },
+      {
+        "slug": "gakuran-how-to-play",
+        "file": "gakuran-how-to-play"
+      },
+      {
+        "slug": "gakuran-pvp-guide",
+        "file": "gakuran-pvp-guide"
+      },
+      {
+        "slug": "gakuran-tips-and-tricks",
+        "file": "gakuran-tips-and-tricks"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "gakuran-locations",
+        "file": "gakuran-locations"
+      },
+      {
+        "slug": "gakuran-map",
+        "file": "gakuran-map"
+      },
+      {
+        "slug": "gakuran-music-room",
+        "file": "gakuran-music-room"
+      },
+      {
+        "slug": "gakuran-school",
+        "file": "gakuran-school"
+      },
+      {
+        "slug": "gakuran-underground",
+        "file": "gakuran-underground"
+      }
+    ],
+    "styles": [
+      {
+        "slug": "gakuran-best-fighting-styles",
+        "file": "gakuran-best-fighting-styles"
+      },
+      {
+        "slug": "gakuran-fighting-style-chances",
+        "file": "gakuran-fighting-style-chances"
+      },
+      {
+        "slug": "gakuran-fighting-styles-tier-list",
+        "file": "gakuran-fighting-styles-tier-list"
+      },
+      {
+        "slug": "gakuran-fighting-styles",
+        "file": "gakuran-fighting-styles"
+      },
+      {
+        "slug": "gakuran-legendary-fighting-style",
+        "file": "gakuran-legendary-fighting-style"
+      },
+      {
+        "slug": "gakuran-styles",
+        "file": "gakuran-styles"
+      }
+    ]
+  },
+  "es": {
+    "characters": [
+      {
+        "slug": "gakuran-faces",
+        "file": "gakuran-faces"
+      },
+      {
+        "slug": "gakuran-hair-colors",
+        "file": "gakuran-hair-colors"
+      },
+      {
+        "slug": "gakuran-hairstyles",
+        "file": "gakuran-hairstyles"
+      },
+      {
+        "slug": "gakuran-height",
+        "file": "gakuran-height"
+      },
+      {
+        "slug": "gakuran-name-ideas",
+        "file": "gakuran-name-ideas"
+      },
+      {
+        "slug": "gakuran-names",
+        "file": "gakuran-names"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "gakuran-codes",
+        "file": "gakuran-codes"
+      }
+    ],
+    "controls": [
+      {
+        "slug": "gakuran-console-controls",
+        "file": "gakuran-console-controls"
+      },
+      {
+        "slug": "gakuran-controls",
+        "file": "gakuran-controls"
+      },
+      {
+        "slug": "gakuran-fighting-controls",
+        "file": "gakuran-fighting-controls"
+      },
+      {
+        "slug": "gakuran-keybinds",
+        "file": "gakuran-keybinds"
+      },
+      {
+        "slug": "gakuran-keyboard-controls",
+        "file": "gakuran-keyboard-controls"
+      },
+      {
+        "slug": "gakuran-pc-controls",
+        "file": "gakuran-pc-controls"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "gakuran-beginner-guide",
+        "file": "gakuran-beginner-guide"
+      },
+      {
+        "slug": "gakuran-complete-guide",
+        "file": "gakuran-complete-guide"
+      },
+      {
+        "slug": "gakuran-gameplay",
+        "file": "gakuran-gameplay"
+      },
+      {
+        "slug": "gakuran-guide",
+        "file": "gakuran-guide"
+      },
+      {
+        "slug": "gakuran-how-to-play",
+        "file": "gakuran-how-to-play"
+      },
+      {
+        "slug": "gakuran-pvp-guide",
+        "file": "gakuran-pvp-guide"
+      },
+      {
+        "slug": "gakuran-tips-and-tricks",
+        "file": "gakuran-tips-and-tricks"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "gakuran-locations",
+        "file": "gakuran-locations"
+      },
+      {
+        "slug": "gakuran-map",
+        "file": "gakuran-map"
+      },
+      {
+        "slug": "gakuran-music-room",
+        "file": "gakuran-music-room"
+      },
+      {
+        "slug": "gakuran-school",
+        "file": "gakuran-school"
+      },
+      {
+        "slug": "gakuran-underground",
+        "file": "gakuran-underground"
+      }
+    ],
+    "styles": [
+      {
+        "slug": "gakuran-best-fighting-styles",
+        "file": "gakuran-best-fighting-styles"
+      },
+      {
+        "slug": "gakuran-fighting-style-chances",
+        "file": "gakuran-fighting-style-chances"
+      },
+      {
+        "slug": "gakuran-fighting-styles-tier-list",
+        "file": "gakuran-fighting-styles-tier-list"
+      },
+      {
+        "slug": "gakuran-fighting-styles",
+        "file": "gakuran-fighting-styles"
+      },
+      {
+        "slug": "gakuran-legendary-fighting-style",
+        "file": "gakuran-legendary-fighting-style"
+      },
+      {
+        "slug": "gakuran-styles",
+        "file": "gakuran-styles"
+      }
+    ]
+  },
+  "ja": {
+    "characters": [
+      {
+        "slug": "gakuran-faces",
+        "file": "gakuran-faces"
+      },
+      {
+        "slug": "gakuran-hair-colors",
+        "file": "gakuran-hair-colors"
+      },
+      {
+        "slug": "gakuran-hairstyles",
+        "file": "gakuran-hairstyles"
+      },
+      {
+        "slug": "gakuran-height",
+        "file": "gakuran-height"
+      },
+      {
+        "slug": "gakuran-name-ideas",
+        "file": "gakuran-name-ideas"
+      },
+      {
+        "slug": "gakuran-names",
+        "file": "gakuran-names"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "gakuran-codes",
+        "file": "gakuran-codes"
+      }
+    ],
+    "controls": [
+      {
+        "slug": "gakuran-console-controls",
+        "file": "gakuran-console-controls"
+      },
+      {
+        "slug": "gakuran-controls",
+        "file": "gakuran-controls"
+      },
+      {
+        "slug": "gakuran-fighting-controls",
+        "file": "gakuran-fighting-controls"
+      },
+      {
+        "slug": "gakuran-keybinds",
+        "file": "gakuran-keybinds"
+      },
+      {
+        "slug": "gakuran-keyboard-controls",
+        "file": "gakuran-keyboard-controls"
+      },
+      {
+        "slug": "gakuran-pc-controls",
+        "file": "gakuran-pc-controls"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "gakuran-beginner-guide",
+        "file": "gakuran-beginner-guide"
+      },
+      {
+        "slug": "gakuran-complete-guide",
+        "file": "gakuran-complete-guide"
+      },
+      {
+        "slug": "gakuran-gameplay",
+        "file": "gakuran-gameplay"
+      },
+      {
+        "slug": "gakuran-guide",
+        "file": "gakuran-guide"
+      },
+      {
+        "slug": "gakuran-pvp-guide",
+        "file": "gakuran-pvp-guide"
+      },
+      {
+        "slug": "gakuran-tips-and-tricks",
+        "file": "gakuran-tips-and-tricks"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "gakuran-locations",
+        "file": "gakuran-locations"
+      },
+      {
+        "slug": "gakuran-map",
+        "file": "gakuran-map"
+      },
+      {
+        "slug": "gakuran-music-room",
+        "file": "gakuran-music-room"
+      },
+      {
+        "slug": "gakuran-underground",
+        "file": "gakuran-underground"
+      }
+    ],
+    "styles": [
+      {
+        "slug": "gakuran-best-fighting-styles",
+        "file": "gakuran-best-fighting-styles"
+      },
+      {
+        "slug": "gakuran-fighting-style-chances",
+        "file": "gakuran-fighting-style-chances"
+      },
+      {
+        "slug": "gakuran-fighting-styles-tier-list",
+        "file": "gakuran-fighting-styles-tier-list"
+      },
+      {
+        "slug": "gakuran-fighting-styles",
+        "file": "gakuran-fighting-styles"
+      },
+      {
+        "slug": "gakuran-legendary-fighting-style",
+        "file": "gakuran-legendary-fighting-style"
+      },
+      {
+        "slug": "gakuran-styles",
+        "file": "gakuran-styles"
+      }
+    ]
+  },
+  "pt": {
+    "characters": [
+      {
+        "slug": "gakuran-faces",
+        "file": "gakuran-faces"
+      },
+      {
+        "slug": "gakuran-hair-colors",
+        "file": "gakuran-hair-colors"
+      },
+      {
+        "slug": "gakuran-hairstyles",
+        "file": "gakuran-hairstyles"
+      },
+      {
+        "slug": "gakuran-height",
+        "file": "gakuran-height"
+      },
+      {
+        "slug": "gakuran-name-ideas",
+        "file": "gakuran-name-ideas"
+      },
+      {
+        "slug": "gakuran-names",
+        "file": "gakuran-names"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "gakuran-codes",
+        "file": "gakuran-codes"
+      }
+    ],
+    "controls": [
+      {
+        "slug": "gakuran-console-controls",
+        "file": "gakuran-console-controls"
+      },
+      {
+        "slug": "gakuran-controls",
+        "file": "gakuran-controls"
+      },
+      {
+        "slug": "gakuran-fighting-controls",
+        "file": "gakuran-fighting-controls"
+      },
+      {
+        "slug": "gakuran-keybinds",
+        "file": "gakuran-keybinds"
+      },
+      {
+        "slug": "gakuran-keyboard-controls",
+        "file": "gakuran-keyboard-controls"
+      },
+      {
+        "slug": "gakuran-pc-controls",
+        "file": "gakuran-pc-controls"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "gakuran-beginner-guide",
+        "file": "gakuran-beginner-guide"
+      },
+      {
+        "slug": "gakuran-complete-guide",
+        "file": "gakuran-complete-guide"
+      },
+      {
+        "slug": "gakuran-gameplay",
+        "file": "gakuran-gameplay"
+      },
+      {
+        "slug": "gakuran-guide",
+        "file": "gakuran-guide"
+      },
+      {
+        "slug": "gakuran-how-to-play",
+        "file": "gakuran-how-to-play"
+      },
+      {
+        "slug": "gakuran-pvp-guide",
+        "file": "gakuran-pvp-guide"
+      },
+      {
+        "slug": "gakuran-tips-and-tricks",
+        "file": "gakuran-tips-and-tricks"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "gakuran-locations",
+        "file": "gakuran-locations"
+      },
+      {
+        "slug": "gakuran-map",
+        "file": "gakuran-map"
+      },
+      {
+        "slug": "gakuran-music-room",
+        "file": "gakuran-music-room"
+      },
+      {
+        "slug": "gakuran-school",
+        "file": "gakuran-school"
+      },
+      {
+        "slug": "gakuran-underground",
+        "file": "gakuran-underground"
+      }
+    ],
+    "styles": [
+      {
+        "slug": "gakuran-best-fighting-styles",
+        "file": "gakuran-best-fighting-styles"
+      },
+      {
+        "slug": "gakuran-fighting-style-chances",
+        "file": "gakuran-fighting-style-chances"
+      },
+      {
+        "slug": "gakuran-fighting-styles-tier-list",
+        "file": "gakuran-fighting-styles-tier-list"
+      },
+      {
+        "slug": "gakuran-fighting-styles",
+        "file": "gakuran-fighting-styles"
+      },
+      {
+        "slug": "gakuran-legendary-fighting-style",
+        "file": "gakuran-legendary-fighting-style"
+      },
+      {
+        "slug": "gakuran-styles",
+        "file": "gakuran-styles"
+      }
+    ]
+  }
+}

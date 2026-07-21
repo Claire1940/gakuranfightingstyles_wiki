@@ -1,46 +1,74 @@
 {
   "categories": [
     {
-      "category": "Guides",
+      "category": "Codes",
       "keywords": [
-        "lucid blocks guide"
+        "gakuran codes"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "Guide",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "gakuran guide",
+        "gakuran beginner guide",
+        "gakuran how to play",
+        "gakuran gameplay",
+        "gakuran tips and tricks",
+        "gakuran pvp guide",
+        "gakuran complete guide"
       ]
     },
     {
-      "category": "Items",
+      "category": "Styles",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "gakuran fighting styles",
+        "gakuran best fighting styles",
+        "gakuran fighting styles tier list",
+        "gakuran styles",
+        "gakuran legendary fighting style",
+        "gakuran fighting style chances"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "Controls",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "gakuran controls",
+        "gakuran pc controls",
+        "gakuran keyboard controls",
+        "gakuran console controls",
+        "gakuran fighting controls",
+        "gakuran keybinds"
       ]
     },
     {
-      "category": "Building",
+      "category": "Combat",
       "keywords": [
-        "lucid blocks qualia"
+        "gakuran combat",
+        "gakuran fighting",
+        "gakuran how to fight",
+        "gakuran best build",
+        "gakuran height build"
       ]
     },
     {
-      "category": "Support",
+      "category": "Characters",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "gakuran names",
+        "gakuran name ideas",
+        "gakuran faces",
+        "gakuran hairstyles",
+        "gakuran hair colors",
+        "gakuran height"
+      ]
+    },
+    {
+      "category": "Locations",
+      "keywords": [
+        "gakuran locations",
+        "gakuran map",
+        "gakuran school",
+        "gakuran music room",
+        "gakuran underground"
       ]
     }
   ]

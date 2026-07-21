@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gakuran Fighting: Best Styles & Counter Strategies",
+  description: "Master the combat meta of Gakuran fighting. Learn how to counter Boxing, Wrestling, Kensei, and other top styles in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Gakuran+Fighting+Guide",
+  date: "2026-07-21",
+  author: "gakuran Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Gakuran Fighting**: Success relies on memorizing specific frame data and counter-play strategies.
+- **Legendary Threat**: Wrestling and Boxing dominate the high-tier meta with devastating critical attacks.
+- **Defensive Priority**: Knowing when to block, parry, or dash determines the outcome of high-level duels.
+- **Combat Fluidity**: Use range advantages and punish slow startup animations of common styles.
+</Callout>
+
+<Section icon={Swords} title="Gakuran Fighting Styles Overview">
+
+To survive high-level matches, mastering the combat meta of **gakuran fighting** is absolutely essential. Every style possesses unique frame data, distinct critical strikes, and passive perks that can quickly turn the tide of battle. Understanding these matchups allows you to predict opponent movements and execute flawless defensive maneuvers.
+
+**Video Highlights:**
+- **Boxing Counter**: Learn how to deal with the instant M1 hitbox and block the dual-hit critical.
+- **Wrestling Blurr**: Discover the secret to surviving the post-slam blind state without tripping.
+- **Kensei Defense**: Understand the 2-second parry lockout and how to block through it safely.
+- **Rare Matchups**: Tips on canceling Karate and Muay Thai ragdoll crits using range.
+
+<YouTubeEmbed videoId="AkKMrecVb2g" title="How to Beat Every Fighting Style in Gakuran" />
+
+Our comprehensive analysis categorizes each style by its tier, primary threat, and overall difficulty to counter. Use this breakdown to identify what you are up against before engaging.
+
+| Style | Tier | Primary Threat | Posture Impact |
+| :--- | :--- | :--- | :--- |
+| Boxing | Legendary | Instant M1 & Fast Crit | High |
+| Wrestling | Legendary | Hyper-Armor Slam Crit | Extreme |
+| Kensei (Curie) | Legendary | Anti-Parry Debuff | High |
+| Capoeira | Legendary | High Mobility & Dash | Medium |
+| Karate | Rare | Ragdoll Crit & Posture Regen | Medium |
+| Muay Thai | Rare | Ragdoll Crit | Medium |
+| Hikari | Common | Slow Telegraphs | Low |
+| Slugger | Common | Slow Telegraphs | Low |
+
+<Callout type="success" title="Meta Insight">
+Character height plays a massive role in combat. Tall builds excel at keeping distance and sniping, while short builds must rely on close-quarters pressure.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Countering Legendary Styles">
+
+Legendary styles represent the pinnacle of the combat meta. They feature powerful passive abilities and highly dangerous critical attacks. Fighting them requires patience and precise timing.
+
+### Boxing
+The Boxing style is notorious for its speed. Its first M1 attack has a hitbox that actually registers slightly before the physical animation plays out. To deal with the Boxing critical, keep in mind that it consists of two distinct hits. If you maintain full posture, you can safely block both hits. If the first hit connects, immediately attempt to parry the second.
+
+### Wrestling
+Wrestling features the most devastating critical strike in the game, backed by robust hyper-armor. Passive play is highly effective here; smart Wrestlers will bait you into attacking so they can trade with their critical. If you get slammed, your screen becomes severely blurred for three to four seconds. During this window, you cannot dash, or you will trip and fall. 
+
+### Kensei (Curie)
+The Kensei style utilizes a unique debuff that prevents you from parrying for two seconds after its critical lands. Do not panic and try to parry during this lockout. Instead, immediately hold your block to absorb two M1 strikes, then dash away to reset the neutral game.
+
+### Capoeira
+Capoeira players benefit from a passive 25% reduction in dash cooldowns. Expect them to play highly mobile, moving in and out of your range constantly. While their M1 animations are erratic, they become highly predictable once you familiarize yourself with their rhythm.
+
+<CardGrid cols={3}>
+  <Card title="Boxing Strategy">
+    - **Keep distance** from short builds
+    - Block dual-hit criticals at full posture
+    - Parry the second hit if first connects
+  </Card>
+  <Card title="Wrestling Strategy">
+    - **Never dash** while screen is blurred
+    - Fish for a defensive parry while blind
+    - Expect passive baiting tactics
+  </Card>
+  <Card title="Kensei Strategy">
+    - **Hold block** for exactly two M1s after crit
+    - Avoid parrying during the 2-second debuff
+    - Play ultra-passive when opponent is low
+  </Card>
+</CardGrid>
+
+| Style | Defensive Action | What to Avoid | Optimal Response |
+| :--- | :--- | :--- | :--- |
+| Boxing | Dual-block / Parry 2nd hit | Letting short builds close in | Play keep-away range |
+| Wrestling | Defensive parry while blind | Dashing immediately after slam | Dash only after 4 seconds |
+| Kensei | Block 2 M1s and dash out | Parry attempts during debuff | Passive play at low health |
+| Capoeira | Predict high-frequency dashes | Getting confused by M1 animations | Consistent parry practice |
+
+<Callout type="warning" title="Critical Warning">
+Wrestling players will deliberately play passively to bait your M1 attacks. Their critical will suck your M1 hitbox into their attack, granting them a free slam.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Beating Rare and Common Styles">
+
+Rare and Common styles are significantly easier to handle due to their highly telegraphic animations and lack of hyper-armor. However, they can still punish unprepared players.
+
+Karate and Muay Thai both rely heavily on ragdoll criticals. Unlike Wrestling, these criticals do not feature hyper-armor, meaning you can easily cancel them with well-timed M1 strikes or a quick dash. Karate players also benefit from passive posture regeneration, making passive defensive play against them less effective.
+
+<Steps>
+  <Step num="1" title="Range Assessment">
+    Identify your opponent's height. If you are taller, abuse your reach to keep them outside of their critical range.
+  </Step>
+  <Step num="2" title="Crit Interruption">
+    Watch for the startup animation of Karate or Muay Thai crits. Execute a quick M1 string to cancel the attack entirely.
+  </Step>
+  <Step num="3" title="Traditional Dash">
+    If you miss the interruption window, execute a standard dash backward to completely avoid the ragdoll effect.
+  </Step>
+</Steps>
+
+For Hikari and Slugger, the counter-play is incredibly simple. Both styles feature extremely slow, highly telegraphed M1 and critical animations. Simply watch their startup frames and parry every single incoming strike with ease.
+
+| Style | Attack Speed | Core Weakness | Optimal Range |
+| :--- | :--- | :--- | :--- |
+| Karate | Fast | Interruptible Crit | Mid-Range |
+| Muay Thai | Fast | Interruptible Crit | Mid-Range |
+| Hikari | Slow | High Startup Frames | Close-Range |
+| Slugger | Slow | Telegraphic Attacks | Close-Range |
+
+<Callout type="tip" title="Pro Tip">
+Because Karate constantly regenerates posture, do not try to out-turtle them. Play aggressively to disrupt their passive recovery.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Advanced Combat Tactics Checklist">
+
+To consistently win encounters in the arena, you must integrate advanced defensive habits into your playstyle. Use this checklist to track your mastery of these core combat concepts.
+
+<Checklist
+  id="combat-mastery"
+  title="Combat Milestones:"
+  items={[
+    "Master the 2-second block-and-dash sequence against Kensei",
+    "Successfully execute a defensive parry while blinded by Wrestling",
+    "Consistently cancel Karate and Muay Thai ragdoll crits with M1s",
+    "Maintain perfect keep-away distance against short Boxing builds",
+    "Parry slow Hikari and Slugger startup animations with 100% accuracy"
+  ]}
+/>
+
+<Callout type="success" title="Mastery Reward">
+Perfecting these defensive sequences will significantly reduce the damage you take, allowing you to easily defeat higher-tier styles with basic builds.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the most effective style in gakuran fighting?",
+    answer: "While Boxing and Wrestling dominate the meta due to their high pressure and hyper-armor, there is no absolute best style. Success depends on understanding your opponent's weaknesses and executing precise counters."
+  },
+  {
+    question: "How do I survive the Wrestling slam blind state?",
+    answer: "Do not attempt to dash immediately after getting slammed, as you will trip and fall. Instead, hold your block or attempt a defensive parry for 3 to 4 seconds until the blur effect fades."
+  },
+  {
+    question: "Can I parry the Kensei critical attack?",
+    answer: "Yes, you can parry the initial critical strike. However, if the critical lands, you will be locked out of parrying for 2 seconds. In this case, you must block two M1s and then dash away."
+  },
+  {
+    question: "Why is Karate hard to defeat with defensive turtle play?",
+    answer: "Karate features a passive perk that constantly regenerates posture. This allows Karate players to block significantly more attacks than other styles, making aggressive offensive pressure the superior strategy."
+  }
+]} />
+
+<Callout type="info" title="Community Resources">
+For more advanced discussions, matchup data, and community events, consider joining local player groups and sharing your combat clips.
+</Callout>
+
+</Section>

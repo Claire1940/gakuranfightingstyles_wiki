@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Gakuran: Mejores Estilos de Lucha y Tácticas de Contraataque",
+  description: "Domina cada estilo de lucha en Gakuran con nuestra guía de combate 2026. Aprende datos de frames, tiempos de parry y estrategias de contraataque para los estilos de nivel superior.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Combat+Styles+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Gakuran",
+  keywords: "gakuran, guía de combate, estilos de lucha, contraataque, parry, wrestling, kensei"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Domina cada estilo en esta **guía de Gakuran** completa para el combate de 2026.
+- **Mecánica clave**: Comprende los límites defensivos y las señales visuales del estilo de cada oponente.
+- **Mejor estrategia**: Mantén la distancia contra estilos de corto alcance y provoca sus ataques críticos.
+- **Consejo crítico**: Nunca intentes un dash mientras tu visión esté borrosa tras sobrevivir a un slam de Wrestling.
+- **Opción superior**: Kensei y Wrestling siguen siendo dominantes debido a su alta presión y ventajas únicas.
+</Callout>
+
+<Section icon={Swords} title="Guía de Gakuran: Dominando los Estilos de Lucha">
+
+Navegar por las competitivas calles de Gakuran requiere una comprensión profunda de cada arte marcial disponible. Esta **guía de Gakuran** de 2026 detalla las fortalezas, debilidades y estrategias de contraataque para todos los estilos de lucha del juego. Ya sea que estés sufriendo contra Boxeadores agresivos o intentando sobrevivir a los devastadores slams de un Wrestler, dominar la defensa es la clave para subir en el ranking. Cada estilo tiene su propio ritmo, señales visuales y vulnerabilidades específicas que puedes explotar para ganar la ventaja en el combate.
+
+**Puntos destacados del video:**
+- Aprende a lidiar con las rápidas hitboxes del M1 de Boxing.
+- Descubre el secreto para sobrevivir al estado de visión borrosa tras el slam del Wrestler.
+- Domina la secuencia de bloquear y dash para neutralizar el bloqueo de parry de Kensei.
+- Entiende cómo cancelar y superar el alcance de los críticos de Karate y Muay Thai.
+
+<YouTubeEmbed videoId="AkKMrecVb2g" title="Cómo vencer a cada estilo de lucha en Gakuran" />
+
+Para tener éxito en enfrentamientos de alto nivel, debes cambiar tu enfoque de la ofensiva pura a una defensa disciplinada. La gestión de la postura es la base de la supervivencia; dejar que rompan tu guardia a menudo conduce a una derrota inmediata. Cada estilo posee ataques críticos (crits) únicos que dictan cómo debes posicionar a tu personaje. Por ejemplo, las builds de corto alcance deben cerrar la distancia, mientras que los estilos de largo alcance te permiten atacar desde la seguridad. Reconocer la altura y el estilo de la build de tu oponente en los primeros segundos de un combate te otorga una ventaja táctica significativa.
+
+| Estilo | Tier | Rango | Amenaza Clave | Mecánica de Contraataque |
+| :--- | :--- | :--- | :--- | :--- |
+| **Wrestling** | Tier-S | Medio | Slam crítico con hiper-armadura | Dash para alejarse del crítico, parry cuando estés borroso |
+| **Kensei** | Tier-S | Largo | Crítico que deshabilita el parry | Bloquea dos golpes, luego haz dash |
+| **Boxing** | Tier-A | Corto | M1s rápidos, crítico de alta presión | Juega a mantener distancia, parry al segundo golpe del crítico |
+| **Capoeira** | Tier-A | Medio | Animaciones extrañas, buff de dash del 25% | Espera dashes frecuentes, aprende tiempos de parry |
+| **Karate** | Tier-B | Medio | Crítico de ragdoll, regeneración pasiva de postura | Cancela el crítico con M1, presiona su bloqueo |
+| **Muay Thai** | Tier-B | Medio | Crítico de ragdoll, daño alto | Supera el alcance de su crítico, castiga ataques fallidos |
+| **Slugger** | Tier-C | Largo | Ataques lentos y pesados | Reacciona a preparaciones lentas, haz parry consistente |
+| **Hikari** | Tier-D | Medio | Inicios extremadamente lentos | Castiga cada M1 lento con parries fáciles |
+
+<Callout type="tip" title="Consejo Pro">
+Monitorea siempre la altura del personaje de tu oponente. Las builds más altas tienen una ventaja de alcance natural, mientras que las builds más bajas suelen depender del combate cuerpo a cuerpo a alta velocidad.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Contrarrestando Estilos Legendarios: Wrestling, Kensei y Capoeira">
+
+Wrestling es ampliamente temido debido a su devastador ataque crítico, que otorga al usuario hiper-armadura durante la animación de inicio. Esto hace que sea imposible cancelar su ataque con golpes M1 estándar. Los Wrestlers experimentados a menudo jugarán de forma pasiva, provocándote para que los persigas. Cuando intentes un golpe M1, activarán su crítico, que efectivamente atrae tu hitbox extendida directamente hacia su slam. Para contrarrestar esto, debes mantener una conciencia absoluta del cooldown de su crítico y de tu propia disponibilidad de esquiva. Si te alcanzan con el slam, entrarás en un estado borroso durante 3 a 4 segundos. Durante esta ventana, no intentes hacer un dash, ya que tu personaje tropezará y caerá. No mantengas el bloqueo a ciegas, ya que romperán tu guardia fácilmente. Tu única opción viable es realizar un parry defensivo preciso para mitigar el daño entrante hasta que tu visión se aclare.
+
+Kensei representa un tipo diferente de amenaza. A diferencia de Wrestling, su crítico no cuenta con hiper-armadura, lo que significa que puedes cancelarlo con un golpe M1 bien sincronizado. Sin embargo, el crítico de Kensei tiene una ventaja increíblemente peligrosa: una vez que impacta, te impide completamente realizar parries durante 2 segundos. Si intentas hacer un parry durante este período de bloqueo, recibirás el daño completo. La respuesta defensiva correcta es levantar inmediatamente tu guardia para bloquear. Debes bloquear exactamente dos golpes M1 del jugador Kensei y luego realizar inmediatamente un dash hacia atrás para reiniciar el juego neutral. Jugar contra Kensei requiere un enfoque pasivo centrado en el alcance. Usa ataques de sondeo para golpearlos desde la distancia, castigando sus intentos de cerrar la brecha.
+
+Capoeira depende en gran medida de la movilidad y las animaciones engañosas. El estilo otorga una reducción pasiva del 25% en los cooldowns de dash, lo que permite a los usuarios de Capoeira moverse rápidamente por la arena tanto ofensiva como defensivamente. Sus animaciones de M1 son notoriamente excéntricas, lo que puede dificultar el parry para jugadores inexpertos. Afortunadamente, su crítico es mucho menos amenazante que el de Wrestling o Kensei. La clave para derrotar a Capoeira es la paciencia. Espera que hagan dash con frecuencia y concéntrate en aprender sus señales visuales únicas para lograr parries consistentes.
+
+<CardGrid cols={3}>
+  <Card title="Contraataque Wrestling">
+    - **Gestiona tu esquiva** para escapar del slam con hiper-armadura.
+    - **Nunca persigas** a los Wrestlers pasivos a ciegas.
+    - **Haz parry mientras estés borroso** en lugar de hacer dash o bloquear.
+  </Card>
+  <Card title="Contraataque Kensei">
+    - **Cancela su crítico** con una presión agresiva de M1.
+    - **Bloquea dos golpes** si el debuff de bloqueo de parry te alcanza.
+    - **Haz dash para alejarte** inmediatamente después del segundo golpe bloqueado.
+  </Card>
+  <Card title="Contraataque Capoeira">
+    - **Anticipa dashes rápidos** debido a su buff pasivo de cooldown.
+    - **Estudia las animaciones M1** para superar las señales visuales inusuales.
+    - **Castiga los frames de recuperación** después de su barrido de largo alcance.
+  </Card>
+</CardGrid>
+
+| Estilo | Característica del Crítico | Vulnerabilidad Post-Crítico | Estilo de Juego Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Wrestling** | Slam con hiper-armadura | 3-4s visión borrosa, tropiezo al dash | Defensivo, provocar y esquivar |
+| **Kensei** | Bloqueo de parry (2 segundos) | No puede hacer parry, guardia fácil de romper | Pasivo, ataque a larga distancia |
+| **Capoeira** | Barrido de largo alcance | Ninguna, pero gran amenaza de movilidad | Paciente, enfocado en el parry |
+
+<Callout type="warning" title="Alerta Anti-Wrestling">
+Nunca intentes realizar un dash mientras tu pantalla esté borrosa después de un slam de Wrestling. Hacer un dash en este estado provoca un tropiezo automático, dejándote completamente vulnerable a un combo de seguimiento completo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Manejando Boxing y Estilos Comunes">
+
+Boxing es un estilo de alta presión que destaca en el combate a corta distancia. Los elementos más peligrosos de Boxing son su primer golpe M1 increíblemente rápido y su crítico de alto impacto. La hitbox del primer M1 se activa ligeramente antes de que se reproduzca la animación visual, lo que lo hace excepcionalmente difícil de reaccionar solo con la vista. Para lidiar con el crítico de Boxing, tienes algunas opciones dependiendo de tu postura actual. Si tu barra de postura está completamente llena, puedes bloquear con seguridad ambos golpes del crítico. Si el primer golpe del crítico conecta, no entres en pánico; intenta inmediatamente hacer parry al segundo golpe, que es relativamente lento y muy legible. Idealmente, deberías hacer dash para alejarte del crítico por completo y mantener una distancia segura. Dado que la mayoría de los usuarios de Boxing prefieren builds de personajes bajos para ganar velocidad, debes abusar de tu alcance y jugar un juego disciplinado de mantener las distancias.
+
+Tanto Karate como Muay Thai cuentan con ataques críticos de ragdoll que pueden infligir un daño masivo dependiendo de cómo caiga tu personaje. A diferencia de Wrestling, estos críticos no tienen hiper-armadura y pueden cancelarse fácilmente con presión agresiva de M1. Los usuarios de Karate se benefician de una ventaja pasiva que regenera constantemente su postura, lo que les permite bloquear significativamente más ataques que otros estilos. Para romper la defensa de un usuario de Karate, debes mantener una presión implacable o provocarlos para que fallen su crítico y luego castigar sus frames de recuperación. Los usuarios de Muay Thai dependen de la producción de daño bruto, por lo que superar el alcance de sus ataques es tu mejor camino hacia la victoria.
+
+Hikari y Slugger son actualmente los estilos más débiles en el meta de Gakuran. Ambos estilos sufren de golpes M1 extremadamente lentos y ataques críticos muy telegrafiados. Cualquier jugador con tiempos de reacción decentes puede hacer parry fácilmente a cada ataque que lancen. Si te enfrentas a un usuario de Hikari o Slugger, simplemente observa sus animaciones de inicio, espera el movimiento lento y ejecuta un parry perfecto para abrirlos a un contraataque devastador.
+
+| Estilo | Velocidad M1 | ¿Crítico Cancelable? | Recuperación de Postura | Estrategia Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Boxing** | Extremadamente Rápido | No (Bloqueo/Parry 2º) | Estándar | Mantener distancia, provocar crítico |
+| **Karate** | Rápido | Sí | Regen Pasiva Rápida | Presión implacable, romper bloqueo |
+| **Muay Thai** | Rápido | Sí | Estándar | Superar alcance, castigar recuperación |
+| **Slugger** | Muy Lento | Sí | Estándar | Reaccionar y parry a cada golpe |
+| **Hikari** | Extremadamente Lento | Sí | Estándar | Parries gratis en el inicio |
+
+<Callout type="info" title="Alerta de Hitbox">
+La hitbox del primer M1 de Boxing está activa antes de que la animación se registre por completo. Evita intercambiar golpes de cerca a menos que ya hayas establecido una ventaja de frames.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ejecución de la Defensa Paso a Paso">
+
+Ejecutar secuencias defensivas adecuadas bajo presión es lo que separa a los luchadores novatos de los maestros de la arena. Al luchar contra estilos de alto nivel como Kensei, entrar en pánico después de ser golpeado por un crítico garantizará una derrota rápida. Sigue este protocolo defensivo preciso para sobrevivir a la mecánica de bloqueo de parry de Kensei y reiniciar la pelea al estado neutral.
+
+<Steps>
+  <Step num="1" title="Identifica el Crítico de Kensei">
+    Observa el inicio visual distintivo del ataque crítico de Kensei. Si no logras esquivarlo o cancelarlo, prepárate para el debuff de bloqueo de parry entrante.
+  </Step>
+  <Step num="2" title="Mantén el Bloqueo Inmediatamente">
+    Una vez que el crítico conecte, no intentes hacer parry. Levanta tu guardia de inmediato para absorber los golpes M1 que vienen sin recibir daño directo.
+  </Step>
+  <Step num="3" title="Cuenta Dos Bloqueos de M1">
+    Escucha las señales de sonido y observa tu barra de postura. Bloquea con seguridad exactamente dos ataques ligeros consecutivos del oponente para evitar que rompan tu guardia.
+  </Step>
+  <Step num="4" title="Haz Dash para Alejarte y Reiniciar">
+    Inmediatamente después del segundo bloqueo, ejecuta un dash hacia atrás para escapar de su presión y permitir que tu debuff de bloqueo de parry expire de forma segura.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Secuencia Dominada">
+Dominar esta secuencia de bloqueo y dash neutraliza completamente la herramienta ofensiva más fuerte de Kensei, obligándolos a jugar bajo tus términos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión de Combate">
+
+Para asegurarte de estar completamente preparado para el juego competitivo de alto nivel en Gakuran, debes aspirar a dominar varios hitos defensivos básicos. Usa esta lista para seguir tu progresión en el combate e identificar áreas donde necesitas mejorar tu ejecución táctica.
+
+<Checklist
+  id="combat-milestones"
+  title="Lista de Maestría en Combate:"
+  items={[
+    "Esquivar reactivamente los críticos de Wrestling sin hacer dash previo.",
+    "Hacer parry al segundo golpe del crítico de Boxing consistentemente cuando te golpea el primero.",
+    "Ejecutar la secuencia de bloquear-dos-y-dash perfectamente contra Kensei.",
+    "Mantener el espaciado contra builds bajas usando el alcance de un personaje más alto.",
+    "Hacer parry a cada ataque de estilos lentos como Hikari y Slugger."
+  ]}
+/>
+
+<Callout type="tip" title="Gestión de Cooldowns">
+Vigila siempre el cooldown de tu esquiva. Gestionar mal tu dash te convierte en un objetivo fácil para ataques críticos que no se pueden cancelar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+Encuentra respuestas rápidas a las preguntas más comunes sobre mecánicas de combate, enfrentamientos de estilos y estrategias defensivas en Gakuran.
+
+<FAQ items={[
+  {
+    question: "¿Cómo contrarresto a un Wrestler que juega constantemente de forma pasiva?",
+    answer: "Evita perseguirlos a ciegas con golpes M1. Los Wrestlers quieren provocar tu ataque para poder atraer tu hitbox extendida hacia su crítico con hiper-armadura. En su lugar, acércate a ellos, mantén el bloqueo o usa fintas para provocar su crítico primero, luego haz dash para alejarte y castiga."
+  },
+  {
+    question: "¿Puedo hacer parry a los ataques de Kensei inmediatamente después de ser golpeado por su crítico?",
+    answer: "No. El ataque crítico de Kensei aplica un debuff único que deshabilita tu capacidad de hacer parry durante 2 segundos. Intentar hacer parry fallará y resultará en recibir el daño completo. Debes bloquear dos golpes M1 y hacer dash para alejarte en su lugar."
+  },
+  {
+    question: "¿Por qué sigo tropezando y cayendo después de ser golpeado por un slam de Wrestling?",
+    answer: "Después de un slam de Wrestling, entras en un estado borroso durante 3 a 4 segundos. Hacer un dash durante este período hace que tu personaje tropiece y caiga. Debes confiar en bloquear y hacer parry hasta que tu visión se aclare."
+  },
+  {
+    question: "¿Cuál es la mejor manera de manejar los rápidos ataques M1 de Boxing?",
+    answer: "Dado que los Boxeadores tienen un primer M1 extremadamente rápido que golpea antes de que la animación se muestre, debes jugar a mantener la distancia. Usa una build de personaje más alta para explotar tu ventaja de alcance y evitar que se acerquen lo suficiente como para iniciar sus combos rápidos."
+  }
+]} />
+
+<Callout type="info" title="Práctica en Comunidad">
+Para discusiones de combate más avanzadas, consejos de matchmaking y eventos comunitarios, considera unirte a las plataformas oficiales de la comunidad de Gakuran para practicar con otros jugadores de alto nivel.
+</Callout>
+
+</Section>

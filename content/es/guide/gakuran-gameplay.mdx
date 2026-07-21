@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jugabilidad de Gakuran: Guía de Mecánicas de Combate y Supervivencia Social de 2026",
+  description: "Domina la jugabilidad de Gakuran con nuestra guía de 2026. Aprende tácticas de combate, estrategias de supervivencia escolar y cómo navegar por el entorno de escuela secundaria más violento de Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gakuran+Gameplay+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Gakuran"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **La jugabilidad de Gakuran** se centra en combates escolares de alto riesgo y en la navegación por la jerarquía social.
+- **Los peligros ambientales** como las escaleras resbaladizas son tan peligrosos como otros jugadores.
+- **El dominio del combate** requiere equilibrar los golpes agresivos con una estricta conservación de la energía.
+- **La ingeniería social** a través de la táctica del "misclick" (clic accidental) puede desescalar o iniciar peleas.
+- **Las zonas seguras** son limitadas, lo que convierte a la conciencia situacional en la habilidad de supervivencia más crítica.
+</Callout>
+
+<Section icon={Map} title="Resumen y Experiencia de la Jugabilidad de Gakuran">
+
+Gakuran ofrece una mezcla única de juego de rol de "recuentos de la vida" (slice of life) y un combate brutal basado en la física, ambientado en una escuela secundaria japonesa de 2007. Aunque el juego se presenta como una experiencia comunitaria, ha ganado un estatus viral por su violencia intensa y a menudo caótica. Los jugadores deben navegar por un mundo donde cada interacción, desde un simple saludo hasta un partido de baloncesto, puede convertirse instantáneamente en una pelea. El éxito en Gakuran no se trata solo de qué tan fuerte golpees, sino de qué tan bien leas la situación y utilices el entorno a tu favor.
+
+**Puntos Clave del Video:**
+- Análisis detallado de la mecánica de "escaleras resbaladizas" y los peligros ambientales.
+- Demostración de encuentros de combate de alta intensidad en los pasillos.
+- Exploración de las interacciones sociales, incluido el desafío de "hacer amigos".
+- Resumen de la dinámica de la cancha de baloncesto y la interacción con objetos.
+- Guía visual de la "Zona Verde" y los protocolos de seguridad.
+
+<YouTubeEmbed videoId="MpwDtJeucRs" title="Intenté sobrevivir en la escuela más violenta de Roblox | Gakuran" />
+
+La atmósfera está cargada de tensión, ya que los jugadores a menudo atacan a los recién llegados o a quienes parecen vulnerables. Elegir la apariencia y el género de tu personaje a veces puede influir en cómo te perciben los demás, aunque en el meta actual de 2026, la habilidad sigue siendo el ecualizador definitivo. Ya sea que estés intentando asistir a clase o simplemente descansando en el patio, siempre debes estar preparado para un "ataque sorpresa" repentino.
+
+<Callout type="warning" title="Alerta de Peligro">
+Las escaleras en Gakuran son notoriamente resbaladizas. Correr por ellas sin precaución provocará una caída, dejándote vulnerable a ataques inmediatos de los jugadores cercanos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate y Estilos de Pelea">
+
+El combate en Gakuran es visceral y exige una sincronización precisa. A diferencia de los juegos de lucha tradicionales basados en clics (clicker-fighters), el motor de física juega un papel importante en cómo conectan los golpes y cómo se desplazan los jugadores. Comprender el alcance de tus puñetazos y el tiempo de recuperación de tus patadas es esencial para sobrevivir en los pasillos. La gestión de la energía es la capa oculta de profundidad; lanzar golpes a lo loco te dejará exhausto e incapaz de correr o defenderte.
+
+| Acción | Coste de Energía | Daño Causado | Utilidad |
+| :--- | :--- | :--- | :--- |
+| **Puñetazo Ligero** | Bajo | Moderado | Aturdimientos rápidos, iniciador de combos |
+| **Patada Pesada** | Medio | Alto | Empuje (knockback), romper bloqueos |
+| **Bloqueo** | Continuo | Ninguno | Reduce el daño entrante |
+| **Cargar** | Alto | Ninguno | Transportar a jugadores derribados |
+| **Desplazamiento (Dash)** | Medio | Ninguno | Evasión y acortar distancias |
+
+<CardGrid cols={3}>
+  <Card title="Estilo Agresivo">
+    - **Enfoque**: Alta presión y golpes implacables.
+    - **Pros**: Abruma rápidamente a los jugadores inexpertos.
+    - **Contras**: El alto consumo de energía conduce a la vulnerabilidad.
+  </Card>
+  <Card title="Estilo Defensivo">
+    - **Enfoque**: Contraataque y bloqueo.
+    - **Pros**: Excelente para sobrevivir a situaciones de 1v2.
+    - **Contras**: Requiere una gran precisión en la sincronización.
+  </Card>
+  <Card title="Estilo Oportunista">
+    - **Enfoque**: Uso del entorno y "misclicks".
+    - **Pros**: Minimiza el riesgo personal.
+    - **Contras**: Depende de los errores de los demás.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Secreto de Combate">
+Observa siempre los pies de tu oponente. Si están corriendo hacia ti, es probable que busquen un golpe de apertura pesado. Sincronizar un paso lateral o un bloqueo justo cuando te alcancen te dará una enorme ventaja de fotogramas (frame advantage).
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navegando por el Entorno Escolar">
+
+El diseño de la escuela está pensado para crear "puntos de estrangulamiento" donde el combate es inevitable. Desde los pasillos estrechos hasta las canchas de baloncesto abiertas, cada área requiere un enfoque táctico diferente. La "Zona Verde" sirve como un santuario poco común, pero llegar a ella mientras te persiguen es un desafío en sí mismo. Los jugadores a menudo acampan cerca de las zonas de transición, lo que hace que el acto de moverse entre clases sea una tarea peligrosa.
+
+<Steps>
+  <Step num="1" title="Inspecciona el Pasillo">
+    Antes de salir de una habitación, revisa ambas direcciones en busca de grupos de jugadores o peleas en curso.
+  </Step>
+  <Step num="2" title="Identifica la Zona Verde">
+    Localiza el área segura más cercana. Mantén un mapa mental de la ruta más corta a esta zona en todo momento.
+  </Step>
+  <Step num="3" title="Evita el Caos de las Escaleras">
+    Nunca pelees en las escaleras. Es probable que el motor de física haga que ambos jugadores se resbalen, lo que provocará resultados impredecibles.
+  </Step>
+  <Step num="4" title="Utiliza el Patio">
+    Usa el espacio abierto del patio para perder a los perseguidores que tengan menos resistencia que tú.
+  </Step>
+</Steps>
+
+| Ubicación | Nivel de Peligro | Actividad Principal | Estrategia |
+| :--- | :--- | :--- | :--- |
+| **Pasillos** | Alto | Tránsito, Peleas | Quédate cerca de las paredes, mantente en movimiento |
+| **Cancha de Baloncesto** | Extremo | Socializar, Pelear | Alta visibilidad, evita el centro |
+| **Aulas** | Bajo | Juego de rol, Esconderse | Ideal para descansos cortos |
+| **Escaleras** | Extremo | Tránsito | No corras, cuidado con los camperos |
+| **Zona Verde** | Ninguno | Curación, Seguridad | Úsala solo para recuperarte |
+
+<Callout type="success" title="Consejo de Supervivencia">
+Si te encuentras superado en número, dirígete hacia la cancha de baloncesto. La naturaleza caótica de la cancha a menudo atrae a terceros que, sin querer, podrían ayudarte al atacar a tus perseguidores.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Objetos e Interacción Social">
+
+Aunque Gakuran es violento, los objetos y las señales sociales juegan un papel masivo en el ciclo de juego. Los objetos como los auriculares o los balones de baloncesto no son solo cosméticos; sirven como moneda social o cebo. La excusa del "misclick" se ha convertido en un elemento básico de la comunidad, utilizada para probar la paciencia de un oponente o para disculparse por un golpe accidental durante una pelea grupal caótica.
+
+| Objeto | Obtención | Uso | Impacto Social |
+| :--- | :--- | :--- | :--- |
+| **Auriculares** | Saqueo/Intercambio | Cosmético | Alto valor, a menudo en el punto de mira |
+| **Balón de Baloncesto** | Aparición en cancha | Deporte/Arma | Neutral, puede desencadenar "guerras de cancha" |
+| **Mochila Escolar** | Equipamiento del personaje | Almacenamiento | Estándar, identifica a los "estudiantes" |
+| **Comida/Bebida** | Máquinas expendedoras | Recuperación | Esencial para sesiones largas |
+
+<Checklist
+  id="daily-survival"
+  title="Objetivos Diarios de Juego:"
+  items={[
+    "Sobrevivir a un viaje completo desde la entrada hasta la azotea",
+    "Usar con éxito la táctica del 'misclick' para evitar una pelea",
+    "Ganar un encuentro 1v1 sin caerse en las escaleras",
+    "Asegurar un objeto de alto valor como los auriculares",
+    "Encontrar un grupo confiable para patrullar los pasillos"
+  ]}
+/>
+
+<Callout type="info" title="Meta Social">
+El "misclick" es una herramienta poderosa. En la jugabilidad de Gakuran, decir "misclick" después de un golpe a menudo puede detener una pelea antes de que comience, pero ten cuidado: los jugadores experimentados pueden ver esto como una señal de debilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Progresión Avanzada y Tácticas">
+
+La progresión en Gakuran se trata menos de subir de nivel las estadísticas y más de construir una reputación y dominar el sistema de movimiento. Los jugadores a largo plazo se concentran en "dirigir la escuela", lo que implica controlar áreas clave como la cancha de baloncesto o la entrada principal. Esto requiere una combinación de destreza en combate y la capacidad de formar alianzas temporales con otros jugadores poderosos.
+
+- **Control de Masas**: Cuando te enfrentes a múltiples enemigos, usa la mecánica de "Cargar" para utilizar a un jugador derribado como escudo o distracción.
+- **Gestión de Resistencia**: Nunca dejes que tu barra de resistencia caiga por debajo del 20%. Necesitas esa reserva para un desplazamiento de emergencia a la Zona Verde.
+- **Engaño Visual**: Usar ropa de "principiante" a veces puede atraer a los jugadores agresivos a una falsa sensación de seguridad, lo que te permitirá ejecutar un contraataque sorpresa.
+- **Ventaja de Altura**: Aunque las escaleras son peligrosas, mantener la parte superior de una escalera te da una ventaja significativa en los empujes basados en la física.
+
+<Callout type="warning" title="Anti-Objetivo (Anti-Targeting)">
+Los creadores de contenido y los jugadores de alto perfil a menudo son el objetivo de "clippers" que buscan fama. Si estás grabando tu jugabilidad de Gakuran, considera usar un servidor privado o cambiar tu nombre de usuario con frecuencia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre la Jugabilidad de Gakuran">
+
+<FAQ items={[
+  {
+    question: "¿Cómo evito resbalarme en las escaleras de Gakuran?",
+    answer: "Para evitar resbalarte, debes caminar en lugar de correr cuando navegues por las escaleras. El motor de física activa un estado de caída si tu velocidad es demasiado alta en una pendiente."
+  },
+  {
+    question: "¿Cuál es la mejor manera de hacer amigos en esta escuela tan violenta?",
+    answer: "La mejor estrategia es ofrecer objetos o cumplidos en la Zona Verde. Sin embargo, prepárate siempre para una traición una vez que salgas del área segura."
+  },
+  {
+    question: "¿El balón de baloncesto realmente causa daño?",
+    answer: "Sí, un balón de baloncesto se puede usar como proyectil o herramienta de cuerpo a cuerpo. Aunque su daño es menor que el de un puñetazo, tiene una alta probabilidad de provocar un tropiezo."
+  },
+  {
+    question: "¿Qué debo hacer si me están campeando en el punto de aparición (spawn)?",
+    answer: "Si te están campeando en el punto de aparición, intenta unirte a un servidor diferente o espera en la zona de protección de aparición hasta que los camperos se distraigan con otra pelea."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+Dominar la jugabilidad de Gakuran es un viaje de prueba y error. No te desanimes por los constantes nocauts; cada derrota es una oportunidad para aprender el diseño del mapa y los hábitos de la comunidad de jugadores.
+</Callout>
+
+</Section>

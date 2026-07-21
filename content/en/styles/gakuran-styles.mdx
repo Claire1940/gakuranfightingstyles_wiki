@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gakuran Styles: 2026 Tier List & Combat Mechanics Guide",
+  description: "Master every Gakuran style with our 2026 guide. Compare Basic, Rare, Epic, and Legendary fighting styles to dominate the arena with the best builds.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gakuran+Fighting+Styles",
+  date: "2026-07-21",
+  author: "gakuran Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Gakuran styles** are categorized into four rarities: Common, Rare, Epic, and Legendary, each offering unique perks.
+- **Boxing** remains the dominant meta choice in 2026 due to its invincible i-frames on heavy attacks.
+- **Muay Thai** is the most effective Rare style, providing superior posture damage and bleed effects.
+- **Build Height** significantly impacts style effectiveness; taller builds favor Wrestling, while shorter builds excel with Basic or Hakari.
+- **Wrestling** is the premier Legendary choice for crowd control and hyper-armor-assisted grappling.
+</Callout>
+
+<Section icon={Map} title="Gakuran Styles Overview and Mechanics">
+
+Understanding the hierarchy of fighting techniques is the first step toward mastery in the arena. Gakuran styles are not merely cosmetic; they dictate your frame data, damage output, and defensive capabilities. Each style belongs to a specific rarity tier, which generally correlates with the complexity and power of its perks. However, rarity does not always equal utility, as some Epic styles currently outperform Legendary ones in the 2026 meta.
+
+**Video Highlights:**
+- Detailed breakdown of all rarity tiers from Common to Legendary.
+- Analysis of the new Kure style's headbutt mechanics and health-based buffs.
+- Comparison of animation quality and practical application in PvP.
+- Insights into build-specific synergies for short and tall characters.
+
+<YouTubeEmbed videoId="wjW8pg9Zx50" title="Showcasing EVERY Fighting Style in GAKURAN" />
+
+The combat system relies heavily on posture management. Perfect parries, heavy attacks, and chip damage are the pillars of high-level play. Choosing a style that complements your personal reaction speed and character build is more important than simply chasing the highest rarity.
+
+| Rarity | Style Name | Primary Benefit | Skill Ceiling |
+| :--- | :--- | :--- | :--- |
+| **Common** | Basic | Fast posture regain, chip damage | Moderate |
+| **Rare** | Muay Thai | Posture damage, bleed, grapple | High |
+| **Rare** | Karate | Ragdoll heavies, posture refund | Low |
+| **Epic** | Boxing | I-frames, unparriable first hits | Very High |
+| **Epic** | Hakari | 3x Heavy damage momentum | High |
+| **Legendary** | Wrestling | Hyper armor, crowd control | High |
+| **Legendary** | Capoeira | Movement, dash cooldown reduction | Moderate |
+
+<Callout type="tip" title="Build Synergy">
+Always match your style to your character's height. Taller builds benefit from the reach of Wrestling and Muay Thai, while shorter builds utilize the speed of Hakari and Basic styles more effectively.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Rare Rarity Styles Analysis">
+
+The Rare tier is where most players begin their competitive journey. While these styles are easier to obtain than Epic or Legendary variants, the performance gap between them is substantial. In the current 2026 landscape, Muay Thai stands as the undisputed king of this tier, offering utility that rivals higher-rarity options.
+
+Muay Thai focuses on aggressive pressure. Every hit deals posture damage, making it a nightmare for defensive players. Furthermore, the 55% chance to clash into a grapple during M1 exchanges provides a unique defensive-offensive hybrid mechanic that can turn the tide of a match. In contrast, Karate is often viewed as the most forgettable style due to its lackluster animations, despite its ability to ragdoll enemies with heavy attacks.
+
+| Style | Heavy Attack Effect | Guard Utility | Animation Quality |
+| :--- | :--- | :--- | :--- |
+| **Muay Thai** | Ragdoll enemies | 30% Bleed through guard | Excellent |
+| **Karate** | Ragdoll enemies | Bleed through guard | Poor |
+| **Slugger** | High damage | 10% Extra damage taken | Very Poor |
+
+<CardGrid cols={3}>
+  <Card title="Muay Thai Focus">
+    - **Aggressive playstyle**
+    - High posture pressure
+    - Best for tall builds
+  </Card>
+  <Card title="Karate Utility">
+    - **Defensive posture regen**
+    - Simple mechanics
+    - Forgettable animations
+  </Card>
+  <Card title="Slugger Risk">
+    - **25% Damage boost**
+    - High vulnerability
+    - Not recommended for PvP
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Avoid Slugger">
+Slugger is currently considered the weakest style in the game. The 10% extra damage taken penalty far outweighs the 25% damage boost, especially in high-stakes matches where every health point counts.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Epic Tier: The Competitive Meta">
+
+The Epic tier contains what many consider the best overall styles in Gakuran. Boxing, in particular, has defined the competitive meta for months. Its defining feature is the inclusion of i-frames (invincibility frames) on heavy attacks, allowing players to punch through incoming damage without being interrupted.
+
+Hakari offers a different but equally potent playstyle. It revolves around the "Momentum" perk. By landing a full M1 combo, your subsequent heavy attack deals triple damage. This makes Hakari the go-to choice for players who enjoy high-risk, high-reward gameplay and flashy, fluid animations.
+
+| Style | Unique Mechanic | Best Build | Combo Potential |
+| :--- | :--- | :--- | :--- |
+| **Boxing** | I-frames on heavy | Universal | High |
+| **Hakari** | 3x Damage Momentum | Short/Medium | Very High |
+
+<Steps>
+  <Step num="1" title="Initiate M1 Combo">
+    Start with a standard light attack string to build momentum or force a guard.
+  </Step>
+  <Step num="2" title="Identify Openings">
+    For Boxing, use the heavy attack to trade through enemy strikes. For Hakari, wait for the momentum buff to glow.
+  </Step>
+  <Step num="3" title="Execute Heavy Finisher">
+    Unleash the heavy attack. Boxing provides a two-punch combo that is difficult to parry, while Hakari delivers a massive single-hit ragdoll.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Boxing Mastery">
+The first punch of the Boxing heavy attack combo cannot be parried. Use this to bait opponents into dodging, then catch them with the second strike or a follow-up M1 string.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Legendary Styles and New Kure Technique">
+
+Legendary styles represent the pinnacle of rarity, offering specialized mechanics that can dominate specific scenarios. Wrestling is a powerhouse for crowd control, featuring hyper armor on grab attacks. This means once the grab animation begins, it cannot be interrupted by outside interference, making it lethal in team fights or crowded arenas.
+
+The newest addition, the Kure style, introduces a brutal headbutt heavy attack. This move ragdolls enemies and applies a "parry lock" for two seconds, preventing the victim from defending against follow-up attacks. While currently hampered by some animation bugs in the 2026 version, its potential for low-health comebacks is unmatched due to the 15% total damage boost when below 25% health.
+
+| Style | Crowd Control | Special Perk | Range |
+| :--- | :--- | :--- | :--- |
+| **Wrestling** | Excellent | Hyper armor on grabs | Medium |
+| **Capoeira** | Good | Dash cooldown reduction | Long |
+| **Kure** | Moderate | 2s Parry lock | Short |
+
+<Checklist
+  id="legendary-goals"
+  title="Mastering Legendary Styles:"
+  items={[
+    "Practice grab timing for Wrestling hyper armor",
+    "Utilize Capoeira's dash buff for repositioning",
+    "Master the Kure headbutt range for parry locking",
+    "Monitor health thresholds for Kure's damage buff"
+  ]}
+/>
+
+<Callout type="info" title="Kure Range Note">
+The Kure style's heavy attack has a significantly shorter range than Wrestling. You must be in point-blank range to land the headbutt successfully, making it a high-risk maneuver against zoning builds.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Choosing the Right Style for Your Build">
+
+Finalizing your build requires a deep understanding of how your character's physical attributes interact with style animations. Height is the most critical factor in Gakuran. Taller characters have longer limb reach, which synergizes perfectly with styles that have wide-swinging animations or grab mechanics.
+
+Conversely, shorter builds have smaller hitboxes and often benefit from styles with fast recovery frames. The Basic fighting style, despite its Common rarity, remains a viable choice for short builds due to its superior posture regain and quick counterattacks.
+
+| Build Type | Recommended Styles | Priority Stat |
+| :--- | :--- | :--- |
+| **Short** | Basic, Hakari, Boxing | Speed / Posture |
+| **Medium** | Boxing, Hakari, Capoeira | Versatility |
+| **Tall** | Wrestling, Muay Thai, Kure | Reach / Power |
+
+<CardGrid cols={2}>
+  <Card title="The Aggressor Build">
+    - **Style**: Muay Thai or Wrestling
+    - **Strategy**: Constant pressure and grabs
+    - **Key Stat**: Posture Damage
+  </Card>
+  <Card title="The Technician Build">
+    - **Style**: Boxing or Hakari
+    - **Strategy**: Counter-punching and i-frame trading
+    - **Key Stat**: Perfect Parry Timing
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Final Verdict">
+If you are looking for the most consistent performance in the current meta, aim for **Boxing**. It provides the best defensive and offensive balance regardless of your build's height.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Which Gakuran style is best for beginners?",
+    answer: "The Basic style is surprisingly effective for beginners because it offers faster posture regain and simple animations. However, if you can obtain it, Muay Thai is the best Rare style to learn early on."
+  },
+  {
+    question: "Can you parry the Boxing heavy attack?",
+    answer: "The first punch of the Boxing heavy attack cannot be parried; you must either take the damage or dodge it. The second punch in the combo can be parried if timed correctly."
+  },
+  {
+    question: "What makes the Kure style unique in the 2026 update?",
+    answer: "The Kure style features a headbutt that prevents enemies from parrying for 2 seconds and provides a 15% damage boost when your health drops below 25%."
+  },
+  {
+    question: "Is Slugger worth using for the extra damage?",
+    answer: "Generally, no. The 25% damage increase is offset by a 10% increase in damage taken and poor animations, making it very difficult to use effectively in competitive play."
+  }
+]} />
+
+</Section>

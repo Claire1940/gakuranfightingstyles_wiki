@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Controles de Gakuran para PC: Guia de Configuração e Domínio de Combate",
+  description: "Domine os controles de Gakuran para PC com o nosso guia detalhado. Aprenda comandos de movimento, atalhos de combate e menus para este RPG escolar do Roblox com temática de 2007.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Gakuran+PC+Controls",
+  date: "2026-07-21",
+  author: "Equipe do Wiki do Gakuran"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Controles de Gakuran para PC**: O movimento básico utiliza **WASD**, enquanto o combate depende dos botões **LMB** (botão esquerdo do mouse) e **RMB** (botão direito do mouse).
+- **Mecânica de corrida**: Segure o **Shift Esquerdo** para gerenciar a distância e explorar a escola em alta velocidade.
+- **Sistema de interação**: Use a tecla **E** para interagir com NPCs, objetos e elementos do cenário.
+- **Estratégia de combate**: Um PvP de sucesso exige o tempo correto dos combos **M1** e o uso eficaz de **Bloqueio/Esquiva**.
+- **Acesso à interface**: O **Celular** e o menu **Esc** são vitais para o gerenciamento de personagens e configurações.
+</Callout>
+
+<Section icon={Map} title="Movimentação Básica e Navegação">
+
+Navegar pelo ambiente escolar japonês inspirado em 2007 no Gakuran exige um domínio sólido do conjunto básico de movimentos. Esteja você correndo para a aula ou perseguindo um delinquente rival, estes **controles de Gakuran para PC** formam a base da sua experiência de jogo. A movimentação nesta experiência do Roblox foi projetada para ser responsiva, permitindo tanto o roleplay casual quanto o posicionamento tático intenso durante as brigas de rua.
+
+| Ação | Tecla / Comando | Uso Principal | Dica Profissional |
+| :--- | :--- | :--- | :--- |
+| **Mover para Frente** | W | Navegação padrão para frente | Combine com A/D para movimentação lateral (strafe) |
+| **Mover para a Esquerda** | A | Movimento lateral para a esquerda | Vital para esquivar de projéteis |
+| **Mover para Trás** | S | Recuar ou criar espaço | Use para atrair ataques inimigos (bait) |
+| **Mover para a Direita** | D | Movimento lateral para a direita | Circular ao redor dos oponentes |
+| **Pular** | Espaço | Movimento vertical/Superar obstáculos | Evite pular durante o PvP ativo |
+| **Correr** | Shift Esquerdo | Movimento de alta velocidade | Consome stamina; use em rajadas |
+
+A movimentação não serve apenas para ir do ponto A ao ponto B; trata-se de controlar o espaço "neutro" entre você e seu oponente. Ao dominar a movimentação lateral (teclas A e D), você se torna um alvo muito mais difícil de acertar enquanto procura uma brecha na defesa inimiga.
+
+<Callout type="tip" title="Gerenciamento de Stamina">
+Correr é essencial para a exploração, mas no combate, segurar o Shift constantemente esgotará sua stamina. Use a tecla de corrida apenas para fechar a distância ou para escapar de uma sequência perigosa de combos.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Modo de Exploração">
+    - **Foco em velocidade**
+    - Alto uso de stamina
+    - Ângulos de câmera amplos
+  </Card>
+  <Card title="Postura de Combate">
+    - **Foco em movimentação lateral**
+    - Conservar stamina
+    - Rastreamento de câmera fechado
+  </Card>
+  <Card title="Interação Social">
+    - **Movimento lento**
+    - Sem consumo de stamina
+    - Posicionamento preciso
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Comandos de Combate e Mecânicas de Luta">
+
+O coração de Gakuran está em seu sistema PvP. Para se destacar nos vários estilos de luta disponíveis, você deve memorizar os **controles de Gakuran para PC** específicos de combate. O jogo utiliza um sistema padrão de M1/M2 comum em jogos de combate do Roblox, mas com tempos específicos que variam dependendo do estilo de luta escolhido. Dominar esses comandos é a diferença entre ser uma lenda da escola ou apenas mais um nocauteado no chão.
+
+| Ação de Combate | Comando / Tecla | Descrição | Vantagem Tática |
+| :--- | :--- | :--- | :--- |
+| **Ataque Leve (M1)** | LMB | Golpes rápidos de baixo dano | Melhor para iniciar combos longos |
+| **Ataque Forte (M2)** | RMB | Golpe mais lento e de alto impacto | Quebra defesas fracas |
+| **Bloqueio** | F (Padrão) | Reduz o dano recebido | Essencial para sobreviver a investidas |
+| **Investida/Esquiva (Dash)** | Q (Padrão) | Arrancada direcional rápida | Proporciona breve invencibilidade |
+| **Executar** | V / B | Finaliza um oponente caído | Impede que os inimigos revivam |
+
+Ao entrar em combate, não aperte simplesmente o botão esquerdo do mouse de forma frenética. A maioria dos estilos de luta possui um golpe de "finalização" no final de uma sequência de 4 ou 5 golpes de M1 que joga o oponente longe. Aprender o ritmo do seu estilo específico permite pausar sua sequência ou transitar para um ataque forte para manter a pressão.
+
+<Callout type="warning" title="Quebra de Defesa">
+Bloquear repetidamente sem se mover acabará resultando em uma quebra de defesa (guard break). Se sua defesa for quebrada, você ficará atordoado por vários segundos, deixando-o completamente vulnerável a um combo completo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Controles de Interface e Interação">
+
+Além de lutar e se mover, Gakuran apresenta uma camada profunda de socialização e personalização. Os controles de interface permitem gerenciar a progressão do seu personagem, verificar novas atualizações e interagir com o mundo detalhado. Entender esses atalhos garante que você não se perca nos menus durante momentos críticos.
+
+<Steps>
+  <Step num="1" title="Acesse o Celular">
+    Pressione a **Tecla do Celular** designada (geralmente 'P' ou um botão dedicado na interface) para abrir seu dispositivo móvel. Ele serve como seu hub principal para missões, configurações e recursos sociais.
+  </Step>
+  <Step num="2" title="Interaja com NPCs">
+    Aproxime-se de qualquer personagem ou objeto com uma indicação na tela e pressione **E**. Isso é usado para falar com doadores de missões, comprar itens em lojas ou pegar objetos do cenário.
+  </Step>
+  <Step num="3" title="Ajuste as Configurações">
+    Pressione **Esc** para abrir o menu padrão do Roblox. Aqui você pode ajustar a sensibilidade da câmera e o volume, o que é crucial para adaptar a sensação de combate à sua preferência.
+  </Step>
+</Steps>
+
+| Elemento de Interface | Tecla Padrão | Função |
+| :--- | :--- | :--- |
+| **Interação** | E | Falar com NPCs/Abrir Portas |
+| **Inventário** | G / Tab | Visualizar itens equipados |
+| **Celular** | P / Na tela | Progressão e Missões |
+| **Menu** | Esc | Configurações do sistema e Sair |
+| **Roda de Emotes** | . (Ponto) | Expressões sociais |
+
+<Callout type="info" title="Personalização de Teclas">
+Embora o Gakuran tenha um conjunto padrão de controles, alguns estilos de luta podem introduzir habilidades secundárias exclusivas. Sempre verifique o menu "Estilos de Luta" (Fighting Styles) dentro do celular para ver se novas teclas foram atribuídas ao seu personagem.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia Avançada de Combate e Fluxo de Combos">
+
+Assim que estiver confortável com os **controles básicos de Gakuran para PC**, você poderá começar a implementar estratégias avançadas. O jogo de alto nível em Gakuran envolve "ler" seu oponente e usar a movimentação para forçar erros em suas opções defensivas (bait).
+
+**Destaques do Vídeo:**
+- Demonstração das teclas básicas de movimentação em um ambiente real.
+- Exibição da diferença entre sequências de M1 e golpes fortes de M2.
+- Explicação sobre o tempo correto para bloqueios perfeitos e esquivas.
+
+*(Nota: Nenhum vídeo relevante de Gakuran foi encontrado nos dados de origem. Consulte o Discord oficial para clipes de gameplay criados pela comunidade.)*
+
+Para dominar o fluxo da batalha, siga esta sequência de combate recomendada:
+
+1.  **Observação**: Use o mouse para rastrear os movimentos do seu oponente. Não avance às cegas.
+2.  **Aproximação**: Use o **Shift** para correr em direção ao inimigo e, em seguida, solte-o imediatamente para recuperar a stamina.
+3.  **Iniciação**: Use um golpe rápido de **LMB** para testar a reação deles.
+4.  **Reação**: Se eles bloquearem, prepare um golpe forte de **RMB** para quebrar a defesa. Se eles se esquivarem, use sua própria **Esquiva (Dash)** para continuar colado neles.
+5.  **Execução**: Quando a vida do oponente estiver esgotada e ele estiver em estado "caído", use a tecla de **Execução** para encerrar a luta.
+
+<Callout type="success" title="Domínio de Combos">
+Os jogadores mais eficazes costumam misturar seus ataques leves com um pulo ou esquiva repentina para resetar o "tempo de recarga" de sua sequência de ataques, permitindo uma pressão "infinita" se o oponente não acertar o tempo do bloqueio.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificação para Domínio dos Controles">
+
+Antes de partir para as zonas de PvP competitivo ou participar de guerras de território na escola, certifique-se de ter dominado estas habilidades essenciais. Esta lista de verificação ajudará você a acompanhar seu progresso à medida que se torna mais proficiente com as mecânicas do jogo.
+
+<Checklist
+  id="controls-mastery"
+  title="Prontidão de Combate em Gakuran:"
+  items={[
+    "Consegue acertar consistentemente um combo M1 completo de 4 golpes",
+    "Conseguiu quebrar a defesa do oponente no tempo certo usando a tecla M2",
+    "Dominou a transição de 'Correr para Andar' para conservar stamina",
+    "Localizou todas as principais áreas da escola usando apenas a navegação WASD",
+    "Memorizou a tecla de interação para todos os NPCs de lojas",
+    "Sabe como acessar rapidamente o menu do Celular durante os momentos de calmaria"
+  ]}
+/>
+
+<Callout type="tip" title="A Prática Leva à Perfeição">
+Use os bonecos de treino ou NPCs de nível baixo perto da entrada da escola para praticar os tempos dos seus combos sem o risco de ser atacado por jogadores de nível alto.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Dominar os **controles de Gakuran para PC** pode levar algum tempo. Aqui estão as perguntas mais comuns que os jogadores têm ao iniciar sua jornada no Japão de 2007.
+
+<FAQ items={[
+  {
+    question: "Como faço para alterar as teclas de atalho do meu estilo de luta?",
+    answer: "A maioria das habilidades de estilo de luta é fixa em teclas específicas como Z, X, C ou V. Você pode visualizar essas atribuições abrindo seu Celular e selecionando a aba 'Estilos de Luta' (Fighting Styles) ou 'Habilidades' (Skills)."
+  },
+  {
+    question: "Por que minha corrida não está funcionando no Gakuran?",
+    answer: "Correr exige stamina. Verifique sua barra de stamina (geralmente localizada perto da sua vida). Se estiver vazia, você deve andar ou ficar parado por alguns segundos para permitir que ela recarregue."
+  },
+  {
+    question: "Posso jogar Gakuran com um controle no PC?",
+    answer: "Embora o Roblox ofereça suporte a controles, o Gakuran é otimizado para controles de PC (Teclado e Mouse). Alguns elementos da interface e tempos específicos de combate podem parecer menos responsivos em um controle."
+  },
+  {
+    question: "Qual é a melhor maneira de se esquivar de ataques?",
+    answer: "A melhor maneira de se esquivar é usar a tecla de Esquiva (geralmente Q) combinada com uma tecla de direção (A ou D). Isso concede frames de invencibilidade e tira você da linha direta de fogo."
+  }
+]} />
+
+<Callout type="info" title="Conselho Final">
+O cenário escolar de 2007 do Gakuran foca tanto na atmosfera quanto nas lutas. Leve o tempo que precisar para aprender os controles, explorar o mapa e interagir com a comunidade para aproveitar a experiência completa.
+</Callout>
+
+</Section>

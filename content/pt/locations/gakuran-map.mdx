@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mapa de gakuran: Guia de Locais, Combate e Estilos",
+  description: "Navegue pelo mapa do Roblox Gakuran, domine os controles de combate avançados, escolha a melhor altura de etnia e domine com estilos de luta de alto nível.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Gakuran+Map+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de gakuran"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: Navegar pelo **mapa de gakuran** de forma eficiente permite que você acesse zonas de utilidade importantes, como a Clínica e a Sala de Música.
+- **Mecânica principal**: O combate exige a ativação da sua postura de luta com a tecla de alternância designada antes de desferir qualquer golpe.
+- **Melhor estratégia**: Combine a altura e a etnia do seu personagem com o seu estilo de luta preferido para maximizar seu alcance ou agilidade.
+- **Dica crítica**: O bloqueio perfeito anula completamente o dano de desgaste do bloqueio e atordoa oponentes agressivos por um breve momento.
+</Callout>
+
+<Section icon={Map} title="Mapa de gakuran: Locais Importantes e Zonas Interativas">
+
+Navegar pelo ambiente escolar é um aspecto fundamental para a sobrevivência e progressão. O **mapa de gakuran** é projetado em torno de um campus de ensino médio centralizado onde os jogadores se reúnem, treinam e participam de guerras de território. Entender o layout deste mapa é essencial, pois certas zonas oferecem bônus passivos, mecânicas de cura ou atividades recreativas que quebram o ritmo do combate intenso.
+
+**Destaques do Vídeo:**
+- **Personalização de Personagem**: Escolher a etnia certa determina sua altura, hitboxes e alcance geral de combate.
+- **Postura e Combos**: Ativar sua postura de combate é necessário para desferir ataques pesados e combos de quatro golpes.
+- **Mecânicas de Defesa**: Equilibrar o bloqueio regular, a esquiva evasiva e o desvio perfeito mantém sua barra de postura intacta.
+- **Utilidade do Mapa**: Utilizar a clínica da escola proporciona um enorme bônus de regeneração passiva de vida entre as lutas.
+
+<YouTubeEmbed videoId="Wjj9QT_VYGI" title="Guia Oficial de Mapa e Combate do Roblox Gakuran" />
+
+O campus contém várias áreas distintas que servem a funções exclusivas. Saber onde esses locais estão situados nos terrenos da escola economizará seu tempo e o manterá vivo durante confrontos de alto risco.
+
+| Local | Tipo de Local | Recursos Principais | Cura/Bônus |
+|:---|:---|:---|:---|
+| Clínica da Escola | Interno | Localizada no primeiro andar do prédio principal | Acelera a cura passiva em três vezes |
+| Sala de Música | Interno | Equipada com instrumentos musicais interativos | Entretenimento / Centro social |
+| Quadra de Basquete | Externo | Situada ao lado do pátio principal da escola | Mini-jogos esportivos ativos |
+| Pátio Principal | Externo | Grande espaço aberto que conecta todos os prédios principais | Zona primária de conflito PvP |
+
+A clínica da escola é indiscutivelmente a zona de utilidade mais valiosa de todo o campus. Se você conseguir sair de uma luta com pouca vida, recuar para esta área é a maneira mais rápida de voltar à forma de combate.
+
+<Callout type="success" title="Regra de Segurança da Clínica">
+Lembre-se sempre de que você não pode utilizar os efeitos de cura rápida da clínica enquanto estiver ativamente em combate. Você deve escapar com sucesso do seu oponente e perder sua tag de combate antes que o multiplicador de cura de três vezes seja ativado.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Criação de Personagem: Etnia, Altura e Atributos Ocultos">
+
+O porte físico do seu personagem é determinado durante a fase de criação inicial, onde você seleciona entre várias etnias distintas. Essa escolha não é meramente cosmética; ela dita diretamente a altura do seu personagem, o que, por sua vez, altera seus atributos de combate, tamanho do hitbox e alcance. 
+
+Existem seis etnias principais disponíveis. Embora algumas sejam altamente comuns, outras são excepcionalmente raras, carregando apenas um por cento de chance de rolagem.
+
+| Etnia | Probabilidade de Rolagem | Nível de Altura | Atributos de Combate |
+|:---|:---|:---|:---|
+| Japonesa | 95% (Comum) | Médio | Alcance equilibrado, movimento padrão, hitboxes padrão |
+| Africana | 1% (Raro) | Alto | Grande reserva de vida, dano aumentado, hitboxes maiores |
+| Europeia | 1% (Raro) | Alto | Poder de repulsão aprimorado, alta defesa, recuperação lenta |
+| Indiana | 1% (Raro) | Baixo | Mobilidade excepcional, cooldowns rápidos, hitboxes minúsculos |
+| Oriente Médio | 1% (Raro) | Médio | Agilidade equilibrada, alcance moderado, recuperação padrão |
+| Latina | 1% (Raro) | Médio | Agilidade padrão, hitboxes padrão, recuperação equilibrada |
+
+A altura é uma faca de dois gumes. Personagens altos dominam o combate corpo a corpo porque seu alcance aumentado torna difícil para os oponentes ficarem fora de alcance. No entanto, seus hitboxes maiores os tornam alvos mais fáceis. Por outro lado, personagens mais baixos precisam se aproximar para acertar os golpes, mas seus hitboxes menores e cooldowns de ataque rápidos permitem que eles escapem do perigo facilmente.
+
+<CardGrid cols={3}>
+  <Card title="Builds de Tanque (Alto)">
+    - **Grandes reservas de vida**
+    - Dano bruto devastador
+    - Grande alcance defensivo
+  </Card>
+  <Card title="Builds Ágeis (Baixo)">
+    - **Cooldowns de ataque rápidos**
+    - Opções de alta mobilidade
+    - Hitboxes excepcionalmente pequenos
+  </Card>
+  <Card title="Builds Equilibradas (Médio)">
+    - **Estilo de jogo versátil**
+    - Métricas de hitbox padrão
+    - Velocidades de recuperação consistentes
+  </Card>
+</CardGrid>
+
+Além das dimensões físicas brutas, existem dois atributos ocultos críticos que os jogadores devem entender: Perfuração de Guarda (Guard Pierce) e Resiliência (Resilience). A Perfuração de Guarda determina a quantidade de dano de desgaste que seus ataques causam a um oponente que está bloqueando ativamente. A Resiliência dita sua probabilidade estatística de escapar de uma disputa de agarrão, que ocorre quando você e seu oponente desferem um ataque básico exatamente no mesmo momento.
+
+<Callout type="info" title="Estratégia de Atributos Ocultos">
+Sua escolha de estilo de luta modificará esses atributos ocultos. Se você prefere sobrecarregar jogadores defensivos, concentre-se em estilos que aumentam a Perfuração de Guarda. Se você se encontra frequentemente em disputas de agarrão, priorize uma alta Resiliência.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Controles de Combate: Ataque, Defesa e Bloqueios Perfeitos">
+
+O combate nos terrenos da escola é rápido e altamente competitivo. Para sobreviver aos encontros pelo campus, você deve dominar o esquema de controle básico. O sistema distingue entre ataques leves normais, golpes pesados que quebram a guarda e manobras defensivas.
+
+| Tecla | Ação | Tipo de Ataque | Descrição Tática |
+|:---|:---|:---|:---|
+| T | Alternar Postura | Utilitário | Deve ser pressionado para ativar todas as capacidades ofensivas |
+| Mouse 1 (M1) | Ataque Leve | Ofensivo | Pode ser encadeado até quatro vezes; termina com um chute de repulsão |
+| R | Ataque Pesado | Ofensivo | Alto dano, imbloqueável, preparação lenta, derruba os alvos (ragdoll) |
+| F | Bloqueio | Defensivo | Mitiga o dano, mas consome rapidamente sua barra de postura |
+| Q | Esquiva Evasiva | Defensivo | Fornece frames de invencibilidade ativos (I-frames) |
+| Ctrl | Interação | Utilitário | Abre menus, ativa modos de foto e inicia mini-jogos |
+
+Executar uma estratégia ofensiva bem-sucedida requer equilibrar seus combos leves com ataques pesados. Enquanto o quarto golpe de um combo M1 fornece uma repulsão valiosa que cria espaço, os ataques pesados são perfeitos para punir oponentes que dependem demais do bloqueio padrão. No entanto, como os ataques pesados têm uma preparação lenta, eles são facilmente aparados por jogadores experientes.
+
+<Steps>
+  <Step num="1" title="Ative a Postura">
+    Pressione a tecla **T** imediatamente ao encontrar um inimigo para entrar em sua postura de luta.
+  </Step>
+  <Step num="2" title="Engaje com Combos Leves">
+    Execute até três ataques leves usando o **M1** para pressionar a defesa do seu oponente.
+  </Step>
+  <Step num="3" title="Provoque e Faça o Bloqueio Perfeito">
+    Espere o oponente contra-atacar e, em seguida, pressione **F** exatamente 0,2 segundos antes do golpe atingir você.
+  </Step>
+  <Step num="4" title="Puna com um Golpe Pesado">
+    Enquanto o oponente estiver atordoado pelo seu bloqueio perfeito, pressione **R** para executar um golpe pesado imbloqueável.
+  </Step>
+</Steps>
+
+Defender-se requer um monitoramento cuidadoso da sua barra de postura. Segurar a tecla de bloqueio indefinidamente resultará em uma quebra de guarda assim que a barra esvaziar, deixando seu personagem atordoado e completamente vulnerável por dois segundos inteiros.
+
+<Callout type="warning" title="Perigo de Quebra de Guarda">
+Um atordoamento de dois segundos é tempo mais do que suficiente para um oponente executar um combo inteiro de alto dano. Evite segurar o bloqueio continuamente; em vez disso, use esquivas evasivas para se reposicionar nos pontos cegos do seu oponente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estilos de Luta Meta: Boxe vs. Luta Livre">
+
+O meta atual apresenta oito estilos de luta exclusivos, mas dois dominam o cenário competitivo dependendo do nível de altura do seu personagem. Escolher o estilo correto para a sua build é la diferença entre lutar com dificuldades em escaramuças e dominar o pátio da escola.
+
+| Estilo de Luta | Altura Mais Adequada | Forças Principais | Vantagem Assinatura |
+|:---|:---|:---|:---|
+| Boxe | Baixo a Médio | Agilidade incrível, golpes rápidos, ataques pesados incontornáveis | Bloqueios perfeitos reduzem o cooldown do ataque pesado para 1 segundo |
+| Luta Livre | Alto | Agarrões ininterruptos, alto controle de grupo, defesa máxima | Os golpes de ataque pesado não podem ser cancelados por ataques recebidos |
+
+Para personagens mais baixos e altamente móveis, o Boxe é o rei indiscutível. Ele permite um estilo de jogo agressivo e rápido, onde você pode pressionar constantemente os oponentes com socos rápidos. O principal destaque deste estilo é sua sinergia com a defesa: realizar um bloqueio perfeito reduz instantaneamente o cooldown do seu ataque pesado para apenas um segundo, permitindo que você lance contra-ofensivas implacáveis.
+
+A Luta Livre é a escolha definitiva para personagens altos e com muita vida. Como as builds altas possuem naturalmente um alcance massivo, a Luta Livre permite que você agarre e jogue facilmente os oponentes no chão. Essas animações de agarrar são totalmente ininterruptas, o que significa que você pode iniciar um arremesso mesmo enquanto recebe dano leve. Além disso, a Luta Livre oferece o maior atributo de Resiliência base do jogo, garantindo que você quase sempre vença as disputas de agarrão.
+
+<Callout type="tip" title="Regra de Seleção de Estilo">
+Não force o estilo Luta Livre em um personagem baixo. A falta de alcance tornará incrivelmente difícil acertar seus agarrões pesados ininterruptos, tornando inútil a principal vantagem do estilo.
+</Callout>
+
+Para garantir que você esteja totalmente preparado para dominar a escola, complete esta lista de verificação essencial de progressão.
+
+<Checklist
+  id="progression-checklist"
+  title="Lista de Verificação de Maestria em Combate:"
+  items={[
+    "Role uma etnia preferida para garantir seu nível de altura ideal",
+    "Localize a Clínica no mapa para uma rápida recuperação de vida",
+    "Pratique o tempo dos bloqueios perfeitos dentro da janela de 0,2 segundos",
+    "Desbloqueie o estilo Boxe ou Luta Livre para combinar com sua altura",
+    "Domine o combo M1 de quatro golpes para acertar chutes de repulsão de forma consistente"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor lugar para se curar no mapa de gakuran?",
+    answer: "O melhor lugar para se curar é a Clínica da Escola, localizada no primeiro andar do prédio principal. Descansar dentro desta sala aumenta sua taxa de regeneração passiva de vida em três vezes, embora você deva estar fora de combate ativo para que o efeito seja aplicado."
+  },
+  {
+    question: "Posso alterar a altura do meu personagem após a criação?",
+    answer: "Sua altura está diretamente ligada à etnia selecionada. Para alterar sua altura, você deve rolar novamente sua etnia no menu de personalização. Etnias raras como Africana, Europeia e Indiana oferecem vantagens extremas de altura, mas têm uma baixa chance de rolagem."
+  },
+  {
+    question: "Qual é a diferença entre bloqueio e bloqueio perfeito?",
+    answer: "O bloqueio padrão drena sua barra de postura e pode levar a um atordoamento por quebra de guarda. Um bloqueio perfeito é executado pressionando a tecla de bloqueio dentro de 0,2 segundos de um ataque recebido, o que anula completamente o dano de desgaste do bloqueio e atordoa seu oponente."
+  },
+  {
+    question: "Como faço para vencer disputas de agarrão no combate?",
+    answer: "As disputas de agarrão ocorrem quando ambos os jogadores acertam um ataque M1 ao mesmo tempo. Para aumentar suas chances de vencer essas disputas, você deve escolher um estilo de luta com um atributo de Resiliência alto, como a Luta Livre."
+  }
+]} />
+
+<Callout type="info" title="Dica Final de Sobrevivência">
+Continue explorando os terrenos da escola para descobrir novas linhas de visão táticas. Dominar os corredores estreitos e os espaços abertos do campus é tão importante quanto aperfeiçoar seus combos de combate.
+</Callout>
+
+</Section>

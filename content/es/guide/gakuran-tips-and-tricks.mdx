@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Consejos y trucos de Gakuran: Guía de maestría en combate y progresión 2026",
+  description: "Domina Gakuran con consejos expertos sobre modificadores de altura, giros de etnia y estilos de lucha. Aprende a dominar el Dojo en esta guía de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gakuran+Combat+Mastery",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Gakuran"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Consejos y trucos de Gakuran**: Concéntrate en maximizar la altura de tu personaje para obtener una ventaja significativa de alcance y daño en el combate.
+- **Mejores estilos de lucha**: El Boxeo (Boxing) y Hakari son actualmente las opciones del meta debido a sus i-frames (marcos de invencibilidad) y ventajas ininterrumpibles.
+- **Impacto de la etnia**: Tu etnia influye directamente en tu potencial de altura; los perfiles africanos y europeos suelen dar como resultado los personajes más altos.
+- **Estrategia de combate**: Usa el "bloqueo perfecto" (parry) para aturdir a los oponentes y deslízate a su alrededor para asestar golpes en su espalda, esquivando su guardia.
+- **Giros gratis (Rerolls)**: Utiliza los códigos promocionales activos para restablecer tus estadísticas y etnia sin gastar Robux.
+</Callout>
+
+<Section icon={Map} title="Atributos de personaje y mecánicas de altura">
+
+Comprender las mecánicas principales de la creación de personajes es el primer paso hacia el dominio en Gakuran. A diferencia de muchos otros juegos de lucha en la plataforma, Gakuran utiliza un sistema complejo donde los atributos físicos como la altura y la etnia dictan directamente tu efectividad en combate. La altura de tu personaje no es meramente cosmética; es un modificador fundamental que escala tu caja de colisión (hitbox), tu daño infligido y tu salud total.
+
+**Puntos clave del video:**
+- La altura determina tu alcance; los personajes más altos pueden asestar golpes desde una distancia en la que los personajes más pequeños no pueden contraatacar.
+- La etnia juega un papel importante en tu límite máximo de altura, siendo las etnias no japonesas raras pero físicamente superiores.
+- El tamaño de la caja de colisión (hitbox) aumenta con la altura, lo que te convierte en un objetivo más fácil pero te otorga una presión ofensiva superior.
+- La velocidad es la principal desventaja; los personajes más altos tienen animaciones de ataque más lentas en comparación con los luchadores más pequeños y ágiles.
+
+<YouTubeEmbed videoId="iZBuFgoP3TA" title="¡CONSEJOS Y TRUCOS PROFESIONALES QUE DEBES SABER para Gakuran!" />
+
+La probabilidad de la complexión física de tu personaje está ligada a su etnia. Aunque la mayoría de los jugadores comenzarán con un perfil japonés, buscar etnias más raras puede proporcionar una ventaja competitiva permanente.
+
+| Etnia | Probabilidad de aparición | Potencial de altura | Escala de combate |
+| :--- | :--- | :--- | :--- |
+| Japonés | 95.0% | Estándar | Equilibrado |
+| Europeo | < 1.0% | Alto | Enfoque en Daño/Salud |
+| Africano | < 1.0% | Muy alto | Alcance máximo |
+| Medio oriente | < 1.0% | Moderado | Enfoque en Salud |
+| Latino | < 1.0% | Moderado | Mezcla de Velocidad/Salud |
+
+<Callout type="warning" title="La ventaja de alcance">
+Ser más alto de 6'9" proporciona una ventaja de rareza del 0.1% que te permite golpear a los oponentes antes de que entren en su propio rango efectivo. Si eres más alto que tu oponente, mantén una distancia que permita que tus golpes conecten mientras sus brazos más cortos no logran alcanzarte.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estilos de lucha y lista de niveles del meta (Tier List)">
+
+Elegir el estilo de lucha adecuado es la decisión más crítica en Gakuran. Cada estilo ofrece ventajas únicas, como "Guard PS" (Presión de guardia) y ataques pesados especializados. Actualmente, el meta favorece los estilos que proporcionan utilidad defensiva a través de marcos de invencibilidad (i-frames) o ataques ininterrumpibles.
+
+<CardGrid cols={3}>
+  <Card title="Boxeo (Boxing - Tier S)">
+    - **Ventaja Intocable**: Otorga i-frames durante los ataques pesados.
+    - **Ininterrumpible**: Difícil de desestabilizar durante los combos.
+    - **M1 rápidos**: Excelente para ejercer presión.
+  </Card>
+  <Card title="Hakari (Tier S)">
+    - **Alto ráfaga (Burst)**: Potencial de daño masivo en ventanas de tiempo cortas.
+    - **Alcance**: Excelente sinergia con personajes altos.
+    - **Dominio del meta**: Actualmente el estilo más utilizado en niveles altos.
+  </Card>
+  <Card title="Muay Thai (Tier A)">
+    - **Golpes de rodilla**: Potentes opciones a corta distancia.
+    - **Potencial de aturdimiento**: Alta probabilidad de romper guardias.
+    - **Agresivo**: El mejor para jugadores que se mantienen frente a frente con el enemigo.
+  </Card>
+</CardGrid>
+
+Cada estilo de lucha tiene un porcentaje específico de "Guard PS", que determina cuánto daño se filtra a través del bloqueo de un oponente. Dominar esto te permite desgastar a los jugadores defensivos hasta que se rompa su postura.
+
+| Nombre del estilo | Guard PS % | Ventaja principal | Dificultad |
+| :--- | :--- | :--- | :--- |
+| Boxeo (Boxing) | 15% | Intocable (i-frames) | Media |
+| Hakari | 20% | Aturdimiento alto | Difícil |
+| Slugger | 25% | Impacto pesado | Fácil |
+| Karate | 10% | Golpes de precisión | Media |
+| Lucha (Wrestling) | 5% | Enfoque en agarre | Difícil |
+
+<Callout type="tip" title="Consejo sobre el estilo de lucha">
+Si estás usando Boxeo, tu ataque pesado (M2) es tu mejor herramienta defensiva. Debido a que proporciona i-frames, puedes usarlo para "esquivar" el ataque entrante de un oponente mientras infliges daño simultáneamente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecánicas de combate y maestría avanzada">
+
+El éxito en el combate de Gakuran depende de algo más que hacer clic más rápido que tu oponente. Debes dominar el arte del "Bloqueo perfecto" y comprender el sistema de choque (clashing). Cuando dos luchadores golpean al mismo tiempo, ocurre un agarre o "choque". El luchador que inició el golpe primero suele ganar el encuentro, empujando al oponente hacia atrás y abriéndolo para un combo de seguimiento.
+
+<Steps>
+  <Step num="1" title="Domina el parry (Desvío)">
+    Mantén presionada la tecla de bloqueo (F) justo cuando el golpe del oponente esté a punto de impactar. Un parry exitoso aturde al enemigo durante aproximadamente un segundo, lo que permite realizar un combo M1 completo.
+  </Step>
+  <Step num="2" title="La estrategia de golpe por la espalda">
+    No ataques a un oponente de frente si está bloqueando. Usa tu deslizamiento (dash) para rodearlo hasta su espalda. Los golpes asestados en la espalda no se pueden desviar ni bloquear de manera efectiva.
+  </Step>
+  <Step num="3" title="Verificación del alcance">
+    Visita el Dojo en el segundo piso. Usa los maniquíes de práctica para determinar exactamente dónde termina tu "rango de golpe". Conocer tu alcance máximo te permite mantener a distancia ("kitear") a los jugadores más bajos.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Presión de guardia">
+Vigila el "Guard PS" de tu estilo elegido. Incluso si un oponente bloquea cada golpe, los estilos con alto Guard PS como Slugger eventualmente agotarán su salud a través del bloqueo, obligándolo a correr riesgos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Giros (Rerolls) y estrategia de progresión">
+
+Para optimizar a tu personaje, probablemente necesitarás restablecer (reroll) tu etnia y altura varias veces. Dado que estos giros pueden ser costosos, utilizar códigos es la forma más eficiente de progresar sin gastar dinero del juego.
+
+**Categorías de códigos activos para 2026:**
+- **Giros de estadísticas (Stat Rerolls)**: Se usan para restablecer tus modificadores de altura y etnia.
+- **Giros de estilo (Style Rerolls)**: Te permiten cambiar entre estilos de combate como Boxeo y Muay Thai.
+- **Aumentos de dinero**: Proporcionan yenes para comprar artículos en la enfermería o en el Dojo.
+
+| Tipo de código | Beneficio | Recomendación |
+| :--- | :--- | :--- |
+| Giro de etnia (Ethnicity Reroll) | Cambia el potencial de altura base | Priorizar hasta obtener Europeo/Africano |
+| Giro de estilo (Style Reroll) | Cambia el conjunto de movimientos de combate | Guardar para Boxeo o Hakari |
+| Giro de altura (Height Reroll) | Ajusta la altura actual | Usar después de asegurar una etnia rara |
+
+<Checklist
+  id="progression-checklist"
+  title="Lista de verificación de maestría diaria:"
+  items={[
+    "Canjea todos los códigos mensuales para obtener giros gratis",
+    "Practica el tiempo del parry en el Dojo durante 10 minutos",
+    "Visita la enfermería para curarte rápidamente entre combates",
+    "Verifica tu porcentaje actual de Guard PS en el menú de estadísticas",
+    "Prueba tu alcance contra diferentes alturas de personajes"
+  ]}
+/>
+
+<Callout type="success" title="Eficiencia de curación">
+La enfermería es una "Zona verde" designada. Si tienes poca salud después de una pelea, dirígete al pasillo que conduce a la enfermería. Te curarás significativamente más rápido aquí que en cualquier otro lugar de la escuela.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maniobras defensivas y supervivencia">
+
+En el juego de alto nivel de Gakuran, tu defensa es tan importante como tu ataque. Simplemente mantener presionado el bloqueo no es suficiente, ya que los jugadores experimentados se deslizarán detrás de ti o usarán estilos con alto daño de desgaste (chip damage) para romper tu guardia. Debes incorporar el "Esquive evasivo" en tus patrones de movimiento.
+
+**Tácticas de supervivencia:**
+- **Auto-Parry**: Si te está golpeando un combo rápido, presiona F inmediatamente. Aunque no es un escape garantizado, aumenta la probabilidad de pillar una ventana de bloqueo perfecto.
+- **Deslizamiento circular**: Muévete siempre en movimiento circular alrededor de tu oponente. Esto hace que sea más difícil para ellos seguir tu caja de colisión (hitbox) y más fácil para ti encontrar una apertura en su espalda.
+- **Entrenamiento en el Dojo**: El Dojo del segundo piso no es solo para maniquíes; es el mejor lugar para practicar combate (sparring) con amigos para aprender las animaciones de diferentes estilos sin el riesgo de perder rango.
+
+<Callout type="warning" title="Gestión de la resistencia (Stamina)">
+Deslizarse y bloquear continuamente consume resistencia (stamina). Si te quedas sin resistencia, quedarás "exhausto", lo que te impedirá bloquear o deslizarte durante varios segundos. Vigila siempre tu barra azul durante los intercambios intensos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los mejores consejos y trucos de Gakuran para principiantes?",
+    answer: "Concéntrate en obtener un personaje más alto a través de giros de etnia y domina la mecánica del parry desde el principio. El Boxeo es el estilo de Tier S más amigable para principiantes debido a sus i-frames."
+  },
+  {
+    question: "¿Cómo afecta la altura a mi daño en Gakuran?",
+    answer: "Los personajes más altos infligen más daño por golpe y tienen más salud, pero su velocidad de ataque es ligeramente más lenta. La ventaja de alcance generalmente supera la penalización de velocidad."
+  },
+  {
+    question: "¿Cuál es el mejor lugar para practicar el combate?",
+    answer: "El Dojo en el segundo piso es el lugar ideal. Cuenta con maniquíes de práctica y suficiente espacio para probar tu alcance y cadenas de combos de forma segura."
+  },
+  {
+    question: "¿Puedo curarme durante una pelea en Gakuran?",
+    answer: "La curación directa durante el combate es difícil, pero puedes retirarte a la zona verde de la enfermería para recuperar salud mucho más rápido de lo normal."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dicas e truques de Gakuran: Guia de Maestria de Combate e Progressão de 2026",
+  description: "Domine o Gakuran com dicas de especialistas sobre modificadores de altura, rerolls de etnia e estilos de luta. Saiba como dominar o Dojo neste guia de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gakuran+Combat+Mastery",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de Gakuran"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Dicas e truques de Gakuran**: Foque em maximizar a altura do seu personagem para obter uma vantagem significativa de alcance e dano em combate.
+- **Melhores Estilos de Luta**: Boxe (Boxing) e Hakari são atualmente as escolhas do meta devido aos seus i-frames e vantagens ininterruptas.
+- **Impacto da Etnia**: Sua etnia influencia diretamente seu potencial de altura; perfis africanos e europeus costumam gerar os personagens mais altos.
+- **Estratégia de Combate**: Use o "bloqueio perfeito" (parry) para atordoar os oponentes e use o dash ao redor deles para acertar golpes em suas costas, contornando a guarda.
+- **Rerolls Gratuitos**: Utilize códigos promocionais ativos para resetar seus atributos e etnia sem gastar Robux.
+</Callout>
+
+<Section icon={Map} title="Atributos de Personagem e Mecânicas de Altura">
+
+Compreender as mecânicas fundamentais da criação de personagens é o primeiro passo para a dominância em Gakuran. Ao contrário de muitos outros jogos de luta na plataforma, Gakuran utiliza um sistema complexo onde atributos físicos como altura e etnia ditam diretamente sua eficácia em combate. A altura do seu personagem não é meramente cosmética; é um modificador fundamental que escala sua hitbox, dano causado e quantidade de vida.
+
+**Destaques do Vídeo:**
+- A altura determina seu alcance; personagens mais altos podem desferir golpes de uma distância onde personagens menores não conseguem revidar.
+- A etnia desempenha um papel importante no seu limite de altura, com etnias não japonesas sendo raras, mas fisicamente superiores.
+- O tamanho da hitbox aumenta com a altura, tornando você um alvo mais fácil, mas garantindo uma pressão ofensiva superior.
+- A velocidade é a principal desvantagem; personagens mais altos têm animações de ataque mais lentas em comparação com lutadores menores e mais ágeis.
+
+<YouTubeEmbed videoId="iZBuFgoP3TA" title="DICAS E TRUQUES PRO QUE VOCÊ PRECISA SABER para Gakuran!" />
+
+A probabilidade do porte físico do seu personagem está atrelada à sua etnia. Embora a maioria dos jogadores comece com um perfil japonês, buscar etnias mais raras pode proporcionar uma vantagem competitiva permanente.
+
+| Etnia | Chance de Surgimento | Potencial de Altura | Escalonamento de Combate |
+| :--- | :--- | :--- | :--- |
+| Japonês | 95.0% | Padrão | Equilibrado |
+| Europeu | < 1.0% | Alto | Foco em Dano/Vida |
+| Africano | < 1.0% | Muito Alto | Alcance Máximo |
+| Oriente Médio | < 1.0% | Moderado | Foco em Vida |
+| Latino | < 1.0% | Moderado | Mistura de Velocidade/Vida |
+
+<Callout type="warning" title="A Vantagem de Alcance">
+Ser mais alto que 6'9" proporciona uma vantagem de raridade de 0,1% que permite que você atinja os oponentes antes que eles entrem em seu próprio alcance efetivo. Se você for mais alto que seu oponente, mantenha uma distância que permita que seus socos conectem enquanto os braços mais curtos dele não conseguem te alcançar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estilos de Luta e Tier List do Meta">
+
+Escolher o estilo de luta certo é a decisão mais crítica em Gakuran. Cada estilo oferece vantagens únicas, como "Guard PS" (Pressão de Guarda) e ataques pesados especializados. Atualmente, o meta favorece estilos que oferecem utilidade defensiva por meio de frames de invencibilidade (i-frames) ou ataques ininterruptos.
+
+<CardGrid cols={3}>
+  <Card title="Boxe (S-Tier)">
+    - **Vantagem Intocável**: Concede i-frames durante ataques pesados.
+    - **Ininterruptível**: Difícil de cambalear durante os combos.
+    - **M1s Rápidos**: Excelente para aplicar pressão.
+  </Card>
+  <Card title="Hakari (S-Tier)">
+    - **Alto Dano Explosivo**: Potencial de dano massivo em janelas curtas.
+    - **Alcance**: Excelente sinergia com personagens altos.
+    - **Dominância no Meta**: Atualmente o estilo mais utilizado em alto nível.
+  </Card>
+  <Card title="Muay Thai (A-Tier)">
+    - **Golpes de Joelho**: Opções poderosas de curto alcance.
+    - **Potencial de Atordoamento**: Alta chance de quebrar guardas.
+    - **Agressivo**: Melhor para jogadores que pressionam constantemente o inimigo.
+  </Card>
+</CardGrid>
+
+Cada estilo de luta tem uma porcentagem específica de "Guard PS", que determina quanto dano ultrapassa o bloqueio de um oponente. Dominar isso permite que você desgaste jogadores defensivos até que sua postura seja quebrada.
+
+| Nome do Estilo | Guard PS % | Vantagem Principal | Dificuldade |
+| :--- | :--- | :--- | :--- |
+| Boxe (Boxing) | 15% | Intocável (i-frames) | Média |
+| Hakari | 20% | Alto Atordoamento | Difícil |
+| Slugger | 25% | Impacto Pesado | Fácil |
+| Karatê (Karate) | 10% | Golpes de Precisão | Média |
+| Luta Livre (Wrestling) | 5% | Foco em Agarre | Difícil |
+
+<Callout type="tip" title="Dica de Estilo de Luta">
+Se você estiver usando o Boxe, seu ataque pesado (M2) é sua melhor ferramenta defensiva. Como ele fornece i-frames, você pode usá-lo para se "esquivar" de um ataque recebido do oponente enquanto causa dano simultaneamente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecânicas de Combate e Maestria Avançada">
+
+O sucesso no combate de Gakuran depende de mais do que apenas clicar mais rápido que seu oponente. Você deve dominar a arte do "Bloqueio Perfeito" (parry) e entender o sistema de colisão (clash). Quando dois lutadores atacam ao mesmo tempo, ocorre uma disputa ou "colisão". O lutador que iniciou o ataque primeiro normalmente vence o confronto, empurrando o oponente para trás e abrindo espaço para um combo de acompanhamento.
+
+<Steps>
+  <Step num="1" title="Domine o Parry">
+    Segure a tecla de bloqueio (F) exatamente quando o golpe do oponente estiver prestes a atingir. Um parry bem-sucedido atordoa o inimigo por aproximadamente um segundo, permitindo um combo M1 completo.
+  </Step>
+  <Step num="2" title="A Estratégia de Golpe pelas Costas">
+    Não ataque um oponente de frente se ele estiver bloqueando. Use seu dash para circular até as costas dele. Golpes desferidos pelas costas não podem ser defendidos ou bloqueados de forma eficaz.
+  </Step>
+  <Step num="3" title="Verificação de Alcance">
+    Visite o Dojo no segundo andar. Use os bonecos de treino para determinar exatamente onde termina o seu "alcance de acerto". Conhecer o seu alcance máximo permite que você faça "kite" em jogadores mais baixos.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Pressão de Guarda">
+Fique de olho no "Guard PS" do estilo escolhido. Mesmo que um oponente bloqueie todos os golpes, estilos com alto Guard PS, como o Slugger, acabarão drenando a vida dele através do bloqueio, forçando-o a correr riscos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estratégia de Rerolls e Progressão">
+
+Para otimizar seu personagem, você provavelmente precisará resetar (reroll) sua etnia e altura várias vezes. Como esses rerolls podem ser caros, utilizar códigos é a maneira mais eficiente de progredir sem gastar moedas do jogo.
+
+**Categorias de Códigos Ativos de 2026:**
+- **Rerolls de Atributos**: Usados para resetar seus modificadores de altura e etnia.
+- **Rerolls de Estilo**: Permitem alternar entre estilos de combate como Boxe e Muay Thai.
+- **Impulsos de Moeda**: Fornecem Yen para comprar itens na enfermaria ou no Dojo.
+
+| Tipo de Código | Benefício | Recomendação |
+| :--- | :--- | :--- |
+| Reroll de Etnia | Altera o potencial de altura base | Priorize até conseguir Europeu/Africano |
+| Reroll de Estilo | Muda o conjunto de movimentos de combate | Guarde para Boxe ou Hakari |
+| Reroll de Altura | Ajusta a altura atual | Use após garantir uma etnia rara |
+
+<Checklist
+  id="progression-checklist"
+  title="Checklist Diária de Maestria:"
+  items={[
+    "Resgatar todos os códigos mensais para rerolls gratuitos",
+    "Praticar o tempo de parry no Dojo por 10 minutos",
+    "Verificar a Enfermaria para se curar rapidamente entre as partidas",
+    "Verificar sua porcentagem atual de Guard PS no menu de atributos",
+    "Testar seu alcance contra diferentes alturas de personagens"
+  ]}
+/>
+
+<Callout type="success" title="Eficiência de Cura">
+A Enfermaria é uma "Zona Verde" designada. Se você estiver com pouca vida após uma luta, vá para o corredor que leva à enfermaria. Você se curará significativamente mais rápido aqui do que em qualquer outro lugar da escola.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Manobras Defensivas e Sobrevivência">
+
+Em partidas de alto nível de Gakuran, sua defesa é tão importante quanto seu ataque. Apenas segurar o bloqueio não é suficiente, pois jogadores experientes usarão o dash para ir atrás de você ou usarão estilos de alto dano de chip para quebrar sua guarda. Você deve incorporar a "Esquiva Evasiva" em seus padrões de movimento.
+
+**Táticas de Sobrevivência:**
+- **Auto-Parry**: Se você estiver sendo atingido por um combo rápido, segure F imediatamente. Embora não seja uma fuga garantida, aumenta a chance de pegar uma janela de bloqueio perfeito.
+- **Circle Dashing (Dash Circular)**: Mova-se sempre em um movimento circular ao redor do seu oponente. Isso torna mais difícil para ele rastrear sua hitbox e mais fácil para você encontrar uma abertura nas costas dele.
+- **Treino no Dojo**: O Dojo do segundo andar não serve apenas para bonecos; é o melhor lugar para treinar com amigos para aprender as animações de diferentes estilos sem o risco de perder classificação.
+
+<Callout type="warning" title="Gerenciamento de Estamina">
+Dashes e bloqueios contínuos consomem estamina. Se você ficar sem estamina, ficará "exaurido", tornando-se incapaz de bloquear ou usar o dash por vários segundos. Fique sempre de olho na sua barra azul durante trocas intensas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Quais são as melhores dicas e truques de Gakuran para iniciantes?",
+    answer: "Foque em obter um personagem mais alto através de rerolls de etnia e domine a mecânica de parry desde cedo. O Boxe é o estilo S-tier mais amigável para iniciantes devido aos seus i-frames."
+  },
+  {
+    question: "Como a altura afeta meu dano em Gakuran?",
+    answer: "Personagens mais altos causam mais dano por golpe e têm mais vida, mas sua velocidade de ataque é ligeiramente menor. A vantagem de alcance geralmente supera a penalidade de velocidade."
+  },
+  {
+    question: "Qual é o melhor lugar para praticar o combate?",
+    answer: "O Dojo no segundo andar é o local ideal. Ele conta com bonecos de treino e espaço suficiente para testar seu alcance e sequências de combos com segurança."
+  },
+  {
+    question: "Posso me curar durante uma luta em Gakuran?",
+    answer: "A cura direta durante o combate é difícil, mas você pode recuar para a zona verde da Enfermaria para recuperar a vida muito mais rápido do que o normal."
+  }
+]} />
+
+</Section>

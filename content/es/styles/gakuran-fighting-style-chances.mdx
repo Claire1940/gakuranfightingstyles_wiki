@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Probabilidades de Estilos de Pelea en Gakuran: Optimización y Tier List 2026",
+  description: "Domina las mejores probabilidades de estilos de pelea en Gakuran con nuestra guía del meta 2026. Optimiza la altura de tu personaje, equipamiento de combate y enfoque táctico.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Gakuran+Fighting+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Gakuran",
+  keywords: "gakuran, estilos de pelea, meta 2026, guía de combate, estilo kure"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las **probabilidades de estilos de pelea en Gakuran** dependen en gran medida de la altura y la velocidad de movimiento de tu personaje.
+- El **estilo Kure** se considera actualmente una opción de primer nivel para el combate competitivo.
+- La **altura óptima del personaje es 5'10"** para maximizar el registro de golpes y las capacidades de esquive.
+- Evitar el **spam de clics** y centrarse en el tiempo (timing) es esencial para ganar encuentros 1v1.
+- Comprender el **retraso de combate** (combat delay) y la física del movimiento es la clave para superar a los oponentes.
+</Callout>
+
+<Section icon={Swords} title="Optimización del Rendimiento del Estilo de Pelea">
+
+Para dominar el patio de la escuela, debes entender cómo interactúa el estilo de pelea elegido con las mecánicas del juego. Muchos jugadores pasan por alto la sutil sinergia entre la altura del personaje y la latencia de ataque.
+
+**Puntos Destacados del Video:**
+- Por qué la altura de 5'10" es el estándar actual del meta para el rendimiento.
+- Demostración de los datos de cuadros (frame data) y velocidad superiores del estilo Kure.
+- Cómo contrarrestar eficazmente a los "delay heads" y los estilos de juego basados en spam.
+
+<YouTubeEmbed videoId="IJ0Ax1xTB6Y" title="KURE Is The BEST FIGHTING STYLE in Gakuran (Roblox)" />
+
+La eficiencia en el combate está determinada por tu capacidad para gestionar los cuadros. Al evaluar tus **probabilidades de estilo de pelea en gakuran**, prioriza los estilos que ofrecen iniciadores de combo fiables y finalizadores de alto daño.
+
+| Estilo | Rol | Dificultad | Rendimiento |
+| :--- | :--- | :--- | :--- |
+| **Kure** | Agresivo | Moderada | Excelente |
+| **Muay Thai** | Corto Alcance | Alta | Promedio |
+| **Capoeira** | Movilidad | Alta | Situacional |
+
+<Callout type="tip" title="Movimiento Estratégico">
+Mantén siempre una configuración de altura de 5'10" para asegurar que tus hitboxes sean consistentes. Desviarse de esta altura a menudo conduce a tasas de fallo inesperadas durante intercambios de alta velocidad.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tácticas de Combate y Ejecución">
+
+Dominar tu flujo de combate requiere más que solo elegir un estilo fuerte; requiere una ejecución disciplinada. Seguir estos pasos te ayudará a maximizar tu tasa de victorias en encuentros estándar.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Estilo">
+    Elige un estilo que se alinee con tu forma de jugar: Kure para velocidad u otros para utilidad defensiva.
+  </Step>
+  <Step num="2" title="Configura la Altura">
+    Navega al editor de personajes y establece tu altura en 5'10" para optimizar tu hitbox.
+  </Step>
+  <Step num="3" title="Practica el Tiempo">
+    Entra en el modo de práctica para aprender los cuadros de inicio de tus ataques principales en lugar de hacer spam.
+  </Step>
+  <Step num="4" title="Ataca y Finaliza">
+    Concéntrate en asestar golpes limpios y utiliza movimientos finales solo cuando el oponente esté aturdido.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evita el Spam">
+Hacer spam de clics es un error común que te deja vulnerable a los contraataques. Los jugadores que se enfocan en una entrada rítmica superan consistentemente a aquellos que machacan los botones.
+</Callout>
+
+</Section>
+
+<Section icon={CardGrid} title="Matriz de Comparación de Estilos">
+
+Elegir la herramienta adecuada para el trabajo es esencial. Utiliza esta comparación para ver cómo se desempeñan los diferentes estilos frente a escenarios de combate comunes en el meta actual.
+
+<CardGrid cols={3}>
+  <Card title="Estilo Kure">
+    - El mejor para dominancia 1v1
+    - Alta velocidad de ataque
+    - Excelente para cerrar distancias
+  </Card>
+  <Card title="Muay Thai">
+    - Fuerte juego de clinch
+    - Alta producción de daño
+    - Requiere un espaciado preciso
+  </Card>
+  <Card title="Estilos de Movilidad">
+    - Evasión superior
+    - Bueno para tácticas de golpear y correr
+    - Menor DPS sostenido
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Visión del Meta">
+En 2026, el meta favorece fuertemente los estilos que pueden castigar a los jugadores con "retraso". Si tienes dificultades contra oponentes defensivos, prioriza estilos con un fuerte potencial de romper guardia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificación de Combate Esencial">
+
+Realiza un seguimiento de tu progresión y objetivos de entrenamiento con esta lista para asegurar que estás mejorando constantemente tu efectividad en combate.
+
+<Checklist
+  id="combat-training"
+  title="Hitos de Progresión:"
+  items={[
+    "Dominar la cadena de combo básica del estilo Kure",
+    "Realizar con éxito 10 esquives perfectos seguidos",
+    "Identificar y contrarrestar tres estilos de pelea diferentes",
+    "Alcanzar tasas de victoria consistentes en escenarios 1v1"
+  ]}
+/>
+
+| Hito | Recompensa/Beneficio | Prioridad |
+| :--- | :--- | :--- |
+| **Maestría** | Desbloquear finalizadores avanzados | Alta |
+| **Consistencia** | Reducir errores de entrada en combate | Alta |
+| **Versatilidad** | Aprender un estilo secundario | Media |
+
+<Callout type="info" title="Nota de la Comunidad">
+El "teaming" (hacer equipo) sigue siendo un desafío significativo en las salas públicas. Prepárate siempre para manejar escenarios 2v1 enfocándote en la movilidad e aislando a tus oponentes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Realmente afecta la altura a las probabilidades de los estilos de pelea en gakuran?",
+    answer: "Sí, establecer tu altura en 5'10\" se considera ampliamente la opción óptima para la consistencia de la hitbox y la velocidad de movimiento en 2026."
+  },
+  {
+    question: "¿Es el Kure el único estilo viable?",
+    answer: "Aunque el Kure es actualmente de primer nivel, otros estilos pueden ser efectivos si dominas su tiempo específico, espaciado y mecánicas de contraataque."
+  },
+  {
+    question: "¿Cómo detengo a los oponentes que hacen spam de clics?",
+    answer: "Céntrate en hacer parry y utilizar pasos laterales. Los jugadores que abusan del spam son predecibles y fáciles de castigar con contraataques precisos."
+  }
+]} />
+
+</Section>

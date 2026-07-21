@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Smartphone, Keyboard } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Controles de Combate de Gakuran: Guia de Combate e Movimentação de 2026",
+  description: "Domine os controles de combate de Gakuran no Roblox. Aprenda movimentação, ataques básicos, manobras defensivas e estratégias PvP profissionais neste guia de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1b/f1f1f1?text=Fighting+Controls+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki do Gakuran"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Controles de combate de Gakuran** priorizam o tempo de precisão em vez de esmagar botões para confrontos PvP bem-sucedidos.
+- **Fundamentos de movimentação** como correr e pular são essenciais para controlar a distância entre você e seu oponente.
+- **Ações defensivas** como bloquear e esquivar são tão importantes quanto combos ofensivos no meta de 2026.
+- **O feedback de combate** é visual; observe as animações dos personagens para prever ataques pesados ou bloqueios iminentes.
+- **As configurações do dispositivo** devem ser ajustadas no menu do Roblox para garantir que a sensibilidade da câmera corresponda à sua velocidade de reação.
+</Callout>
+
+<Section icon={Keyboard} title="Controles de Movimentação Fundamentais">
+
+Dominar os **controles de combate de Gakuran** começa com uma movimentação fluida. No cenário escolar japonês inspirado em 2007 de Gakuran, sua habilidade de navegar pelo ambiente urbano e corredores da escola dita como você inicia ou foge do combate. Ao contrário dos jogos de RPG padrão, a movimentação aqui é baseada em momentum, o que significa que parar ou mudar de direção tem um leve peso.
+
+| Comando | Ação | Uso |
+| :--- | :--- | :--- |
+| **W, A, S, D** | Mover-se | Navegação básica pela escola e pela cidade |
+| **Shift** | Correr | Aumenta a velocidade de movimento para exploração ou perseguição |
+| **Espaço** | Pular | Saltar sobre obstáculos ou se reposicionar verticalmente |
+| **Mouse** | Câmera | Girar sua visão para rastrear oponentes em 360 graus |
+| **Esc** | Menu | Acessar as configurações do Roblox para ajustar a sensibilidade |
+
+<Callout type="tip" title="Dica Pro: Buffs de Movimentação">
+Sempre mantenha sua câmera desbloqueada para escanear flanqueadores. Em Gakuran, ser pego de surpresa por um delinquente pode acabar com uma luta antes mesmo de começar. Use o **Shift** com moderação no combate para gerenciar sua barra de stamina invisível.
+</Callout>
+
+Uma movimentação eficaz não se trata apenas de ir do ponto A ao ponto B; trata-se de "espaçamento" (spacing). Ao dar toques nas teclas de movimento em vez de segurá-las, você pode realizar microajustes que tornam mais difícil para os oponentes acertarem sua sequência inicial de M1 (Botão Esquerdo do Mouse). 
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas de Combate Principais e Comandos">
+
+O coração da experiência está em seu sistema de combate. Quer você esteja defendendo sua reputação no pátio ou participando de um PvP estruturado, entender os comandos ofensivos primários é obrigatório. Os **controles de combate de Gakuran** utilizam um sistema padrão de M1/M2, mas adicionam camadas por meio de tempo de reação e modificadores específicos de estilo.
+
+| Categoria | Comando | Ação | Dica de Tempo Pro |
+| :--- | :--- | :--- | :--- |
+| **Ofensivo** | **Clique Esquerdo (M1)** | Ataque Leve | Encadeie 3 a 4 golpes para uma sequência de combo básica |
+| **Pesado** | **Clique Direito (M2)** | Ataque Pesado | Use para quebrar bloqueios ou finalizar um combo |
+| **Interação** | **E** | Interagir | Executar oponentes caídos ou falar com NPCs |
+| **Utilidade** | **F (Típico)** | Bloquear | Segure para mitigar o dano de ataques leves recebidos |
+
+<Callout type="warning" title="Aviso de Combate">
+Não abuse do botão de Clique Esquerdo. "Esmagar" o botão frequentemente leva ao travamento de animação (animation lock), deixando você vulnerável a um contra-ataque se o seu oponente esquivar ou bloquear com sucesso o seu terceiro golpe.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Ataques Leves (M1)">
+    - Velocidade de execução rápida
+    - Baixo dano individual
+    - **Melhor para** criar pressão e iniciar combos.
+  </Card>
+  <Card title="Ataques Pesados (M2)">
+    - Tempo de preparação mais lento
+    - Alto dano e repulsão (knockback)
+    - **Melhor para** quebrar a guarda de um oponente.
+  </Card>
+  <Card title="Execuções (E)">
+    - Ação sensível ao contexto
+    - Finaliza uma vitória
+    - **Melhor para** encerrar um duelo de forma decisiva.
+  </Card>
+</CardGrid>
+
+Ao enfrentar um inimigo, o objetivo é acertar uma sequência completa de M1 e fazer a transição para um finalizador M2 ou uma habilidade específica de estilo. Em 2026, os jogadores mais bem-sucedidos são aqueles que conseguem "ler" os frames iniciais do M2 de um oponente e reagir de acordo.
+
+</Section>
+
+<Section icon={Shield} title="Manobras Defensivas e Sobrevivência">
+
+A sobrevivência em Gakuran depende da sua leitura defensiva. Se você focar apenas no lado ofensivo dos **controles de combate de Gakuran**, terá dificuldades contra jogadores experientes que utilizam aparadas (parries) e esquivas. A defesa é ativa, o que significa que você deve antecipar o ritmo do inimigo.
+
+<Steps>
+  <Step num="1" title="Guarda Inicial">
+    Segure a tecla de bloqueio ao ver o oponente se aproximar. Isso reduz o dano residual (chip damage) de ataques leves e evita um atordoamento completo (stagger).
+  </Step>
+  <Step num="2" title="Lendo o Ataque Pesado">
+    Fique atento à animação de preparação. Ataques pesados geralmente têm uma dica visual distinta. Esse é o seu sinal para esquivar ou preparar um contra-ataque.
+  </Step>
+  <Step num="3" title="O Contra-Corrida (Counter-Dash)">
+    Use suas teclas de movimento em conjunto com pulos ou corridas para se esquivar de um golpe pesado e, imediatamente depois, emendar sua própria sequência de M1.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mecânica de Bloqueio Perfeito">
+Bloqueios cronometrados (bloquear exatamente quando o golpe atinge) frequentemente podem atordoar o oponente, proporcionando uma enorme janela para um combo gratuito. Pratique esse tempo contra NPCs antes de tentar em um PvP de alto risco.
+</Callout>
+
+| Ação Defensiva | Controle | Benefício | Risco |
+| :--- | :--- | :--- | :--- |
+| **Bloqueio Padrão** | Segurar Comando | Reduz 70-80% do dano | A guarda pode ser quebrada por M2 |
+| **Corrida Evasiva** | Shift + Direção | Evita o dano completamente | Consome muita stamina/momentum |
+| **Espaçamento** | Tecla S (Atrás) | Mantém você fora do alcance do M1 | Vulnerável a estilos de longo alcance |
+
+</Section>
+
+<Section icon={Sparkles} title="Estilos de Luta e Execução de Combos">
+
+O estilo de luta escolhido altera significativamente a sensação dos **controles de combate de Gakuran**. Alguns estilos priorizam a velocidade e combos de múltiplos acertos, enquanto outros focam em força bruta e agarramentos. Em 2026, the meta favorece estilos que oferecem versatilidade tanto no jogo neutro quanto nas janelas de punição.
+
+<CardGrid cols={2}>
+  <Card title="Estilos de Atacante (Foco em Velocidade)">
+    - Recuperação de M1 mais rápida
+    - Menor dano por golpe
+    - Excelente para táticas de bater e correr (hit and run).
+  </Card>
+  <Card title="Estilos de Força (Foco em Força)">
+    - Dano massivo de M2
+    - Velocidade de movimento mais lenta
+    - Ideal para suportar golpes e trocar dano.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Sinergias de Estilo">
+Certas características de personagem podem aprimorar os controles do seu estilo. For exemplo, um traço "Rápido" pode reduzir o tempo de preparação dos seus ataques Pesados, tornando seus M2s muito mais difíceis de reagir.
+</Callout>
+
+Para executar um combo básico, siga esta sequência:
+1. **Engajar**: Avance rapidamente com Shift + W.
+2. **Preparação**: Acerte três golpes M1 (Clique Esquerdo x3).
+3. **Finalizador**: Pressione imediatamente M2 (Clique Direito) para afastar o oponente.
+4. **Resetar**: Recue para recuperar stamina e esperar pela próxima abertura.
+
+</Section>
+
+<Section icon={Smartphone} title="Controles do Sistema e Interface">
+
+Fora do combate direto, os **controles de combate de Gakuran** incluem vários comandos do sistema que são vitais para o progresso. A interface do celular serve como seu hub principal para verificar estatísticas, gerenciar seu inventário e interagir com os recursos sociais do jogo.
+
+| Recurso | Comando | Descrição |
+| :--- | :--- | :--- |
+| **Abrir Celular** | **P ou Ícone** | Acessa o menu principal e a personalização |
+| **Inventário** | **Menu do Celular** | Equipar itens, acessórios ou equipamentos escolares |
+| **Configurações** | **Esc / Celular** | Alternar elementos da interface ou ajustar gráficos |
+| **Emotes** | **Chat / G** | Realizar animações sociais ou provocações |
+
+<Checklist
+  id="beginner-setup"
+  title="Lista de Verificação de Controles para Novos Jogadores:"
+  items={[
+    "Testar o tempo do M1/M2 na área de treino",
+    "Configurar a sensibilidade da câmera nas configurações do Roblox",
+    "Localizar a tecla do Celular para verificar seu Estilo de Luta atual",
+    "Praticar a transição de Shift-Corrida para M1",
+    "Aprender o layout do mapa da escola para fugas rápidas"
+  ]}
+/>
+
+<Callout type="warning" title="Dica de Interface">
+Nunca abra o menu do celular durante uma luta. A interface não pausa o jogo, e você ficará completamente indefeso enquanto navega pelas suas estatísticas ou inventário.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estratégia Avançada de PvP e Maestria">
+
+Para ir além do básico dos **controles de combate de Gakuran**, você deve dominar o "jogo mental" do PvP. O combate em Gakuran é tanto sobre psicologia quanto sobre pressionar botões. Atrair seu oponente para desperdiçar seus tempos de recarga defensivos é a chave para vencer contra jogadores de alto nível.
+
+**Táticas Avançadas:**
+- **Provocação (Baiting)**: Aproxime-se de um oponente e recue de repente. Frequentemente, ele desferirá um M1 ou M2 no ar, deixando-o vulnerável a uma punição de erro (whiff punish).
+- **Pressão de Guarda**: Se um oponente estiver bloqueando, não fique apenas repetindo o M1. Misture um M2 para quebrar a guarda dele e causar um dano massivo de postura.
+- **Consciência Ambiental**: Use os corredores estreitos da escola para encurralar oponentes rápidos, ou use pátios abertos para circular e esquivar de usuários mais lentos do estilo "Força".
+
+| Estratégia | Eficácia | Dificuldade | Melhor Contra |
+| :--- | :--- | :--- | :--- |
+| **Punição de Erro (Whiff)** | Alta | Difícil | "Makers" Agressivos |
+| **Quebra de Guarda** | Média | Fácil | "Turtles" Defensivos |
+| **Perseguição de Stamina** | Muito Alta | Média | Todos os Estilos |
+
+<Callout type="success" title="O Caminho para a Maestria">
+No meta de Gakuran de 2026, a consistência é tudo. Dedique 10 minutos de cada sessão para praticar sua movimentação e o tempo de bloqueio. A memória muscular eventualmente assumirá o controle, permitindo que você se concentre nos padrões do seu oponente em vez de nas suas próprias teclas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes sobre Controles de Gakuran">
+
+<FAQ items={[
+  {
+    question: "Como posso corrigir problemas de lag com os controles de combate de Gakuran?",
+    answer: "O lag geralmente é causado por configurações gráficas altas ou distância do servidor. Reduza a configuração gráfica manual do Roblox para 3 ou 4 e certifique-se de estar jogando em um servidor da sua região para obter o melhor tempo de resposta de combate."
+  },
+  {
+    question: "Posso alterar as teclas de atalho do meu estilo de luta?",
+    answer: "Atualmente, Gakuran usa um esquema de controle fixo para a maioria das ações. No entanto, você pode usar softwares de mouse de terceiros para remapear M1/M2 para os botões laterais, caso seja mais confortável para o seu estilo de jogo."
+  },
+  {
+    question: "Por que meu bloqueio não está funcionando contra alguns jogadores?",
+    answer: "Alguns estilos de luta de alto nível possuem movimentos 'imbloqueáveis' ou um potencial muito alto de quebra de guarda. Além disso, se a sua stamina estiver esgotada, seu bloqueio falhará automaticamente."
+  },
+  {
+    question: "Qual é a melhor maneira de praticar combos com segurança?",
+    answer: "Use os bonecos de treino designados encontrados perto do ginásio ou nos arredores da escola. Eles permitem que você teste as sequências de M1/M2 sem o risco de ser atacado por outros jogadores."
+  }
+]} />
+
+</Section>

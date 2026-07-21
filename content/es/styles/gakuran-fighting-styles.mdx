@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Estilos de pelea de Gakuran: Lista de niveles de 2026 y guía de combate",
+  description: "Domina todos los estilos de pelea de Gakuran con nuestra guía detallada de 2026. Compara rarezas, ventajas y animaciones para Boxeo, Muay Thai, Kure y más.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gakuran+Fighting+Styles+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Gakuran"
+}
+
+<Callout type="info" title="Guía rápida">
+- Los **estilos de pelea de Gakuran** se categorizan en cuatro rarezas: Común, Raro, Épico y Legendario, y cada uno ofrece ventajas únicas.
+- El **Boxeo** se considera actualmente el estilo más fuerte del juego debido a su primer golpe imparable y a los i-frames de su ataque pesado.
+- El **Muay Thai** destaca como la opción principal para la rareza Rara, sobresaliendo en estilos de juego agresivos y daño de postura.
+- Los **estilos Legendarios** como la Lucha Libre (Wrestling) y Kure proporcionan control de masas especializado y mecánicas de hiperarmadura.
+- La **altura del personaje** (Build Height) afecta significativamente la efectividad del estilo, ya que algunos funcionan mejor en personajes más altos o más bajos.
+</Callout>
+
+<Section icon={Swords} title="Estilos de pelea básicos de Gakuran">
+
+Comprender las mecánicas principales de los **estilos de pelea de gakuran** es esencial para cualquier jugador que busque dominar las calles. Incluso los estilos más básicos proporcionan una base sólida para el combate, ofreciendo ventajas específicas que pueden pillar desprevenidos a los jugadores de alto nivel si se utilizan correctamente. El sistema de progresión recompensa a los jugadores que dominan el tiempo de los desvíos (parries) y los matices de la gestión de la postura.
+
+**Puntos destacados del video:**
+- Desglose detallado de cada rareza de estilo de pelea y sus ventajas específicas.
+- Muestra visual de animaciones para el nuevo estilo Kure y el clásico estilo de Boxeo.
+- Calificación profesional de cada estilo basada en el rendimiento actual del meta de 2026.
+- Comparación de tiempos de recarga de ataques pesados y efectos de ragdoll.
+
+<YouTubeEmbed videoId="wjW8pg9Zx50" title="Mostrando TODOS los estilos de pelea en GAKURAN, incluyendo el nuevo KURE" />
+
+El estilo de pelea Básico, a pesar de su rareza Común, sigue siendo una opción viable para los principiantes. Se centra en mecánicas fundamentales como una recuperación de postura más rápida y daño de desgaste (chip damage). Aunque carece de las llamativas animaciones de los niveles Épico o Legendario, su fiabilidad en los contraataques lo convierte en una opción disciplinada para personajes de menor estatura.
+
+| Nombre del estilo | Rareza | Ventaja principal | Complexión ideal |
+| :--- | :--- | :--- | :--- |
+| Básico | Común | Recuperación rápida de postura | Bajo |
+| Kárate | Raro | Reg. de postura al desviar | Medio |
+| Muay Thai | Raro | Daño de postura y sangrado | Alto |
+| Slugger | Raro | Alto daño infligido | Cualquiera |
+
+<Callout type="tip" title="Consejo profesional">
+El estilo Básico inflige +5 de daño en los contraataques después de un desvío perfecto. Si tienes problemas con la gestión de la postura, la recuperación más rápida de este estilo puede salvarte la vida en duelos prolongados.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Análisis y comparación de estilos raros">
+
+Al entrar en el nivel Raro de los **estilos de pelea de gakuran**, los jugadores comienzan a ver roles de combate más especializados. En este nivel es donde se hace prominente la distinción entre estilos de juego agresivos y defensivos. Seleccionar el estilo Raro adecuado a menudo puede cerrar la brecha cuando te enfrentas a oponentes con conjuntos de habilidades de mayor rareza.
+
+El Muay Thai es ampliamente considerado como el pináculo de esta categoría. Está diseñado para jugadores agresivos que prefieren personajes altos, ofreciendo un significativo 30% de daño por sangrado a través de las defensas. Su probabilidad única del 55% de chocar en un agarre cuando los ataques M1 coinciden proporciona una ventaja táctica que otros estilos Raros no tienen. Por el contrario, el estilo Slugger a menudo se ve como una apuesta de alto riesgo, ya que aumenta el daño infligido en un 25% pero también aumenta el daño recibido en un 10%.
+
+| Estilo | Efecto Ragdoll | Interacción con la defensa | Calidad de animación |
+| :--- | :--- | :--- | :--- |
+| Kárate | Ataques pesados causan ragdoll | Sangrado a través de defensa | Olvidable |
+| Muay Thai | Ataques pesados causan ragdoll | 30% de sangrado a través de defensa | Alta calidad |
+| Slugger | Mínimo | Sin interacción especial | Mala |
+
+<Callout type="warning" title="Advertencia de combate">
+Evita usar el estilo Slugger a menos que tengas mucha confianza en tus habilidades de esquive. El 10% de daño adicional recibido se acumula rápidamente, lo que a menudo lleva a derrotas rápidas contra oponentes de golpes rápidos como los usuarios de Boxeo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Nivel Épico: El meta competitivo">
+
+La rareza Épica alberga lo que muchos consideran los mejores **estilos de pelea de gakuran** en general para el juego competitivo. Estos estilos introducen mecánicas avanzadas como i-frames (fotogramas de invincibilidad) y multiplicadores de daño basados en el impulso que pueden cambiar el rumbo de cualquier pelea.
+
+<CardGrid cols={2}>
+  <Card title="Boxeo (El nivel superior)">
+    - **I-Frames de ataque pesado**: Hace que el usuario sea ininterrumpible durante la ejecución.
+    - **Combo imparable**: El primer golpe del combo pesado no se puede desviar.
+    - **Reducción de tiempo de recarga**: Los desvíos perfectos reducen significativamente el tiempo de recarga del ataque pesado.
+  </Card>
+  <Card title="Hakari (La opción técnica)">
+    - **Ventaja de impulso (Momentum)**: Acertar un combo M1 completo otorga un aumento de daño de 3x al siguiente ataque pesado.
+    - **Ataque pesado versátil**: Puede causar ragdoll en los enemigos sin necesidad de una carga completa.
+    - **Mejores animaciones**: Cuenta con los conjuntos de movimientos más fluidos y engañosos del juego.
+  </Card>
+</CardGrid>
+
+El Boxeo sigue siendo la fuerza dominante en el meta de 2026. La capacidad de ignorar el daño entrante durante un ataque pesado mientras obligas al oponente a esquivar o recibir un golpe no tiene parangón. Hakari, aunque es ligeramente más técnico, ofrece el mayor potencial de daño de ráfaga (burst damage) del juego si el jugador puede conectar de forma consistente sus cadenas completas de M1.
+
+<Callout type="success" title="Recomendación del meta">
+Si buscas la tasa de victorias más constante, prioriza tirar por Boxeo. Su potencial de amago (fake-out) con el combo de dos golpes es actualmente la mecánica más difícil de leer y reaccionar para los oponentes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estilos legendarios y combate especializado">
+
+Los **estilos de pelea legendarios de gakuran** son botines raros que proporcionan una utilidad especializada, particularmente en el control de masas (CC) y efectos de estado únicos. Estos estilos a menudo requieren tipos de complexión específicos para maximizar su potencial, como el requisito de complexión alta para la Lucha Libre (Wrestling).
+
+La incorporación más reciente, el estilo Kure, introduce un devastador ataque pesado con cabezazo. Aunque carece de la hiperarmadura de la Lucha Libre, evita que el enemigo pueda desviar durante 2 segundos después del impacto. Esto crea una ventana enorme para combos de seguimiento. Sin embargo, los jugadores deben tener en cuenta el mayor tiempo de recarga del ataque pesado del estilo Kure, que requiere una sincronización más calculada que el estilo de Boxeo, más propenso al spam.
+
+| Estilo | Mecánica especial | Mejoras de daño | Capacidad de CC |
+| :--- | :--- | :--- | :--- |
+| Capoeira | -25% de tiempo de recarga de carrera | +5% al romper la defensa | Alta (Empuje) |
+| Lucha Libre | Hiperarmadura al agarrar | 1.5x de daño de agarre | Excelente (Aturdimiento) |
+| Kure | Desactivación de desvío por cabezazo | +15% con salud baja | Moderada (Azote) |
+
+<Callout type="tip" title="Consejo de complexión">
+La Lucha Libre es la opción principal para los jugadores que disfrutan de las construcciones tipo "tanque". La ventaja de hiperarmadura garantiza que una vez que logres un agarre, no puedas ser aturdido ni interrumpido, lo que lo hace perfecto para escenarios 1vX donde estás en desventaja numérica.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cómo optimizar tu estilo de pelea">
+
+Elegir entre los diversos **estilos de pelea de gakuran** implica más que solo mirar la rareza. Debes alinear tu estilo con los atributos físicos de tu personaje y tu velocidad de reacción personal. Sigue estos pasos para asegurarte de estar utilizando la configuración más efectiva para tu nivel de progresión actual.
+
+<Steps>
+  <Step num="1" title="Evalúa la altura de tu personaje">
+    Determina si tu personaje es Bajo, Medio o Alto. Las complexiones bajas se benefician de la agilidad del Básico o de Hakari, mientras que las complexiones altas están optimizadas para el alcance de Muay Thai y la Lucha Libre.
+  </Step>
+  <Step num="2" title="Evalúa tu consistencia al desviar">
+    Si eres un maestro del desvío, el Kárate o el Boxeo recompensarán tu precisión con regeneración de postura y reducciones de tiempo de recarga. Si tienes problemas con el tiempo, busca estilos con hiperarmadura como la Lucha Libre.
+  </Step>
+  <Step num="3" title="Identifica tu rol de combate">
+    Decide si quieres ser un cañón de cristal (Slugger), un duelista equilibrado (Boxeo) o un especialista en control de masas (Capoeira). Esta elección dicta tu estrategia de enfrentamiento en las peleas de equipo.
+  </Step>
+  <Step num="4" title="Domina la ventaja única del estilo">
+    Cada estilo tiene una ventaja destacada, como el Impulso (Momentum) de Hakari. Pasa tiempo en el área de entrenamiento practicando los activadores específicos de estas ventajas antes de dirigirte a las partidas clasificatorias.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota de optimización">
+El estilo Kure actualmente cuenta con una mejora del 15% de daño de desgaste (chip damage) a través de las defensas. Esto lo convierte en un excelente contraataque para jugadores defensivos que se "atrincheran" detrás de su bloqueo durante períodos prolongados.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación final y preguntas frecuentes">
+
+Antes de comprometer tus recursos en un estilo específico, asegúrate de haber considerado la viabilidad a largo plazo de tu elección. El meta en Gakuran puede cambiar, pero las mecánicas principales de estos estilos permanecen relativamente estables.
+
+<Checklist
+  id="style-mastery-goals"
+  title="Lista de verificación de preparación para el combate:"
+  items={[
+    "Alcanzar la máxima competencia con el estilo elegido",
+    "Probar tu estilo contra las tres alturas de personaje",
+    "Desbloquear las variantes únicas de ataque pesado",
+    "Dominar la ventana de desvío perfecto para tu rareza específica",
+    "Coordinar la elección de estilos con tu equipo para un control de masas óptimo"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Cuál de los estilos de pelea de Gakuran es mejor para principiantes?",
+    answer: "El estilo Básico es sorprendentemente efectivo para los principiantes debido a su recuperación más rápida de la postura. Sin embargo, si puedes conseguirlo, el Muay Thai es el estilo Raro más fácil de usar para aprender el combate agresivo."
+  },
+  {
+    question: "¿Realmente importa la altura del personaje para estos estilos?",
+    answer: "Sí. Ciertos estilos como Muay Thai y la Lucha Libre tienen cajas de colisión (hitboxes) y animaciones que se adaptan mejor a personajes más altos, proporcionando más alcance y rango efectivo en los ataques pesados."
+  },
+  {
+    question: "¿Es el estilo Kure mejor que la Lucha Libre?",
+    answer: "Actualmente, la Lucha Libre se considera ligeramente mejor para uso general debido a su hiperarmadura. Kure es divertido y tiene un gran daño con salud baja, pero su falta de resistencia a las interrupciones lo hace más difícil de usar."
+  },
+  {
+    question: "¿Cómo me enfrento a los usuarios de Boxeo?",
+    answer: "Dado que el primer golpe de su combo pesado es imparable, debes concentrarte en esquivar el ataque inicial. Una vez que fallen o esquives, quedan vulnerables a un contraataque antes de que conecten su segundo golpe."
+  }
+]} />
+
+<Callout type="tip" title="Veredicto final">
+Aunque los estilos Legendarios son prestigiosos, el meta de 2026 favorece enormemente al estilo Épico de Boxeo por su gran utilidad y ataques pesados imposibles de castigar. Concéntrate en dominar tus movimientos y el tiempo de desvío, independientemente del estilo que equipes.
+</Callout>
+
+</Section>

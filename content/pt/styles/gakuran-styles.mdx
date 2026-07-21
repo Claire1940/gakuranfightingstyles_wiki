@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Estilos Gakuran: Tier List 2026 e Guia de Mecânicas de Combate",
+  description: "Domine todos os estilos Gakuran com nosso guia de 2026. Compare estilos de luta Básicos, Raros, Épicos e Lendários para dominar a arena com as melhores builds.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gakuran+Fighting+Styles",
+  date: "2026-07-21",
+  author: "Equipe da Wiki Gakuran"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Estilos Gakuran** são categorizados em quatro raridades: Comum, Raro, Épico e Lendário, cada um oferecendo vantagens únicas.
+- **Boxe** continua sendo a escolha dominante do meta em 2026 devido aos seus i-frames (frames de invencibilidade) em ataques pesados.
+- **Muay Thai** é o estilo Raro mais eficaz, proporcionando dano de postura superior e efeitos de sangramento.
+- **Altura da Build** impacta significativamente a eficácia do estilo; builds mais altas favorecem Wrestling, enquanto builds mais baixas se destacam com os estilos Básico ou Hakari.
+- **Wrestling** é a principal escolha Lendária para controle de grupo e agarrões assistidos por hiper-armadura.
+</Callout>
+
+<Section icon={Map} title="Visão Geral e Mecânicas dos Estilos Gakuran">
+
+Compreender a hierarquia das técnicas de luta é o primeiro passo para a maestria na arena. Os estilos Gakuran não são meramente cosméticos; eles ditam seus dados de frame, saída de dano e capacidades defensivas. Cada estilo pertence a um nível de raridade específico, que geralmente se correlaciona com a complexidade e o poder de suas vantagens. No entanto, raridade nem sempre equivale a utilidade, já que alguns estilos Épicos superam atualmente os Lendários no meta de 2026.
+
+**Destaques do Vídeo:**
+- Detalhamento de todos os níveis de raridade, do Comum ao Lendário.
+- Análise das mecânicas de cabeçada do novo estilo Kure e buffs baseados em vida.
+- Comparação da qualidade da animação e aplicação prática no PvP.
+- Insights sobre sinergias específicas de build para personagens baixos e altos.
+
+<YouTubeEmbed videoId="wjW8pg9Zx50" title="Mostrando TODOS os estilos de luta em GAKURAN" />
+
+O sistema de combate depende fortemente do gerenciamento de postura. Parries perfeitos, ataques pesados e dano de raspão (chip damage) são os pilares do jogo de alto nível. Escolher um estilo que complemente sua velocidade de reação pessoal e a build do personagem é mais importante do que simplesmente buscar a raridade mais alta.
+
+| Raridade | Nome do Estilo | Benefício Principal | Teto de Habilidade |
+| :--- | :--- | :--- | :--- |
+| **Comum** | Básico | Recuperação rápida de postura, dano de raspão | Moderado |
+| **Raro** | Muay Thai | Dano de postura, sangramento, agarrão | Alto |
+| **Raro** | Caratê | Ataques pesados com ragdoll, reembolso de postura | Baixo |
+| **Épico** | Boxe | I-frames, primeiros golpes não paráveis | Muito Alto |
+| **Épico** | Hakari | Momentum de dano pesado 3x | Alto |
+| **Lendário** | Wrestling | Hiper-armadura, controle de grupo | Alto |
+| **Lendário** | Capoeira | Movimentação, redução de cooldown do dash | Moderado |
+
+<Callout type="tip" title="Sinergia de Build">
+Sempre combine seu estilo com a altura do seu personagem. Builds mais altas se beneficiam do alcance do Wrestling e Muay Thai, enquanto builds mais baixas utilizam a velocidade do Hakari e estilos Básicos de forma mais eficaz.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Análise de Estilos de Raridade Rara">
+
+O nível Raro é onde a maioria dos jogadores começa sua jornada competitiva. Embora esses estilos sejam mais fáceis de obter do que as variantes Épicas ou Lendárias, a diferença de desempenho entre eles é substancial. No cenário atual de 2026, o Muay Thai se destaca como o rei indiscutível deste nível, oferecendo uma utilidade que rivaliza com opções de raridade superior.
+
+O Muay Thai foca na pressão agressiva. Cada golpe causa dano de postura, tornando-o um pesadelo para jogadores defensivos. Além disso, a chance de 55% de entrar em um agarrão durante trocas de M1 fornece uma mecânica híbrida defensiva-ofensiva única que pode mudar o rumo de uma partida. Em contraste, o Caratê é frequentemente visto como o estilo mais esquecível devido às suas animações sem brilho, apesar de sua capacidade de aplicar ragdoll em inimigos com ataques pesados.
+
+| Estilo | Efeito do Ataque Pesado | Utilidade de Guarda | Qualidade da Animação |
+| :--- | :--- | :--- | :--- |
+| **Muay Thai** | Ragdoll em inimigos | 30% Sangramento através da guarda | Excelente |
+| **Caratê** | Ragdoll em inimigos | Sangramento através da guarda | Ruim |
+| **Slugger** | Dano alto | 10% de dano extra recebido | Muito Ruim |
+
+<CardGrid cols={3}>
+  <Card title="Foco no Muay Thai">
+    - **Estilo de jogo agressivo**
+    - Alta pressão de postura
+    - Melhor para builds altas
+  </Card>
+  <Card title="Utilidade do Caratê">
+    - **Regeneração de postura defensiva**
+    - Mecânicas simples
+    - Animações esquecíveis
+  </Card>
+  <Card title="Risco do Slugger">
+    - **Boost de 25% de dano**
+    - Alta vulnerabilidade
+    - Não recomendado para PvP
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Evite o Slugger">
+O Slugger é atualmente considerado o estilo mais fraco do jogo. A penalidade de 10% de dano extra recebido supera em muito o bônus de 25% de dano, especialmente em partidas de alto nível onde cada ponto de vida conta.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Nível Épico: O Meta Competitivo">
+
+O nível Épico contém o que muitos consideram os melhores estilos gerais em Gakuran. O Boxe, em particular, definiu o meta competitivo por meses. Sua característica marcante é a inclusão de i-frames (frames de invencibilidade) em ataques pesados, permitindo que os jogadores golpeiem através do dano recebido sem serem interrompidos.
+
+O Hakari oferece um estilo de jogo diferente, mas igualmente potente. Ele gira em torno da vantagem "Momentum". Ao acertar um combo M1 completo, seu ataque pesado subsequente causa o triplo de dano. Isso torna o Hakari a escolha ideal para jogadores que gostam de uma jogabilidade de alto risco e alta recompensa, com animações chamativas e fluidas.
+
+| Estilo | Mecânica Única | Melhor Build | Potencial de Combo |
+| :--- | :--- | :--- | :--- |
+| **Boxe** | I-frames no pesado | Universal | Alto |
+| **Hakari** | Momentum de Dano 3x | Curta/Média | Muito Alto |
+
+<Steps>
+  <Step num="1" title="Iniciar Combo M1">
+    Comece com uma sequência padrão de ataques leves para acumular momentum ou forçar uma guarda.
+  </Step>
+  <Step num="2" title="Identificar Aberturas">
+    Para o Boxe, use o ataque pesado para trocar golpes com o inimigo. Para o Hakari, espere o buff de momentum brilhar.
+  </Step>
+  <Step num="3" title="Executar Finalizador Pesado">
+    Solte o ataque pesado. O Boxe fornece um combo de dois socos difícil de parrear, enquanto o Hakari entrega um ragdoll massivo de golpe único.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Maestria no Boxe">
+O primeiro soco do combo de ataque pesado do Boxe não pode ser parreado. Use isso para induzir os oponentes a esquivarem e, em seguida, pegue-os com o segundo golpe ou uma sequência de M1.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estilos Lendários e a Nova Técnica Kure">
+
+Os estilos Lendários representam o auge da raridade, oferecendo mecânicas especializadas que podem dominar cenários específicos. O Wrestling é uma potência para controle de grupo, apresentando hiper-armadura em ataques de agarrão. Isso significa que, uma vez iniciada a animação de agarrão, ela não pode ser interrompida por interferência externa, tornando-o letal em lutas de equipe ou arenas lotadas.
+
+A adição mais recente, o estilo Kure, introduz um brutal ataque pesado de cabeçada. Este movimento aplica ragdoll nos inimigos e aplica um "parry lock" por dois segundos, impedindo a vítima de se defender contra ataques subsequentes. Embora atualmente prejudicado por alguns bugs de animação na versão de 2026, seu potencial para viradas com vida baixa é inigualável devido ao aumento de 15% no dano total quando abaixo de 25% de vida.
+
+| Estilo | Controle de Grupo | Vantagem Especial | Alcance |
+| :--- | :--- | :--- | :--- |
+| **Wrestling** | Excelente | Hiper-armadura em agarrões | Médio |
+| **Capoeira** | Bom | Redução de cooldown do dash | Longo |
+| **Kure** | Moderado | Parry lock de 2s | Curto |
+
+<Checklist
+  id="legendary-goals"
+  title="Dominando Estilos Lendários:"
+  items={[
+    "Pratique o tempo do agarrão para a hiper-armadura do Wrestling",
+    "Utilize o buff de dash da Capoeira para reposicionamento",
+    "Domine o alcance da cabeçada Kure para o parry lock",
+    "Monitore os limiares de vida para o buff de dano do Kure"
+  ]}
+/>
+
+<Callout type="info" title="Nota sobre o Alcance do Kure">
+O ataque pesado do estilo Kure tem um alcance significativamente menor que o do Wrestling. Você deve estar à queima-roupa para acertar a cabeçada com sucesso, tornando-a uma manobra de alto risco contra builds de zoneamento.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Escolhendo o Estilo Certo para sua Build">
+
+Finalizar sua build requer uma compreensão profunda de como os atributos físicos do seu personagem interagem com as animações do estilo. A altura é o fator mais crítico em Gakuran. Personagens mais altos têm maior alcance de membros, o que sinergiza perfeitamente com estilos que possuem animações de balanço amplo ou mecânicas de agarrão.
+
+Por outro lado, builds mais baixas têm hitboxes menores e frequentemente se beneficiam de estilos com frames de recuperação rápidos. O estilo de luta Básico, apesar de sua raridade Comum, continua sendo uma escolha viável para builds baixas devido à sua recuperação de postura superior e contra-ataques rápidos.
+
+| Tipo de Build | Estilos Recomendados | Atributo Prioritário |
+| :--- | :--- | :--- |
+| **Baixa** | Básico, Hakari, Boxe | Velocidade / Postura |
+| **Média** | Boxe, Hakari, Capoeira | Versatilidade |
+| **Alta** | Wrestling, Muay Thai, Kure | Alcance / Poder |
+
+<CardGrid cols={2}>
+  <Card title="A Build Agressora">
+    - **Estilo**: Muay Thai ou Wrestling
+    - **Estratégia**: Pressão constante e agarrões
+    - **Atributo Chave**: Dano de Postura
+  </Card>
+  <Card title="A Build Técnica">
+    - **Estilo**: Boxe ou Hakari
+    - **Estratégia**: Contra-ataques e trocas com i-frames
+    - **Atributo Chave**: Tempo de Parry Perfeito
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Veredito Final">
+Se você está procurando o desempenho mais consistente no meta atual, foque no **Boxe**. Ele oferece o melhor equilíbrio defensivo e ofensivo, independentemente da altura da sua build.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual estilo Gakuran é melhor para iniciantes?",
+    answer: "O estilo Básico é surpreendentemente eficaz para iniciantes porque oferece recuperação de postura mais rápida e animações simples. No entanto, se você conseguir obtê-lo, o Muay Thai é o melhor estilo Raro para aprender logo cedo."
+  },
+  {
+    question: "É possível parrear o ataque pesado do Boxe?",
+    answer: "O primeiro soco do ataque pesado do Boxe não pode ser parreado; você deve receber o dano ou esquivar. O segundo soco no combo pode ser parreado se o tempo for calculado corretamente."
+  },
+  {
+    question: "O que torna o estilo Kure único na atualização de 2026?",
+    answer: "O estilo Kure apresenta uma cabeçada que impede os inimigos de parrear por 2 segundos e fornece um aumento de 15% no dano quando sua vida cai abaixo de 25%."
+  },
+  {
+    question: "Vale a pena usar o Slugger pelo dano extra?",
+    answer: "Geralmente, não. O aumento de 25% no dano é compensado por um aumento de 10% no dano recebido e animações ruins, tornando-o muito difícil de usar de forma eficaz no jogo competitivo."
+  }
+]} />
+
+</Section>

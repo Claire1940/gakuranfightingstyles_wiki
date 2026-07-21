@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Controles de Teclado de Gakuran: Configuración de Combate y Movimiento Paso a Paso",
+  description: "Domina los controles de teclado de Gakuran con nuestra guía de 2026. Aprende movimiento, paradas y combos de combate para dominar la arena de Roblox.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gakuran+Keyboard+Controls",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Gakuran",
+  keywords: "controles de Gakuran, controles de teclado, combate de Gakuran, guía de Roblox"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Conceptos Básicos de Movimiento**: Usa **WASD** para el movimiento direccional y mantén presionado **Shift** para esprintar y lograr un mejor posicionamiento.
+- **Núcleo del Combate**: Domina el **Clic Izquierdo** para combos básicos y **R** para ataques pesados que rompan las defensas enemigas.
+- **Maestría Defensiva**: Usa **Q** para esquivar (dash) y sincroniza la tecla **F** para realizar paradas (parries) que aturdan a tus oponentes.
+- **Cámara Avanzada**: Activa **Control** para usar el Bloqueo de Mayúsculas (Shift Lock) y mejorar la puntería y la fluidez de la cámara durante combates a alta velocidad.
+- **Interacción**: Usa **V** para cargar y **B** para ejecutar a enemigos derribados y asegurar tu victoria.
+</Callout>
+
+<Section icon={Map} title="Dominando el Movimiento y la Orientación de la Cámara">
+
+Navegar por el mundo de Gakuran requiere algo más que simplemente caminar. En el meta de 2026, el movimiento es la base de cada encuentro exitoso. Ya sea que estés persiguiendo a un rival o escapando de una emboscada (gank) peligrosa, tu habilidad para manipular la posición de tu personaje determinará tu tasa de supervivencia. El diseño predeterminado está pensado para ser accesible, pero el verdadero dominio proviene de comprender la sinergia entre esprintar, esquivar y bloquear la cámara.
+
+**Puntos Clave del Video:**
+- Desglose detallado del movimiento con **WASD** y las mecánicas de esprintar con **Shift**.
+- Cómo usar el deslizamiento (dash) con **Q** tanto para acortar distancias de forma ofensiva como para la evasión defensiva.
+- La importancia de **Control** (Shift Lock) para apuntar con precisión en el combate.
+- Consejos para combinar las teclas de movimiento y mantener el impulso durante persecuciones largas.
+
+<YouTubeEmbed videoId="BX-QZUG--zI" title="Guía Completa de Controles de GAKURAN Roblox" />
+
+| Tecla | Acción | Uso Primario | Impacto en el Juego |
+| :--- | :--- | :--- | :--- |
+| **W, A, S, D** | Movimiento | Navegación básica | Fundamental para todo el posicionamiento del personaje |
+| **Shift** | Esprintar | Desplazarse y perseguir | Aumenta la velocidad pero reduce el tiempo de reacción para algunas habilidades |
+| **Q** | Deslizarse (Dash) | Esquivar y acortar distancias | Esencial para evitar ataques pesados y reposicionarse |
+| **Control** | Shift Lock | Orientación de la cámara | Bloquea la cámara al cursor para apuntar mejor las habilidades |
+| **Alt** | Teléfono | Interacción con la IU | Acceder a menús fuera de combate y funciones sociales |
+
+<Callout type="tip" title="Consejo de Movimiento">
+Mantén siempre activado el **Shift Lock** (Control) durante los duelos 1v1. Te permite rodear a tu oponente mientras mantienes tus ataques centrados, haciendo que sea mucho más difícil para ellos encontrar una apertura en tu punto ciego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate y Comandos Ofensivos">
+
+El sistema de combate en Gakuran es visceral y recompensa a los jugadores que logran encadenar sus comandos de manera efectiva. A diferencia de los juegos de clics simples, Gakuran requiere una combinación de ataques ligeros y pesados para superar las diversas capas defensivas de tus oponentes. Comprender los datos de fotogramas (frame data), o al menos la "sensación" de tus ataques, es vital para el juego de alto nivel en 2026.
+
+| Tipo de Ataque | Comando | Velocidad | Daño | Uso Estratégico |
+| :--- | :--- | :--- | :--- | :--- |
+| **Ataque Básico** | Clic Izquierdo | Rápido | Moderado | Fuente principal de daño, usado para combos estándar |
+| **Ataque Pesado** | **R** | Lento | Alto | Romper bloqueos e interrumpir el ritmo del enemigo |
+| **Habilidad de Estilo** | **T** | Variable | Masivo | Finalizar combos o aplicar efectos de estado |
+| **Ejecución** | **B** | Estático | Letal | Acabar con jugadores derribados para evitar su recuperación |
+
+<Steps>
+  <Step num="1" title="Iniciar con Ataques Ligeros">
+    Comienza tu enfrentamiento con una serie de Clics Izquierdos. Estos son rápidos y difíciles de reaccionar, lo que te permite "probar" la defensa de tu oponente.
+  </Step>
+  <Step num="2" title="Mezclar Ataques Pesados">
+    Si tu oponente mantiene su bloqueo, presiona **R**. El ataque pesado está diseñado para castigar el juego pasivo y, a menudo, puede provocar una ruptura de guardia.
+  </Step>
+  <Step num="3" title="Desplegar Habilidades de Estilo de Lucha">
+    Una vez que hayas conectado con éxito algunos golpes, usa **T** para activar tu habilidad específica de estilo de lucha. Estas suelen tener tiempos de recarga más largos, pero infligen un daño de ráfaga significativo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia de Combate">
+No lances la habilidad **T** al azar. Debido a que estas habilidades suelen tener animaciones largas, fallar una te deja completamente vulnerable a un contraataque que podría costarte la partida entera.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategias Defensivas y Sincronización de Paradas">
+
+En Gakuran, la defensa es tan importante como el ataque. Un jugador que solo sabe atacar será desmantelado rápidamente por alguien que entienda el uso de la tecla **F**. La distinción entre un bloqueo simple y una parada (parry) perfecta es lo que separa a los principiantes de los jugadores de élite en las clasificaciones de 2026.
+
+<CardGrid cols={2}>
+  <Card title="El Bloqueo Estándar (Mantener F)">
+    - **Pros**: Reduce significativamente el daño entrante y evita el tambaleo (flinching).
+    - **Contras**: Puede ser roto por ataques pesados (R) y te deja inmóvil.
+    - **Ideal para**: Absorber cadenas rápidas de ataques ligeros de bajo daño.
+  </Card>
+  <Card title="La Parada Perfecta (Sincronizar F)">
+    - **Pros**: Niega completamente el daño y aturde al atacante.
+    - **Contras**: Requiere una sincronización precisa; fallar te deja completamente vulnerable.
+    - **Ideal para**: Contrarrestar ataques pesados predecibles y habilidades de estilo.
+  </Card>
+</CardGrid>
+
+| Acción Defensiva | Nivel de Riesgo | Techo de Habilidad | Recompensa |
+| :--- | :--- | :--- | :--- |
+| **Mantener Bloqueo** | Bajo | Bajo | Reducción de daño |
+| **Parada Sincronizada** | Alto | Alto | Apertura instantánea para contraataque |
+| **Deslizarse (Q)** | Moderado | Moderado | Reposicionamiento/evasión completa |
+| **Retroceder** | Muy Bajo | Bajo | Crear espacio para tiempos de recarga |
+
+<Callout type="success" title="Maestría en Paradas">
+La mejor manera de practicar las paradas es observar los hombros del oponente. La mayoría de las animaciones de ataques pesados en Gakuran tienen una fase de preparación (wind-up) muy clara. Presiona **F** justo cuando su arma o puño comience a moverse hacia adelante para activar la parada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Controles de Interacción y Utilidad">
+
+Más allá del calor de la batalla, Gakuran cuenta con varias teclas de utilidad que son esenciales para el juego en equipo y la interacción con el mundo. Gestionar a los jugadores derribados y utilizar tu teléfono para la navegación son habilidades secundarias pero necesarias para cualquier aspirante a jugador de primer nivel.
+
+<Steps>
+  <Step num="1" title="Derribar al Oponente">
+    Reduce la salud del enemigo a cero usando tus combos de combate. Entrará en un estado "derribado" donde podrá arrastrarse pero no atacar.
+  </Step>
+  <Step num="2" title="Gestionar el Cuerpo">
+    Presiona **V** para cargar a un jugador derribado. Esto es útil para alejar a los enemigos de sus compañeros de equipo o llevarlos a un lugar específico para su ejecución.
+  </Step>
+  <Step num="3" title="El Golpe Final">
+    Presiona **B** cerca de un jugador derribado para ejecutarlo. Esto lo elimina de la pelea de forma permanente (hasta que reaparezca), asegurando que no pueda ser revivido por sus aliados.
+  </Step>
+</Steps>
+
+| Tecla de Utilidad | Función | Contexto |
+| :--- | :--- | :--- |
+| **V** | Cargar | Se usa en jugadores derribados para transportarlos |
+| **B** | Ejecutar | Se usa para rematar a jugadores derribados |
+| **Alt** | Teléfono | Se usa para menús, mapas y funciones sociales |
+| **/ (Barra)** | Chat | Comunicación estándar de Roblox |
+
+<Callout type="info" title="Consejo de Interacción Pro">
+Si estás jugando en equipo, ten siempre a alguien listo para presionar **V** y mover a un enemigo derribado. Esto evita que el equipo contrario use sus propias habilidades de utilidad para proteger a su compañero caído.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Optimizando tu Esquema de Controles">
+
+Para sobresalir de verdad en Gakuran, debes asegurarte de que la configuración de tu hardware y software esté optimizada. Aunque los controles de teclado predeterminados son sólidos, pequeños ajustes en tu estilo de juego pueden marcar una gran diferencia en tu tiempo de reacción y rendimiento general.
+
+<Checklist
+  id="control-optimization"
+  title="Lista de verificación de optimización de controles:"
+  items={[
+    "Activa el Shift Lock en el menú de configuración de Roblox",
+    "Practica el 'Dash-Cancel' (cancelación de deslizamiento) presionando Q durante la preparación de un ataque",
+    "Asigna los botones laterales de tu mouse a T o R si es posible para un acceso más rápido",
+    "Prueba tu latencia de paradas (parry) en un servidor con ping bajo",
+    "Memoriza el rango de ejecución (B) para evitar perder el aviso en pantalla"
+  ]}
+/>
+
+<Callout type="tip" title="Estrategia de Latencia">
+En 2026, el ping de red es el mayor enemigo de la parada. Si juegas en un servidor con alta latencia, confía más en **Q** (deslizarse) para evadir en lugar de intentar sincronizar paradas perfectas, ya que el margen de tiempo será inconsistente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo soluciono el problema si mi cámara se queda atascada en Gakuran?",
+    answer: "La mayoría de los problemas de cámara son causados por el Shift Lock. Presiona la tecla Control para restablecer la orientación de la cámara. Si eso falla, acerca y aleja el zoom por completo usando la rueda de desplazamiento del mouse."
+  },
+  {
+    question: "¿Puedo cambiar los controles de teclado de Gakuran?",
+    answer: "A partir de 2026, el juego utiliza un esquema de controles fijo para mantener el equilibrio. Sin embargo, puedes usar software de terceros para mouse para remapear teclas como R, T o F a los botones de tu mouse para un acceso más sencillo."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de viajar en Gakuran?",
+    answer: "El método de movimiento más rápido es una combinación de esprintar (Shift) y deslizarse rítmicamente (Q). Sincroniza tus deslizamientos para que ocurran justo cuando el impulso del deslizamiento anterior comience a desvanecerse."
+  },
+  {
+    question: "¿Por qué mi bloqueo (F) se rompe constantemente?",
+    answer: "Es probable que tu bloqueo esté siendo golpeado por un ataque pesado (R) o una habilidad de estilo que rompe la guardia (T). Para evitar esto, no mantengas el bloqueo indefinidamente; en su lugar, usa Q para deslizarse y esquivar los ataques pesados."
+  }
+]} />
+
+</Section>

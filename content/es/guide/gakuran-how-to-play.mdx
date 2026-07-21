@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gakuran cómo jugar: Guía para principiantes de 2026 y consejos profesionales",
+  description: "Domina los conceptos básicos de Gakuran con nuestra guía de 2026. Aprende sobre estilos de pelea, estadísticas de personajes, mecánicas de altura y combos de combate esenciales.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gakuran+How+To+Play",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Gakuran"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Gakuran cómo jugar**: Únete al grupo oficial primero para obtener acceso al mundo del juego.
+- **Alternar combate**: Presiona **T** para ingresar al modo de combate; sin esto, no podrás atacar ni defenderte.
+- **Meta de altura**: Los personajes más altos obtienen un alcance superior, mientras que los más bajos se benefician de una mayor energía (stamina).
+- **Mejor estilo**: Actualmente se considera que **Akari** es el estilo de pelea más fuerte cuando se combina con un personaje alto.
+- **Combo esencial**: Usa dos ataques M1 seguidos de un **Crítico** para romper la guardia del enemigo y evitar paradas (parries) fáciles.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos en Gakuran">
+
+Entrar al mundo de Gakuran requiere más que simplemente hacer clic en el botón de jugar. Al ser un juego de rol de pelea (RP) impulsado por la comunidad, los desarrolladores han implementado requisitos de entrada específicos y reglas iniciales para garantizar una experiencia de calidad para todos los jugadores. Antes de que puedas explorar los terrenos de la escuela o participar en peleas callejeras, debes verificar tu estado dentro del ecosistema del juego.
+
+**Puntos destacados del video:**
+- Instrucciones paso a paso sobre cómo unirse al grupo oficial para acceder al juego.
+- Cómo navegar por la zona de aparición (spawn) inicial y encontrar la salida al patio principal.
+- Resumen de las mecánicas de chat de voz (VC) y las reglas de interacción social.
+- Introducción al menú de estadísticas del personaje y navegación básica de la interfaz de usuario.
+
+<YouTubeEmbed videoId="c3ckm0hcGo8" title="[Gakuran] La guía tutorial COMPLETA para principiantes (Estilo de pelea, consejos y más)" />
+
+Una vez que cargues el juego, se te presentará un conjunto de avisos importantes. Es obligatorio hacer clic en **I Understand** (Entiendo) para aceptar las reglas del juego. Si no puedes unirte al servidor, asegúrate de haberte unido al grupo oficial de Roblox asociado con el juego, ya que este es un filtro común para los nuevos jugadores.
+
+| Acción | Control/Requisito | Descripción |
+| :--- | :--- | :--- |
+| **Unirse al juego** | Miembro del grupo | Debes ser miembro del grupo de desarrolladores para jugar |
+| **Salir del spawn** | Escalera | Baja las escaleras desde la sala de aparición para llegar al área principal |
+| **Alternar combate** | Tecla T | Activa o desactiva tu capacidad para pelear |
+| **Abrir teléfono** | Tecla Alt / M | Accede al centro social y de minijuegos |
+| **Parada (Parry)** | Tecla F | Bloqueo sincronizado para desviar los ataques entrantes |
+
+<Callout type="warning" title="Requisito de acceso">
+Muchos jugadores informan que no pueden unirse al mundo del juego. Esto casi siempre se debe a que no se han unido al grupo oficial. Verifica siempre el estado de tu grupo antes de intentar cargar una sesión.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estadísticas del personaje y mecánicas de altura">
+
+Las características físicas de tu personaje en Gakuran no son puramente cosméticas; influyen directamente en tu eficiencia de combate y estilo de juego. Cuando abras tu menú de estadísticas a través de la flecha en el lado izquierdo de la pantalla, verás detalles sobre tu género, edad, altura y origen étnico. 
+
+La relación entre el origen étnico y la altura es una mecánica central. Ciertos orígenes étnicos tienen un mayor porcentaje de probabilidad de dar como resultado un personaje más alto. Esto crea una capa estratégica durante la creación del personaje o al usar Robux para restablecer (reroll) tus atributos.
+
+<CardGrid cols={2}>
+  <Card title="La complexión alta">
+    - **Mayor alcance**: Las extremidades más largas te permiten golpear a los enemigos desde más lejos.
+    - **Sinergia con Akari**: Funciona excepcionalmente bien con el estilo de pelea Akari.
+    - **Dominio visual**: Es más fácil ver por encima de las multitudes en situaciones de RP.
+  </Card>
+  <Card title="La complexión baja">
+    - **Aumento de energía (Stamina)**: Los personajes más cortos generalmente poseen una mayor reserva de energía.
+    - **Enfoque en agilidad**: Mejor para los jugadores que prefieren esquivar y deslizarse con frecuencia.
+    - **Más difícil de golpear**: Una caja de colisión (hitbox) más pequeña puede hacer que los oponentes fallen ocasionalmente.
+  </Card>
+</CardGrid>
+
+| Atributo | Impacto en el juego | Costo de restablecer (Reroll) |
+| :--- | :--- | :--- |
+| **Altura** | Equilibrio entre alcance y energía | Requiere Robux |
+| **Origen étnico** | Influye en el potencial de altura base | Requiere Robux |
+| **Rostro/Accesorios** | Apariencia puramente cosmética | Requiere Robux |
+| **Género** | Identificación para RP social | Requiere Robux |
+
+<Callout type="tip" title="Consejo de optimización">
+Si buscas una ventaja competitiva, prioriza la altura. El alcance adicional en un juego de pelea a menudo supera los beneficios de energía de ser más bajo, especialmente en el meta actual.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estilos de pelea y rarezas">
+
+El corazón de Gakuran reside en sus diversos estilos de pelea. Cada estilo viene con ventajas y animaciones únicas que dictan cómo abordas un duelo. Los estilos se categorizan por rareza, que va desde Común hasta Raro. Actualmente, el meta favorece en gran medida los estilos que complementan la altura y el alcance del personaje.
+
+Los estilos de pelea disponibles incluyen:
+- **Muay Thai**: Centrado en golpes potentes y combinaciones de rodilla/codo.
+- **Akari**: El estilo de nivel superior actual, que ofrece un excelente flujo y daño.
+- **Karate**: Un estilo equilibrado con golpes disciplinados.
+- **Wrestling (Lucha)**: Centrado en agarres y dominio a corta distancia.
+- **Boxing (Boxeo)**: Puñetazos de alta velocidad con un enfoque en el movimiento de la parte superior del cuerpo.
+- **Basic (Básico)**: El estilo inicial para todos los nuevos jugadores.
+
+| Estilo de pelea | Rareza | Fuerza principal |
+| :--- | :--- | :--- |
+| **Akari** | Raro | El mejor alcance general y potencial de combo |
+| **Muay Thai** | Poco común | Alto daño de impacto por golpe |
+| **Boxing** | Poco común | Velocidad rápida de M1 y recuperación rápida |
+| **Wrestling** | Poco común | Fuertes capacidades para romper la guardia |
+| **Karate** | Común | Confiable y fácil de aprender para principiantes |
+
+<Steps>
+  <Step num="1" title="Verifica tu estilo actual">
+    Abre tu menú de estadísticas y navega a la segunda página para ver tu estilo de pelea equipado.
+  </Step>
+  <Step num="2" title="Revisa las ventajas">
+    Haz clic en **Show Perks** (Mostrar ventajas) para comprender las mejoras y habilidades específicas que proporciona tu estilo.
+  </Step>
+  <Step num="3" title="Restablecer (Opcional)">
+    Si estás atascado con el estilo Básico, usa la mecánica de restablecer (reroll) para intentar obtener Akari o Muay Thai para un mejor rendimiento.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Combo Meta">
+Combinar el estilo de pelea **Akari** con un personaje **Alto** se considera ampliamente la build de "Nivel Dios" para 2026. Esta combinación maximiza tu alcance, permitiéndote conectar golpes antes de que tu oponente pueda siquiera acercarse.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maestría en combate y técnicas">
+
+Para tener éxito en Gakuran, debes ir más allá de simplemente presionar botones al azar. El sistema de combate premia la sincronización, el posicionamiento (spacing) y la guerra psicológica. Comprender el ciclo de "Parada-Combo" es esencial para sobrevivir a los encuentros con jugadores veteranos.
+
+**El arte de la parada (Parry)**
+La parada se realiza presionando **F** justo antes de que conecte el golpe de un oponente. Una parada exitosa deja al atacante vulnerable durante una breve ventana de tiempo, lo que te permite comenzar tu propio combo. No mantengas presionado el botón de bloqueo indefinidamente, ya que tu guardia puede romperse con ataques pesados o combos específicos.
+
+**Cadenas de combos avanzadas**
+Un error común entre los nuevos jugadores es spamear el botón M1 (clic izquierdo). Esto hace que tus ataques sean predecibles y fáciles de parar. En su lugar, utiliza las siguientes técnicas:
+- **El 1-2-Crítico**: Golpea M1 dos veces, luego sigue inmediatamente con un ataque Crítico. Esto a menudo sorprende a los jugadores que esperan para parar el tercer golpe de M1.
+- **Deslizarse / Esquivar (Q)**: Usa la tecla Q para deslizarse hacia atrás o hacia los lados. Esto es vital para restablecer tu posición si tu parada falla.
+- **Distanciamiento (Spacing)**: Mantén una ligera distancia entre tú y el oponente. Solo cierra la brecha cuando estés listo para iniciar un golpe.
+
+| Técnica | Entrada | Uso estratégico |
+| :--- | :--- | :--- |
+| **Spamear M1** | Clic izquierdo | Úsalo solo contra enemigos con la guardia rota o aturdidos |
+| **Crítico** | Variante | Se usa para romper guardias y terminar combos |
+| **Deslizarse (Dash)** | Tecla Q | Esencial para esquivar y cerrar distancias |
+| **Ataque en carrera** | Shift + M1 | Bueno para iniciar una pelea desde la distancia |
+
+<Callout type="warning" title="Estrategia antiparada">
+Si notas que tu oponente lo para todo, detén tu combo después del primer golpe y deslízate para alejarte. Esto restablece el "ritmo" de la pelea y evita que consigan un contraataque gratuito contra ti.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="El sistema telefónico y características sociales">
+
+Gakuran es tanto una experiencia social como un juego de pelea. Los desarrolladores han incluido un "juego dentro del juego" muy detallado a través de la interfaz del teléfono inteligente. Al presionar **Alt** o **M**, puedes sacar tu dispositivo e interactuar con varias aplicaciones.
+
+**Funcionalidades del teléfono:**
+- **Contactos y llamadas**: Llama a tus amigos o jugadores recientes para coordinar encuentros o desafíos.
+- **Minijuegos**: El teléfono cuenta con juegos reales jugables con los que puedes entretenerte mientras esperas a tus amigos o descansas entre peleas.
+- **Ajustes**: Ajusta tus preferencias personales y visibilidad social.
+
+Más allá del teléfono, el entorno escolar ofrece varias zonas interactivas:
+- **El salón de música**: Ubicado dentro del edificio principal, puedes encontrar un piano y una guitarra. Presiona **G** para interactuar con el piano, lo que activa un minijuego basado en el ritmo similar a los títulos de música populares.
+- **La cancha de baloncesto**: Aunque ocasionalmente sufre errores de mapa, la cancha permite a los jugadores recoger balones y practicar tiros presionando **F**.
+- **Servidores de RP**: Aunque los servidores públicos suelen ser caóticos, los servidores dedicados de juego de rol (RP) proporcionan un entorno más estructurado para aquellos que desean centrarse en el aspecto de la "vida estudiantil" del juego.
+
+<Checklist
+  id="beginner-goals"
+  title="Lista de verificación para nuevos jugadores:"
+  items={[
+    "Únete al grupo oficial de desarrolladores para tener acceso",
+    "Alterna el modo de combate con la tecla T",
+    "Practica las paradas con un amigo o NPC",
+    "Restablece para obtener un estilo de pelea que no sea el Básico",
+    "Explora el salón de música y prueba el minijuego de piano"
+  ]}
+/>
+
+<Callout type="info" title="Aviso de renovación del mapa">
+Los desarrolladores están trabajando actualmente en una importante renovación del mapa para 2026. Algunas áreas de la ciudad exterior pueden estar temporalmente cerradas o restringidas a medida que realizan la transición al nuevo diseño. Mantente atento al grupo oficial para recibir actualizaciones.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo juego a Gakuran si el botón de unirse está deshabilitado?",
+    answer: "Debes unirte al grupo oficial de Roblox creado por los desarrolladores del juego. Una vez que seas miembro, el juego te permitirá ingresar a los servidores."
+  },
+  {
+    question: "¿Cuál es el mejor estilo de pelea para principiantes?",
+    answer: "Aunque Akari es el meta, el Boxeo (Boxing) y el Kárate (Karate) son excelentes para principiantes debido a sus animaciones sencillas y velocidad confiable."
+  },
+  {
+    question: "¿Realmente importa tanto la altura en el combate?",
+    answer: "Sí. La altura determina tu alcance. En un juego donde las paradas y el distanciamiento son clave, tener extremidades más largas te brinda una ventaja significativa para conectar el primer golpe."
+  },
+  {
+    question: "¿Cómo dejo de ser parado por todos los oponentes?",
+    answer: "Deja de spamear M1. Usa el combo 1-2-Crítico o añade retrasos entre tus clics para desestabilizar la sincronización de tu oponente."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de PvP de Gakuran: Mecânicas de Combate e Classificação de Estilos de Luta",
+  description: "Domine o PvP de Gakuran com o nosso guia de 2026. Aprenda os controles de combate, explore a tier list de estilos de luta e descubra estratégias avançadas para batalhas escolares no Roblox.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/ff0000?text=Gakuran+PvP+Guide",
+  date: "2026-07-21",
+  author: "Equipe Wiki Gakuran",
+  keywords: "Gakuran, PvP, guia de combate, estilos de luta, Roblox, tier list"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de PvP de Gakuran**: O sucesso depende de dominar o sistema de combate escolar japonês temático de 2007 e a movimentação.
+- **Mecânica Principal**: O tempo preciso dos ataques M1 e M2 é mais importante do que esmagar botões.
+- **Melhor Estratégia**: Mantenha o espaçamento ideal e use as rotas de combo específicas do seu estilo de luta para pressionar os oponentes.
+- **Dica Crítica**: Nunca esgote sua estamina correndo ou esquivando-se desnecessariamente antes de um confronto.
+- **Melhor Escolha**: Os estilos de luta de Nível S (S-Tier) oferecem o melhor equilíbrio de velocidade, alcance e confiabilidade de combo para o jogo competitivo.
+</Callout>
+
+<Section icon={Swords} title="Controles de Combate Essenciais e Fundamentos">
+
+Dominar o **guia de pvp de gakuran** começa com uma compreensão profunda do esquema de controles. Ao contrário dos jogos comuns de esmagar botões, Gakuran exige comandos deliberados e consciência espacial. O sistema de combate é construído sobre uma base de ataques leves, golpes pesados e manobras defensivas que devem ser executadas com precisão de tempo.
+
+| Categoria | Comando | Ação | Uso |
+| :--- | :--- | :--- | :--- |
+| **Combate** | Botão Esquerdo do Mouse | Ataque Básico | Golpes corpo a corpo padrão para construção de combos |
+| **Combate** | Botão Direito do Mouse | Ação Secundária | Ataques pesados ou movimentos defensivos únicos |
+| **Movimentação** | W, A, S, D | Mover | Navegação básica e movimentação lateral (strafing) durante as lutas |
+| **Movimentação** | Shift | Correr | Reposicionamento rápido e gerenciamento de distância |
+| **Movimentação** | Espaço | Pular | Verticalidade e para evitar golpes de curto alcance |
+| **Interação** | E | Interagir | Interagir com NPCs ou objetos do cenário |
+| **Interface** | Tecla do Celular | Abrir Celular | Acesso a menus, progressão e configurações |
+
+O ritmo do combate é ditado pela sua habilidade de ler as animações de "inicialização" (startup) do oponente. Cada ataque tem uma breve janela onde pode ser contra-atacado ou evitado. No meta atual de 2026, os jogadores que se concentram em fundamentos defensivos geralmente superam aqueles que dependem apenas de estilos agressivos.
+
+<Callout type="tip" title="Dica de Mestre: Gerenciamento de Câmera">
+Sempre mantenha a sensibilidade do mouse em um nível que permita realizar um giro de 180 graus instantaneamente. Acompanhar um oponente que avança (dash) para trás de você é a diferença entre vencer e perder um confronto de alta velocidade.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tier List de Estilos de Luta e Avaliação">
+
+Nem todos os estilos de luta são criados iguais em Gakuran. O estilo escolhido define seu alcance, dano causado e potencial de combo. Avaliar esses estilos exige analisar sua consistência em vários confrontos, em vez de focar apenas nos números de dano bruto.
+
+<CardGrid cols={3}>
+  <Card title="Nível S (S-Tier - Elite)">
+    - **Iniciadores de Combo Confiáveis**
+    - Alto potencial de pressão
+    - Poucas fraquezas perceptíveis
+    - Excelentes opções de mobilidade
+  </Card>
+  <Card title="Nível A (A-Tier - Forte)">
+    - **Dano Consistente**
+    - Bom alcance e velocidade
+    - Pequenas exigências de execução
+    - Limitações fáceis de gerenciar
+  </Card>
+  <Card title="Nível B (B-Tier - Equilibrado)">
+    - **Forças Situacionais**
+    - Confiabilidade de combo moderada
+    - Desempenho equilibrado
+    - Requer conhecimento de confrontos (matchups)
+  </Card>
+</CardGrid>
+
+A tabela a seguir fornece um detalhamento de como os estilos são classificados com base no cenário competitivo de 2026. Use isso para determinar qual estilo se alinha ao seu estilo de jogo pessoal, quer você prefira táticas de "bater e correr" (hit-and-run) ou combate corpo a corpo de "tanque pesado" (heavy-tank).
+
+| Nível | Critérios de Avaliação | Ideal Para | Classificação de Desempenho |
+| :--- | :--- | :--- | :--- |
+| **S** | Alta consistência de combo e mobilidade | PvP Competitivo | ★★★★★ |
+| **A** | Ferramentas fortes com pequenas barreiras de tempo | Progressão geral | ★★★★☆ |
+| **B** | Dependente da habilidade do jogador e da situação | Aprender fundamentos | ★★★☆☆ |
+| **C** | Ataques mais lentos ou rotas difíceis | Partidas casuais | ★★☆☆☆ |
+| **D** | Limitações significativas de mobilidade | Desafios pessoais | ★☆☆☆☆ |
+
+<Callout type="warning" title="Aviso de Meta">
+Os estilos no Nível S frequentemente recebem ajustes de balanceamento. É altamente recomendável dominar pelo menos um estilo do Nível A como reserva para garantir que você continue competitivo, independentemente das mudanças nas atualizações.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas Avançadas de PvP e Defesa">
+
+Para realmente se destacar no **guia de pvp de gakuran**, você deve ir além dos ataques básicos e dominar a tríade defensiva: Bloqueio, Esquiva e Espaçamento. Essas mecânicas permitem anular o dano e criar janelas de contra-ataque ("punish") onde o oponente fica vulnerável.
+
+<Steps>
+  <Step num="1" title="Dominando o Bloqueio">
+    Segure o botão de defesa para mitigar o dano recebido. Observe sua barra de postura com atenção; se ela quebrar, você ficará atordoado e vulnerável a um combo completo.
+  </Step>
+  <Step num="2" title="Esquiva Reativa">
+    Use suas teclas de movimento em conjunto com avanços (dashes) para se esquivar de ataques pesados. Uma esquiva bem-sucedida geralmente o coloca na posição perfeita para um contra-ataque.
+  </Step>
+  <Step num="3" title="Espaçamento e Jogo de Pernas (Footsies)">
+    Mantenha uma distância onde você possa acertar o oponente, mas ele não possa acertar você. Esse "ponto ideal" varia dependendo do alcance do seu estilo de luta.
+  </Step>
+  <Step num="4" title="Execução de Combos">
+    Conecte seus ataques M1 a movimentos especiais ou finalizadores pesados. Pratique o tempo de execução em zonas seguras antes de tentar realizá-los em batalhas escolares de alto risco.
+  </Step>
+</Steps>
+
+| Ação Defensiva | Benefício Principal | Fator de Risco |
+| :--- | :--- | :--- |
+| **Bloqueio Estático** | Anula dano leve | Vulnerável a quebras de guarda |
+| **Aparo Perfeito (Parry)** | Atordoa o atacante | Requer tempo perfeito de frames |
+| **Recuo Rápido (Back Dash)** | Reinicia o jogo neutro | Consome muita estamina |
+| **Esquiva Lateral (Side Step)** | Cria aberturas para flanqueamento | Previsível se usado em excesso |
+
+<Callout type="info" title="Gerenciamento de Estamina">
+A estamina é o seu recurso mais valioso. Cada avanço e pulo a consome. Se você ficar sem estamina durante uma luta, perderá a capacidade de esquiva, tornando-se um alvo fácil para finalizadores de alto dano.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Progressão para Iniciantes e Conhecimento do Mapa">
+
+Começar sua jornada em Gakuran pode ser intimidador. O ambiente escolar japonês temático de 2007 está cheio de distritos variados, cada um servindo a um propósito específico para o crescimento do seu personagem. Navegar por essas áreas de forma eficiente permite que você se equipe e pratique antes de entrar no cenário competitivo de PvP.
+
+<Checklist
+  id="pvp-readiness"
+  title="Lista de Preparação para o PvP:"
+  items={[
+    "Conclua a configuração inicial do personagem e a seleção de identidade",
+    "Desbloqueie seu primeiro estilo de luta com um treinador ou atividade",
+    "Pratique combos básicos de M1/M2 nos bonecos de treino",
+    "Localize o pátio principal da escola para os hubs sociais e de combate",
+    "Identifique as zonas de cura ou recuperação mais próximas"
+  ]}
+/>
+
+Entender o mapa é crucial para recuos táticos ou para encontrar terrenos vantajosos. Use a tabela a seguir para conhecer os locais principais no mundo de Gakuran.
+
+| Localização | Propósito Principal | Dica de Navegação |
+| :--- | :--- | :--- |
+| **Pátio da Escola** | Hub social e de combate principal | Ponto de referência central para todos os jogadores |
+| **Zonas de Atividade** | Progressão e treinamento | Procure por prompts de interação com NPCs |
+| **Ruas Urbanas** | Exploração e interpretação (roleplay) | Use becos para fugas rápidas |
+| **Telhados** | Vantagem de terreno elevado | Acessível por escadas específicas |
+| **Ginásio** | Lutas de grande escala | Espaço aberto com o mínimo de obstáculos |
+
+<Callout type="success" title="Recompensa de Exploração">
+Explorar os cantos escondidos da escola às vezes pode levar à descoberta de segredos ou NPCs que oferecem traços de personagem únicos. Não se limite apenas aos caminhos principais!
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dicas Estratégicas para Dominar Batalhas">
+
+Vencer em Gakuran não se trata apenas de clicar mais rápido; trata-se de tomar decisões mais inteligentes. Jogadores de alto nível usam táticas psicológicas para induzir os oponentes ao erro. Ao entender as falhas comuns, você pode evitá-las e explorá-las nos outros.
+
+<CardGrid cols={2}>
+  <Card title="A Abordagem Paciente">
+    Espere o oponente iniciar. Ao reagir ao movimento dele, você pode aparar ou se esquivar e emendar um combo garantido enquanto ele estiver nos frames de recuperação.
+  </Card>
+  <Card title="A Pressão Agressiva">
+    Use movimentação constante e golpes leves para manter a guarda do oponente ativa. Quando a postura dele estiver baixa, desfira um ataque pesado para quebrar sua defesa e terminar a luta.
+  </Card>
+</CardGrid>
+
+| Erro Comum | Consequência | Como Corrigir |
+| :--- | :--- | :--- |
+| **Esmagar Botões** | Alta vulnerabilidade a aparos (parries) | Clique com intenção e observe o inimigo |
+| **Correr em Excesso** | Sem estamina para defesa | Só corra para se aproximar ou criar distância |
+| **Ignorar o Alcance** | Ataques errando frequentemente | Aprenda o alcance exato do seu estilo |
+| **Esquiva Previsível** | Ser pego por ataques em área (AoE) | Varie a direção e o tempo da sua esquiva |
+
+<Callout type="tip" title="Dica de Mestre: Uso do Cenário">
+Use paredes e obstáculos a seu favor. Encurralar um oponente contra a parede limita suas opções de movimento, tornando seus combos muito mais difíceis de escapar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor estilo de luta para iniciantes em Gakuran?",
+    answer: "Para iniciantes, recomenda-se um estilo equilibrado de Nível B ou Nível A. Esses estilos geralmente têm um tempo de execução mais tolerante e um alcance decente, permitindo que você aprenda os fundamentos do guia de pvp de gakuran sem ser punido severamente por erros."
+  },
+  {
+    question: "Como posso recuperar estamina rapidamente durante uma luta?",
+    answer: "Para recuperar estamina, você deve parar de correr e pular. Caminhar ou ficar parado acelera o processo de recuperação. O gerenciamento adequado de estamina envolve alternar entre investidas agressivas e breves pausas defensivas."
+  },
+  {
+    question: "Posso mudar meu estilo de luta depois de escolher um?",
+    answer: "Sim, você pode mudar seu estilo interagindo com treinadores específicos ou usando giros (rerolls). No entanto, lembre-se de que alguns estilos podem exigir requisitos ou recursos específicos para serem desbloqueados."
+  },
+  {
+    question: "Como faço para contra-atacar alguém que bloqueia tudo?",
+    answer: "A melhor maneira de contra-atacar alguém que bloqueia muito é usar ataques pesados (M2) ou habilidades específicas de quebra de guarda. Esses movimentos causam alto dano de postura, eventualmente atordoando o oponente e deixando-o vulnerável."
+  }
+]} />
+
+</Section>

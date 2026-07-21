@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, User, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Altura no Gakuran: Guia de Impacto de Atributos e Comparação de Etnia",
+  description: "Domine as mecânicas de altura no Gakuran no Roblox. Saiba como o tamanho do personagem influencia o HP, dano, alcance e hitbox neste guia de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gakuran+Height+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki do Gakuran"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **altura no Gakuran** dita diretamente os Pontos de Vida (HP) e o dano base do seu personagem.
+- **Personagens altos** ganham alcance e vida superiores, mas sofrem com animações de ataque mais lentas e hitboxes maiores.
+- **Personagens baixos** se beneficiam de uma recuperação rápida de combo e hitboxes menores, tornando-os mais difíceis de acertar no PvP.
+- As **mecânicas de etnia** determinam sua altura inicial, com uma probabilidade de 95% de ser designado como japonês.
+- **Escolha permanente** significa que atualmente você não pode mudar sua altura (fazer reroll) após a geração do personagem.
+</Callout>
+
+<Section icon={User} title="Entendendo as Mecânicas de Altura no Gakuran">
+
+No mundo competitivo de Gakuran, a estatura física do seu personagem não é apenas uma escolha cosmética; é um modificador de atributos fundamental que molda todo o seu perfil de combate. O sistema de **altura no Gakuran** cria um equilíbrio dinâmico entre poder bruto e agilidade técnica. Os jogadores devem entender que cada centímetro de altura adicionado ou subtraído move seu personagem para um arquétipo específico, variando de um tanque lento a um combatente extremamente rápido.
+
+**Destaques do Vídeo:**
+- A altura influencia o HP total e o dimensionamento do dano corpo a corpo.
+- Personagens mais altos têm um alcance significativamente maior, mas tempos de recarga mais lentos.
+- Personagens mais baixos desfrutam de velocidades de ataque mais rápidas e hitboxes menores.
+- A etnia (95% japonesa) é o principal fator para a variação de altura.
+
+<YouTubeEmbed videoId="gyhZGwxma8I" title="GUIA COMPLETO Sobre ALTURA no Gakuran! Roblox" />
+
+<Callout type="tip" title="Dica de Profissional">
+Antes de se comprometer com um estilo de jogo específico, observe como sua altura afeta o tempo dos seus golpes. Personagens mais altos exigem uma jogabilidade mais preditiva, enquanto personagens mais baixos podem reagir de forma mais fluida aos movimentos do inimigo.
+</Callout>
+
+| Atributo | Impacto no Personagem Alto | Impacto no Personagem Baixo |
+| :--- | :--- | :--- |
+| Pontos de Vida (HP) | Significativamente Maior | Significativamente Menor |
+| Dano por Golpe | Multiplicador de Dano Alto | Multiplicador de Dano Menor |
+| Alcance Corpo a Corpo | Alcance Estendido | Alcance Curto |
+| Velocidade de Ataque | Ataque/Recuperação Mais Lentos | Ataque/Recuperação Mais Rápidos |
+| Perfil da Hitbox | Grande (Mais fácil de acertar) | Pequena (Mais difícil de acertar) |
+
+</Section>
+
+<Section icon={Swords} title="Dimensionamento de Combate e Diferenças de Atributos">
+
+O aspecto mais crítico da **altura no Gakuran** é como ela recalibra sua eficiência em combate. Quando você é mais alto, o modelo do seu personagem ocupa mais espaço, o que naturalmente estende os "frames ativos" dos seus ataques. Isso permite que você alcance oponentes que estão tentando recuar ou se esquivar. No entanto, essa vantagem é equilibrada por uma hitbox massiva. No PvP de alto nível, um jogador alto deve ser muito mais disciplinado com seus bloqueios, pois não pode contar com esquivas rápidas para desviar de golpes com a mesma facilidade que um jogador menor.
+
+Por outro lado, personagens baixos são os mestres do "frame trap". Como seus tempos de recarga são menores, eles frequentemente conseguem iniciar um segundo ataque antes que um oponente mais alto termine sua animação de recuperação. Isso os torna ideais para jogadores que preferem um combate agressivo e de curta distância, onde podem sobrecarregar o oponente com uma sequência de golpes rápidos.
+
+<CardGrid cols={2}>
+  <Card title="O Gigante (Alto)">
+    - **Bônus de HP**: Uma grande quantidade de vida permite cometer mais erros nas trocas de golpes.
+    - **Vantagem de Alcance**: Pode acertar oponentes de fora do alcance efetivo deles.
+    - **Poder de Punição**: Golpes individuais causam dano pesado, perfeito para contra-ataques.
+  </Card>
+  <Card title="O Veloz (Baixo)">
+    - **Domínio de Evasão**: Hitbox menor facilita a esquiva de projéteis e golpes.
+    - **Potencial de Combo**: Recuperação mais rápida permite combos mais precisos e complexos.
+    - **Tempos de Recarga Baixos**: Habilidades e ataques básicos recarregam mais rápido para manter uma pressão constante.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso Crítico">
+Ser alto não o torna invencível. Embora você tenha mais HP, a velocidade de ataque mais lenta significa que você pode ser "interrompido" no meio da animação por um oponente mais rápido e baixo se não calcular bem o tempo das suas ações.
+</Callout>
+
+| Tipo de Atributo | Multiplicador Alto (Estimado) | Multiplicador Baixo (Estimado) |
+| :--- | :--- | :--- |
+| HP Base | 125% | 75% |
+| Dano Corpo a Corpo | 115% | 85% |
+| Velocidade do Golpe | 80% | 120% |
+| Tempo de Recuperação | 120% (Mais Lento) | 80% (Mais Rápido) |
+| Largura da Hitbox | 130% | 70% |
+
+</Section>
+
+<Section icon={Zap} title="Etnia e Geração de Altura">
+
+Na versão atual do jogo, a **altura no Gakuran** está intrinsecamente ligada à etnia do seu personagem. Este é um processo aleatório que ocorre quando você entra no jogo pela primeira vez ou redefine os dados do seu personagem. Ao contrário de outros RPGs onde você pode ter um controle deslizante para ajustar sua altura, o Gakuran usa um sistema de probabilidade ponderada para determinar suas características físicas.
+
+A grande maioria dos jogadores ficará na faixa de altura padrão associada à etnia japonesa. No entanto, há uma pequena chance de 5% de obter "Outras" etnias, o que pode resultar em variações de altura mais extremas. Essa raridade torna certas construções de personagens altamente cobiçadas, especialmente para aqueles que buscam o máximo de HP possível ou a menor hitbox possível para o jogo competitivo.
+
+| Categoria de Etnia | Probabilidade | Impacto na Faixa de Altura |
+| :--- | :--- | :--- |
+| Japonês | 95.0% | Padrão / Equilibrado |
+| Outro (Raro) | 5.0% | Extremamente Alto / Extremamente Baixo |
+
+<Callout type="info" title="Nota do Sistema">
+A partir de 2026, não há um item de "Reroll de Altura" na loja. A altura do seu personagem é determinada no momento da criação e permanece estática ao longo de sua progressão.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Criação de Personagem">
+    Quando você começa, o jogo sorteia sua etnia e atributos de altura simultaneamente.
+  </Step>
+  <Step num="2" title="Cálculo de Atributos">
+    O motor do jogo aplica os multiplicadores de altura aos seus valores base de HP e Dano.
+  </Step>
+  <Step num="3" title="Redimensionamento Visual">
+    O modelo do seu personagem é ampliado ou reduzido, o que altera fisicamente o seu alcance corpo a corpo e sua hitbox.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Target} title="Estilos de Jogo Estratégicos para Diferentes Alturas">
+
+Escolher como jogar com base na sua **altura no Gakuran** é o que diferencia um novato de um mestre. Você deve jogar de acordo com suas forças. Se você for alto, nunca deve deixar um jogador baixo entrar na sua "bolha". Use seu alcance para cutucá-los e mantê-los afastados. Se você for baixo, seu objetivo é "grudar" no oponente como chiclete, usando sua velocidade superior para interromper os ataques mais lentos e pesados dele.
+
+| Componente Estratégico | Foco do Personagem Alto | Foco do Personagem Baixo |
+| :--- | :--- | :--- |
+| Posicionamento | Médio Alcance (Manter Distância) | Curto Alcance (Cara a Cara) |
+| Estilo Defensivo | Bloqueio Pesado / Troca de Golpes | Esquivas / Manobras Evasivas |
+| Estilo de Combo | Combinações Curtas de Alto Dano | Sequências Longas e Rápidas |
+| Função no Grupo | Tanque de Linha de Frente / Disruptor | Flanqueador / Assassino |
+
+<CardGrid cols={3}>
+  <Card title="Espaçamento">
+    Jogadores mais altos devem dominar a arte do "passo para trás" para manter sua vantagem de alcance.
+  </Card>
+  <Card title="Timing">
+    Jogadores mais baixos precisam aprender o frame exato em que o golpe de um jogador alto termina para puni-lo.
+  </Card>
+  <Card title="Uso de Recursos">
+    Jogadores altos podem se dar ao luxo de gastar HP para acertar um golpe; jogadores baixos não podem.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sucesso Estratégico">
+Jogadores altos de sucesso costumam usar "Ataques Atrasados" para induzir jogadores baixos a esquivarem mais cedo, pegando-os no final de seu alcance.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Otimizando sua Build">
+
+Embora você não possa alterar sua **altura no Gakuran** diretamente, você pode otimizar seus equipamentos e estilo de luta para complementar seu tamanho. Por exemplo, um personagem alto com uma arma de alto dano torna-se uma ameaça de "K.O. em um golpe", enquanto um personagem baixo com um estilo baseado em sangramento ou veneno pode acumular penalidades incrivelmente rápido devido à sua alta velocidade de ataque.
+
+<Checklist
+  id="height-optimization"
+  title="Lista de Otimização de Altura:"
+  items={[
+    "Verifique seu multiplicador de HP no menu de atributos",
+    "Teste seu alcance máximo contra um boneco de treino",
+    "Pratique 'Bloqueios Perfeitos' para mitigar as desvantagens da hitbox",
+    "Equipe acessórios que aumentem sua principal força baseada na altura",
+    "Ajuste a sensibilidade da sua câmera para corresponder à sua velocidade de ataque"
+  ]}
+/>
+
+| Elemento da Build | Recomendação para Personagem Alto | Recomendação para Personagem Baixo |
+| :--- | :--- | :--- |
+| Arma Preferencial | Longo Alcance / Impacto Pesado | Empunhadura Dupla / Lâminas Rápidas |
+| Acessório Principal | Defesa / Regen. de HP | Estamina / Velocidade de Movimento |
+| Prioridade de Habilidade | Área de Efeito (AoE) | Alvo Único / Aproximação (Gap Closers) |
+
+<Callout type="tip" title="Conselho Final">
+Não desanime se você não conseguiu a altura que queria. Ambos os extremos têm caminhos viáveis para o topo das tabelas de classificação no meta de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Posso mudar minha altura no Gakuran se não gostar dos meus atributos?",
+    answer: "Atualmente, não há uma maneira direta de mudar a altura (fazer reroll). A altura é determinada pela sua etnia durante a geração do personagem. Você precisaria redefinir os dados do seu personagem para obter um novo sorteio de altura."
+  },
+  {
+    question: "A altura afeta minha velocidade de movimento?",
+    answer: "A altura afeta principalmente a velocidade do golpe e os tempos de recarga, e não a velocidade base de caminhada. No entanto, personagens mais altos podem parecer mais lentos devido às suas animações de passos maiores, enquanto personagens mais baixos costumam parecer mais ágeis."
+  },
+  {
+    question: "É melhor ser alto ou baixo no meta PvP de 2026?",
+    answer: "Depende do seu nível de habilidade. Personagens altos são mais fáceis para iniciantes devido ao HP mais alto, mas personagens baixos têm um teto de habilidade mais elevado por causa de suas hitboxes pequenas e rápido potencial de combo."
+  },
+  {
+    question: "Quanto mais HP os personagens altos realmente ganham?",
+    answer: "Em média, um personagem de altura máxima pode ter até 25% mais HP do que um personagem de altura padrão, proporcionando uma margem de segurança significativa durante confrontos intensos."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Controles do Gakuran: Guia de Mecânicas de Combate e Estilos de Luta",
+  description: "Domine os controles essenciais do Gakuran para combate, defesa e movimentos especiais. Aprenda os melhores estilos de luta e atributos ocultos para dominar o jogo em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gakuran+Combat+Controls",
+  date: "2026-07-21",
+  author: "Equipe da Wiki do Gakuran"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Os controles do Gakuran** giram em torno da tecla **T** para alternar sua postura de luta antes de entrar em combate.
+- **Movimentos ofensivos** utilizam M1 para combos e a tecla **R** para ataques pesados indefensáveis.
+- **Mecânicas defensivas** dependem de **F** para bloquear e **Q** para manobras evasivas/I-frames.
+- **O bloqueio perfeito** é alcançado ao cronometrar um bloqueio dentro de **0,2 segundos** de um golpe recebido.
+- **Estilos de luta** como Boxe e Luta Livre alteram significativamente sua eficácia em combate e seus atributos.
+</Callout>
+
+<Section icon={Swords} title="Controles Fundamentais do Gakuran e Noções Básicas de Combate">
+
+Entender os **controles do Gakuran** é o primeiro passo para conquistar o cenário competitivo deste simulador de combate escolar. Ao contrário dos jogos padrão do Roblox, as mecânicas aqui exigem tempo de precisão e uma compreensão profunda de como seu personagem interage com o ambiente. A base de todo combate começa com a alternância da sua postura de luta, que prepara seu personagem para as brigas de alta intensidade que virão.
+
+**Destaques do Vídeo:**
+- Divisão detalhada dos cinco pilares da maestria em combate.
+- Demonstração visual de combos M1 e tempo de ataque pesado.
+- Explicação da barra de postura e mecânicas de quebra de guarda.
+- Guia para a janela de bloqueio perfeito e suas recompensas.
+
+<YouTubeEmbed videoId="Wjj9QT_VYGI" title="[Roblox Gakuran] O GUIA OFICIAL! (Estilos, Controles, Locais e Dicas)" />
+
+O sistema de combate é dividido em comandos ofensivos e defensivos. Antes de desferir um único soco, você deve pressionar **T** para ativar sua postura de luta. Uma vez ativa, seu personagem transita para uma posição de prontidão, permitindo o acesso a todo o conjunto de movimentos de artes marciais.
+
+| Comando | Ação | Funcionalidade e Estratégia |
+| :--- | :--- | :--- |
+| **T** | Alternar Postura | Necessário para iniciar o combate e acessar todos os movimentos de ataque |
+| **M1 (Clique Esquerdo)** | Ataque Normal | Golpes rápidos que podem ser encadeados em um combo de 4 hits |
+| **R** | Ataque Pesado | Golpe indefensável que causa dano em dobro e derruba o oponente (ragdoll) |
+| **F** | Bloqueio | Reduz o dano recebido, mas consome a barra de postura |
+| **Q** | Esquiva Evasiva | Fornece I-frames para se reposicionar ou evitar golpes pesados |
+| **Ctrl** | Menu de Utilidades | Acesso a mini-games, fotografia e emotes sociais |
+
+<Callout type="tip" title="Gerenciamento de Postura">
+Sempre certifique-se de que sua postura de luta esteja desativada ao navegar por áreas fora de combate, como a clínica ou a sala de música, para evitar agressão acidental ou drenagem de postura.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Manobras Ofensivas e Execução de Combos">
+
+O aspecto ofensivo dos **controles do Gakuran** gira em torno da sinergia entre golpes leves e pesados. A maestria do combo M1 é essencial para manter a pressão sobre seu oponente. Uma sequência padrão de M1 consiste em quatro golpes consecutivos. O golpe final nesta sequência é um chute especializado que fornece um efeito de recuo (knockback) significativo. Este recuo é crucial porque cria uma janela para ataques de acompanhamento ou permite que você reinicie seu posicionamento se sua saúde estiver baixa.
+
+Ataques pesados, mapeados para a tecla **R**, são a principal maneira de lidar com jogadores que dependem muito do bloqueio. Embora esses ataques causem quase o dobro do dano de um M1 padrão, eles são significativamente mais lentos. Essa preparação lenta os torna vulneráveis a parries (aparagens). Portanto, ataques pesados devem ser usados estrategicamente—geralmente quando um oponente está encurralado ou logo após uma esquiva bem-sucedida.
+
+| Tipo de Ataque | Saída de Dano | Poder de Recuo | Bloqueável |
+| :--- | :--- | :--- | :--- |
+| **Combo M1 (1-3)** | Baixo-Médio | Mínimo | Sim |
+| **Finalizador M1 (4º)** | Médio | Alto (Chute) | Sim |
+| **Ataque Pesado (R)** | Muito Alto | Extremo (Ragdoll) | Não |
+| **Ataque de Pânico** | Variável | Baixo | Spamável |
+
+Além dos golpes padrão, os jogadores podem executar um "Ataque de Pânico" ao apertar rapidamente o M1 durante situações de alta pressão. Embora seja menos técnico, às vezes pode interromper o ritmo de um oponente. No entanto, confiar nisso frequentemente deixa você exposto a jogadores mais habilidosos que entendem o tempo dos bloqueios perfeitos.
+
+<Callout type="warning" title="Riscos do Ataque Pesado">
+Como o ataque pesado da tecla **R** é lento, jogadores experientes costumam esperar a animação começar para tentar imediatamente um bloqueio perfeito. Use ataques pesados com moderação contra oponentes de alto nível.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sistemas Defensivos e Bloqueio Perfeito">
+
+A defesa é indiscutivelmente mais importante do que o ataque no meta atual dos **controles do Gakuran**. O jogo utiliza um sistema de **Barra de Postura**, que determina quantos golpes você pode absorver enquanto bloqueia. Se você segurar a tecla **F** continuamente, sua barra de postura drenará rapidamente. Uma vez vazia, você sofre uma "Quebra de Guarda", resultando em um atordoamento de 2 segundos que o deixa completamente indefeso.
+
+Para evitar a drenagem de postura, você deve dominar o **Bloqueio Perfeito**. Esta mecânica ocorre quando você pressiona a tecla **F** exatamente 0,2 segundos antes de um ataque atingir. O sucesso no bloqueio perfeito resulta em zero perda de postura e atordoa brevemente o atacante por 0,5 segundos, dando a você uma vantagem massiva.
+
+<Steps>
+  <Step num="1" title="Observe os Padrões de Ataque">
+    Assista à animação de preparação do seu oponente para prever se ele está usando um M1 leve ou um ataque R pesado.
+  </Step>
+  <Step num="2" title="Cronometre o Comando">
+    Pressione a tecla **F** no momento em que o golpe estiver prestes a conectar. Isso requer um ping baixo para consistência máxima.
+  </Step>
+  <Step num="3" title="Contra-Ataque">
+    Siga imediatamente um bloqueio perfeito com um combo M1 ou um movimento específico do estilo para capitalizar no breve atordoamento do oponente.
+  </Step>
+  <Step num="4" title="Redefina a Postura">
+    Se sua barra de postura estiver baixa, use a tecla **Q** para se esquivar e permitir que a barra se regenere naturalmente.
+  </Step>
+</Steps>
+
+A mecânica de esquiva (**Q**) é igualmente vital. Ela fornece "I-frames" (quadros de invencibilidade), permitindo que você passe por ataques sem sofrer dano. Esta é a maneira mais eficaz de lidar com ataques pesados que não podem ser bloqueados normalmente. Ao se esquivar para o lado, você pode alcançar o "ponto cego" de um oponente, abrindo caminho para um ataque pelas costas.
+
+| Movimento Defensivo | Custo de Recurso | Benefício Principal |
+| :--- | :--- | :--- |
+| **Bloqueio Padrão** | Postura Alta | Redução de dano segura |
+| **Bloqueio Perfeito** | Nenhum | Atordoa o inimigo e nega todo o dano |
+| **Esquiva (Q)** | Estamina/Recarga | Fornece I-frames e reposicionamento |
+| **Cura (Clínica)** | Tempo | Regeneração de saúde 3x mais rápida |
+
+<Callout type="success" title="Recompensa do Bloqueio Perfeito">
+Se você estiver usando o estilo Boxe, um bloqueio perfeito bem-sucedido reduz o tempo de recarga do seu ataque pesado para apenas 1 segundo, permitindo um contra-jogo agressivo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Atributos de Personagem e Etnias">
+
+Seu desempenho com os **controles do Gakuran** é fortemente influenciado pela constituição física do seu personagem. O jogo apresenta várias etnias que determinam sua altura, o que, por sua vez, afeta sua saúde, dano e tamanho da hitbox. Esta é uma mecânica de simulação da "vida real" onde a estatura física dita vantagens e desvantagens de combate.
+
+<CardGrid cols={3}>
+  <Card title="Constituições Altas (Africana/Europeia)">
+    - **Vida Alta**: Pode aguentar significativamente mais golpes.
+    - **Dano Alto**: Cada soco carrega mais peso.
+    - **Sinergia com Luta Livre**: Melhor para estilos de combate baseados em agarres.
+  </Card>
+  <Card title="Constituições Médias (Japonesa/Latina)">
+    - **Atributos Equilibrados**: Boa mistura de velocidade e poder.
+    - **Comum**: 99% dos jogadores começam aqui.
+    - **Versatilidade**: Funciona bem com quase qualquer estilo de luta.
+  </Card>
+  <Card title="Constituições Baixas (Indiana/Oriente Médio)">
+    - **Mobilidade Pura**: Recargas de ataque mais rápidas.
+    - **Hitbox Pequena**: Mais difícil para os inimigos acertarem golpes.
+    - **Sinergia com Boxe**: Ideal para jogo agressivo de alta velocidade.
+  </Card>
+</CardGrid>
+
+Dois atributos ocultos também desempenham um papel no combate: **Perfuração de Guarda** e **Resiliência**. A Perfuração de Guarda permite que você cause "dano residual" mesmo quando um oponente está bloqueando. A Resiliência aumenta suas chances de vencer um "Grapple" (Luta de Agarre), que ocorre quando dois jogadores acertam um M1 exatamente ao mesmo tempo. Uma resiliência maior permite que você saia desses agarres mais rápido e contra-ataque.
+
+| Etnia | Raridade | Vantagem Principal | Função em Combate |
+| :--- | :--- | :--- | :--- |
+| **Japonesa** | Comum | Equilibrado | Polivalente |
+| **Africana** | 1% | Saúde/Dano | Tanque/Dominador |
+| **Europeia** | 1% | Dano/Alcance | Batedor Pesado |
+| **Indiana** | 1% | Velocidade/Agilidade | Guerrilheiro |
+
+<Callout type="info" title="Escalonamento de Altura">
+Uma altura maior aumenta seu potencial de empuxo (hit-back), o que significa que seus ataques empurram os inimigos para mais longe, o que é excelente para controlar o espaço da luta.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estilos de Luta Avançados e Escolhas do Meta">
+
+Depois de dominar os **controles básicos do Gakuran**, você deve escolher um estilo de luta para especializar suas capacidades de combate. Atualmente, existem oito estilos únicos no jogo, mas dois se destacam como as escolhas do "meta" para 2026.
+
+**Estilo Boxe**
+O Boxe é a escolha principal para jogadores de estatura baixa e média. Ele se concentra em agressividade extrema e utilização de I-frames. Os ataques pesados neste estilo são notoriamente difíceis de contra-atacar, frequentemente forçando os oponentes a desperdiçar sua recarga de esquiva. A redução das recargas de ataque pesado após um bloqueio perfeito torna o Boxeador uma força implacável no campo de batalha.
+
+**Estilo Luta Livre (Wrestling)**
+A Luta Livre é a escolha dominante para jogadores altos. Seu ataque pesado envolve agarrar o oponente e batê-lo no chão—um movimento que não pode ser interrompido uma vez iniciado. Além disso, a Luta Livre fornece o maior atributo de resiliência do jogo, tornando quase impossível perder uma luta de agarre contra um não-lutador.
+
+<Checklist
+  id="combat-mastery"
+  title="Checklist do Jogador Pro:"
+  items={[
+    "Domine a janela de bloqueio perfeito de 0,2s",
+    "Identifique a etnia do oponente para avaliar sua reserva de saúde",
+    "Utilize a clínica para cura 3x mais rápida entre as rodadas",
+    "Pratique o reposicionamento com esquiva-Q para alcançar pontos cegos",
+    "Equipe um estilo que combine com a altura do seu personagem"
+  ]}
+/>
+
+Além da luta, o ambiente escolar oferece várias atividades. Você pode visitar a **Sala de Música** para tocar instrumentos ou a quadra externa para jogar **Basquete**. Se estiver com pouca vida após um duelo, a **Clínica** dentro da escola é sua melhor amiga, pois triplica sua taxa de cura. Apenas lembre-se de que você não pode entrar na clínica enquanto estiver em "Tempo de Combate", portanto, certifique-se de que a luta realmente terminou antes de procurar ajuda médica.
+
+<Callout type="tip" title="Atributos Ocultos">
+Sua escolha de estilo impacta diretamente seus atributos ocultos de Perfuração de Guarda e Resiliência. A Luta Livre aumenta a Resiliência, enquanto o Boxe frequentemente melhora a velocidade de ataque e a Perfuração de Guarda.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como ativo a postura de luta no Gakuran?",
+    answer: "Você deve pressionar a tecla **T** para alternar sua postura de luta. Este é um pré-requisito para realizar qualquer ação de combate, como combos M1 ou ataques pesados."
+  },
+  {
+    question: "Qual é a melhor maneira de lidar com um jogador que não para de bloquear?",
+    answer: "O contra-ataque mais eficaz é o ataque pesado (mapeado para a tecla **R**), que é indefensável e derrubará o inimigo. Alternativamente, você pode desgastar a barra de postura dele até que ele sofra uma quebra de guarda."
+  },
+  {
+    question: "Como a altura do personagem afeta o combate?",
+    answer: "Personagens mais altos têm mais saúde e causam mais dano, mas têm hitboxes maiores. Personagens mais baixos são mais rápidos e difíceis de acertar, mas geralmente têm menos saúde e alcance."
+  },
+  {
+    question: "O que é um bloqueio perfeito e como eu o faço?",
+    answer: "Um bloqueio perfeito é alcançado pressionando **F** dentro de 0,2 segundos de um ataque recebido. Ele evita a drenagem de postura e atordoa brevemente seu oponente, permitindo um contra-ataque."
+  }
+]} />
+
+</Section>

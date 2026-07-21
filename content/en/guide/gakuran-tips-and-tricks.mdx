@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "gakuran tips and tricks: 2026 Combat Mastery & Progression Guide",
+  description: "Master Gakuran with expert tips on height modifiers, ethnicity rerolls, and fighting styles. Learn how to dominate the Dojo in this 2026 guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gakuran+Combat+Mastery",
+  date: "2026-07-21",
+  author: "gakuran Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **gakuran tips and tricks**: Focus on maximizing your character's height to gain a significant reach and damage advantage in combat.
+- **Top Fighting Styles**: Boxing and Hakari are currently the meta choices due to their i-frames and uninterruptible perks.
+- **Ethnicity Impact**: Your ethnicity directly influences your height potential; African and European profiles often yield the tallest characters.
+- **Combat Strategy**: Use the "perfect block" (parry) to stun opponents and dash around them to land hits on their back, bypassing their guard.
+- **Free Rerolls**: Utilize active promotional codes to reroll your stats and ethnicity without spending Robux.
+</Callout>
+
+<Section icon={Map} title="Character Attributes and Height Mechanics">
+
+Understanding the core mechanics of character creation is the first step toward dominance in Gakuran. Unlike many other fighting games on the platform, Gakuran utilizes a complex system where physical attributes like height and ethnicity directly dictate your combat effectiveness. Your character's height is not merely cosmetic; it is a fundamental modifier that scales your hitbox, damage output, and health pool.
+
+**Video Highlights:**
+- Height determines your reach; taller characters can land hits from a distance where smaller characters cannot retaliate.
+- Ethnicity plays a major role in your height ceiling, with non-Japanese ethnicities being rare but physically superior.
+- Hitbox size increases with height, making you an easier target but granting you superior offensive pressure.
+- Speed is the primary trade-off; taller characters have slower attack animations compared to smaller, more agile fighters.
+
+<YouTubeEmbed videoId="iZBuFgoP3TA" title="PRO TIPS & TRICKS YOU NEED TO KNOW for Gakuran!" />
+
+The probability of your character's physical build is tied to their ethnicity. While most players will start with a Japanese profile, seeking out rarer ethnicities can provide a permanent competitive edge.
+
+| Ethnicity | Spawn Chance | Height Potential | Combat Scaling |
+| :--- | :--- | :--- | :--- |
+| Japanese | 95.0% | Standard | Balanced |
+| European | < 1.0% | High | Damage/Health Focus |
+| African | < 1.0% | Very High | Maximum Reach |
+| Middle Eastern | < 1.0% | Moderate | Health Focus |
+| Latino | < 1.0% | Moderate | Speed/Health Mix |
+
+<Callout type="warning" title="The Reach Advantage">
+Being taller than 6'9" provides a 0.1% rarity advantage that allows you to strike opponents before they enter their own effective range. If you are taller than your opponent, maintain a distance that allows your punches to connect while their shorter arms fail to reach you.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fighting Styles and Meta Tier List">
+
+Choosing the right fighting style is the most critical decision in Gakuran. Each style offers unique perks, such as "Guard PS" (Guard Pressure) and specialized heavy attacks. Currently, the meta favors styles that provide defensive utility through invincibility frames (i-frames) or uninterruptible attacks.
+
+<CardGrid cols={3}>
+  <Card title="Boxing (S-Tier)">
+    - **Untouchable Perk**: Grants i-frames during heavy attacks.
+    - **Uninterruptible**: Hard to stagger during combos.
+    - **Fast M1s**: Excellent for pressure.
+  </Card>
+  <Card title="Hakari (S-Tier)">
+    - **High Burst**: Massive damage potential in short windows.
+    - **Reach**: Excellent synergy with tall characters.
+    - **Meta Dominance**: Currently the most used high-level style.
+  </Card>
+  <Card title="Muay Thai (A-Tier)">
+    - **Knee Strikes**: Powerful close-range options.
+    - **Stun Potential**: High chance to break guards.
+    - **Aggressive**: Best for players who stay in the face of the enemy.
+  </Card>
+</CardGrid>
+
+Every fighting style has a specific "Guard PS" percentage, which determines how much damage bleeds through an opponent's block. Mastering this allows you to chip away at defensive players until their posture breaks.
+
+| Style Name | Guard PS % | Primary Perk | Difficulty |
+| :--- | :--- | :--- | :--- |
+| Boxing | 15% | Untouchable (i-frames) | Medium |
+| Hakari | 20% | High Stun | Hard |
+| Slugger | 25% | Heavy Impact | Easy |
+| Karate | 10% | Precision Strikes | Medium |
+| Wrestling | 5% | Grapple Focus | Hard |
+
+<Callout type="tip" title="Fighting Style Tip">
+If you are using Boxing, your heavy attack (M2) is your best defensive tool. Because it provides i-frames, you can use it to "dodge" through an opponent's incoming attack while simultaneously dealing damage.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Combat Mechanics and Advanced Mastery">
+
+Success in Gakuran combat relies on more than just clicking faster than your opponent. You must master the art of the "Perfect Block" and understand the clashing system. When two fighters strike at the same time, a grapple or "clash" occurs. The fighter who initiated the swing first typically wins the encounter, shoving the opponent back and opening them up for a follow-up combo.
+
+<Steps>
+  <Step num="1" title="Master the Parry">
+    Hold the block key (F) just as the opponent's strike is about to land. A successful parry stuns the enemy for approximately one second, allowing for a full M1 combo.
+  </Step>
+  <Step num="2" title="The Back-Hit Strategy">
+    Do not attack an opponent head-on if they are blocking. Use your dash to circle around to their back. Hits landed on the back cannot be parried or blocked effectively.
+  </Step>
+  <Step num="3" title="Range Verification">
+    Visit the Dojo on the second floor. Use the practice dummies to determine exactly where your "hit range" ends. Knowing your maximum reach allows you to "kite" shorter players.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Guard Pressure">
+Keep an eye on the "Guard PS" of your chosen style. Even if an opponent blocks every hit, high Guard PS styles like Slugger will eventually deplete their health through the block, forcing them to take risks.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rerolls and Progression Strategy">
+
+To optimize your character, you will likely need to reroll your ethnicity and height multiple times. Since these rerolls can be expensive, utilizing codes is the most efficient way to progress without spending currency.
+
+**2026 Active Code Categories:**
+- **Stat Rerolls**: Used to reset your height and ethnicity modifiers.
+- **Style Rerolls**: Allows you to switch between combat styles like Boxing and Muay Thai.
+- **Currency Boosts**: Provides Yen for purchasing items in the infirmary or Dojo.
+
+| Code Type | Benefit | Recommendation |
+| :--- | :--- | :--- |
+| Ethnicity Reroll | Changes base height potential | Prioritize until European/African |
+| Style Reroll | Switches combat moveset | Save for Boxing or Hakari |
+| Height Reroll | Adjusts current height | Use after securing a rare ethnicity |
+
+<Checklist
+  id="progression-checklist"
+  title="Daily Mastery Checklist:"
+  items={[
+    "Redeem all monthly codes for free rerolls",
+    "Practice parry timing at the Dojo for 10 minutes",
+    "Check the Infirmary to heal quickly between matches",
+    "Verify your current Guard PS percentage in the stats menu",
+    "Test your reach against different character heights"
+  ]}
+/>
+
+<Callout type="success" title="Healing Efficiency">
+The Infirmary is a designated "Green Zone." If you are low on health after a fight, head to the hallway leading to the infirmary. You will heal significantly faster here than anywhere else in the school.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Defensive Maneuvers and Survival">
+
+In high-level Gakuran play, your defense is just as important as your offense. Simply holding block is not enough, as experienced players will dash behind you or use high-chip damage styles to break your guard. You must incorporate "Evasive Dodging" into your movement patterns.
+
+**Survival Tactics:**
+- **Auto-Parry**: If you are being hit by a fast combo, hold F immediately. While not a guaranteed escape, it increases the chance of catching a perfect block window.
+- **Circle Dashing**: Always move in a circular motion around your opponent. This makes it harder for them to track your hitbox and easier for you to find an opening in their back.
+- **Dojo Training**: The second floor Dojo isn't just for dummies; it's the best place to spar with friends to learn the animations of different styles without the risk of losing rank.
+
+<Callout type="warning" title="Stamina Management">
+Continuous dashing and blocking consume stamina. If you run out of stamina, you become "exhausted," making you unable to block or dash for several seconds. Always keep an eye on your blue bar during intense exchanges.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What are the best gakuran tips and tricks for beginners?",
+    answer: "Focus on obtaining a taller character through ethnicity rerolls and master the parry mechanic early. Boxing is the most beginner-friendly S-tier style due to its i-frames."
+  },
+  {
+    question: "How does height affect my damage in Gakuran?",
+    answer: "Taller characters deal more damage per hit and have more health, but their attack speed is slightly slower. The reach advantage usually outweighs the speed penalty."
+  },
+  {
+    question: "Where is the best place to practice combat?",
+    answer: "The Dojo on the second floor is the ideal location. It features practice dummies and enough space to test your reach and combo strings safely."
+  },
+  {
+    question: "Can I heal during a fight in Gakuran?",
+    answer: "Direct healing during combat is difficult, but you can retreat to the Infirmary green zone to recover health much faster than normal."
+  }
+]} />
+
+</Section>

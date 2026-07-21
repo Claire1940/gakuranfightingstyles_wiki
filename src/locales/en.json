@@ -10,7 +10,15 @@
       "twitterDescription": "Gakuran Wiki covers Roblox codes, fighting styles, controls, and PvP tips for the Japanese school roleplay fighting game."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "styles": "Styles",
+    "controls": "Controls",
+    "combat": "Combat",
+    "characters": "Characters",
+    "locations": "Locations"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -454,125 +462,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+    "codes": {
+      "title": "Gakuran Fighting Styles Codes",
+      "description": "Latest working Gakuran Fighting Styles codes for free spins, trait rerolls, and exclusive cosmetics. Updated daily with verified codes.",
+      "metaTitle": "Gakuran Fighting Styles Codes - Free Spins & Trait Rerolls",
+      "metaDescription": "Get free spins, trait rerolls, and exclusive cosmetics with active Gakuran Fighting Styles codes. Updated daily with verified working codes.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Redeem codes are free promotional codes released by the Gakuran Fighting Styles developers that grant in-game rewards such as spins, trait rerolls, stat chips, and limited cosmetics.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free Resources",
+        "step1Description": "Claim spins and stat chips without spending Robux",
+        "step2Title": "Reroll Traits",
+        "step2Description": "Reset your fighting style traits until you roll the perfect build",
+        "step3Title": "Stay Updated",
+        "step3Description": "New codes drop with every game update and milestone event"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Gakuran Fighting Styles Guides",
+      "description": "Complete Gakuran Fighting Styles guides from beginner basics to advanced PvP strategies. Master combat, exploration, and character progression.",
+      "metaTitle": "Gakuran Fighting Styles Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Gakuran Fighting Styles guides covering beginner tips, PvP combat, exploration, character progression, and advanced tactics for the Roblox school RPG.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering Gakuran Fighting Styles gameplay mechanics, fighting style mastery, school exploration, and PvP strategies for players of all skill levels.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand fighting styles, parrying, and stamina management",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step2Description": "Follow proven paths to level up and unlock new abilities",
+        "step3Title": "Master PvP",
+        "step3Description": "Develop advanced tactics for dominating school brawls"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "styles": {
+      "title": "Gakuran Fighting Styles List",
+      "description": "Complete Gakuran Fighting Styles tier list and breakdown. Compare legendary fighting styles, drop rates, and find the best style for your build.",
+      "metaTitle": "Gakuran Fighting Styles - Tier List & Best Styles Guide",
+      "metaDescription": "Discover the best Gakuran Fighting Styles with our complete tier list. Compare legendary styles, drop chances, and unlock requirements for every build.",
+      "categoryLabel": "FIGHTING STYLES",
+      "whatIs": "What are Fighting Styles?",
+      "whatIsDescription": "Fighting styles are the combat disciplines your Gakuran Fighting Styles character can learn, each with unique movesets, damage types, and rarity tiers from common to legendary.",
+      "why": "Why choose the right style?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Optimize Your Build",
+        "step1Description": "Match your fighting style to your stat distribution and playstyle",
+        "step2Title": "Understand Rarities",
+        "step2Description": "Legendary styles have lower drop chances but stronger movesets",
+        "step3Title": "Plan Your Rolls",
+        "step3Description": "Know the odds before spending spins on rerolls"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Fighting Styles"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "controls": {
+      "title": "Gakuran Fighting Styles Controls",
+      "description": "Complete Gakuran Fighting Styles controls for PC, console, and mobile. Master keyboard keybinds, combat inputs, and movement combos.",
+      "metaTitle": "Gakuran Fighting Styles Controls - PC, Console & Mobile Keybinds",
+      "metaDescription": "Master Gakuran Fighting Styles controls on PC, console, and mobile. Full keyboard keybinds, combat inputs, blocking, and movement combos explained.",
+      "categoryLabel": "CONTROLS",
+      "whatIs": "What are Controls?",
+      "whatIsDescription": "Controls cover every input your Gakuran Fighting Styles character uses, from basic movement and camera to combat combos, blocking, parrying, and emotes across all platforms.",
+      "why": "Why learn controls?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "React Faster",
+        "step1Description": "Memorized keybinds let you block and counter in real-time PvP",
+        "step2Title": "Pull Off Combos",
+        "step2Description": "Chain attacks and special moves without fumbling inputs",
+        "step3Title": "Play Any Platform",
+        "step3Description": "Find the best layout whether you play on PC, console, or mobile"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Controls"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "combat": {
+      "title": "Gakuran Fighting Styles Combat",
+      "description": "Master Gakuran Fighting Styles combat with PvP builds, stat distribution, and brawling tactics. Learn the best height build and fighting strategies.",
+      "metaTitle": "Gakuran Fighting Styles Combat - PvP Builds & Best Stats",
+      "metaDescription": "Dominate Gakuran Fighting Styles combat with the best PvP builds, height mechanics, stat distribution, and brawling tactics for every fighting style.",
+      "categoryLabel": "COMBAT",
+      "whatIs": "What is Combat?",
+      "whatIsDescription": "Combat in Gakuran Fighting Styles covers PvP brawls, stat builds, height advantages, and the tactical use of fighting styles to outplay opponents in school fights.",
+      "why": "Why master combat?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Build Smart",
+        "step1Description": "Distribute stats and pick the right height for your playstyle",
+        "step2Title": "Win Brawls",
+        "step2Description": "Apply frame data and spacing to beat stronger opponents",
+        "step3Title": "Climb the Ranks",
+        "step3Description": "Consistent PvP wins unlock reputation and rewards"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Combat Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "characters": {
+      "title": "Gakuran Fighting Styles Characters",
+      "description": "Customize your Gakuran Fighting Styles character with the best names, faces, hairstyles, hair colors, and height settings to stand out in school.",
+      "metaTitle": "Gakuran Fighting Styles Characters - Names, Hairstyles & Height",
+      "metaDescription": "Create the perfect Gakuran Fighting Styles character with name ideas, face presets, hairstyles, hair colors, and height settings for a unique student.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What are Characters?",
+      "whatIsDescription": "Characters cover everything about customizing your Gakuran Fighting Styles student, including name choices, face presets, hairstyles, hair colors, and combat-affecting height.",
+      "why": "Why customize your character?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Express Yourself",
+        "step1Description": "Stand out with a unique name and signature look",
+        "step2Title": "Strategic Height",
+        "step2Description": "Height changes your reach and hitbox in PvP combat",
+        "step3Title": "Fresh Name Ideas",
+        "step3Description": "Pick from curated Japanese-inspired names that fit the setting"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Character Guides"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "locations": {
+      "title": "Gakuran Fighting Styles Locations",
+      "description": "Explore every Gakuran Fighting Styles location including the school, music room, underground, and full map. Find secrets, NPCs, and PvP zones.",
+      "metaTitle": "Gakuran Fighting Styles Locations - School, Underground & Map",
+      "metaDescription": "Explore all Gakuran Fighting Styles locations including the school, music room, underground areas, and full map with secrets, NPCs, and PvP zones.",
+      "categoryLabel": "LOCATIONS",
+      "whatIs": "What are Locations?",
+      "whatIsDescription": "Locations are the explorable areas of Gakuran Fighting Styles, from the main school campus and music room to hidden underground zones, each with NPCs, secrets, and PvP spots.",
+      "why": "Why explore locations?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Find Secrets",
+        "step1Description": "Discover hidden rooms, items, and rare NPCs",
+        "step2Title": "Know PvP Zones",
+        "step2Description": "Learn where brawls happen and where to escape",
+        "step3Title": "Complete Objectives",
+        "step3Description": "Navigate the map efficiently for quests and events"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Locations"
     }
   }
 }
