@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Smartphone, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "guia avançado de combate gakuran: Guia de Combate e Táticas PvP",
+  description: "Domine como lutar gakuran com nosso guia de 2026. Aprenda estilos de luta, listas de níveis, controles e estratégias profissionais para o RPG japonês da Roblox.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Gakuran+Combat+Guide",
+  date: "2026-07-21",
+  author: "Equipe Wiki gakuran"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Como lutar com Gakuran**: Concentre-se em dominar o timing M1 e o dashing direcional para quebrar as guardas do inimigo.
+- **Estilos de Luta**: Deve-se dar prioridade aos **estilos S-Tier** que oferecem alto potencial de combo e mobilidade.
+- **Mecânicas de Defesa**: O bloqueio perfeito é a habilidade mais crítica para o sucesso em PvP de alto nível em 2026.
+- **Progressão**: Use códigos para rerolls cedo para garantir um estilo de luta viável antes de entrar nas zonas competitivas.
+- **Controles**: Familiarize-se com o **Shift-lock** e os ataques pesados M2 para manter a pressão.
+</Callout>
+
+<Section icon={Map} title="Fundamentos de Combate e Controles de Gakuran">
+
+Gakuran é uma experiência de roleplay e luta profunda no Roblox, situada no ambiente nostálgico do Japão de 2007. Para entender **como lutar com Gakuran**, os jogadores devem primeiro dominar a sinergia entre movimento e ataque. Ao contrário dos jogos de clique padrão, este jogo recompensa a paciência e a posição tática dentro do ambiente urbano das escolas. Seja defendendo sua reputação nos corredores ou envolvendo-se em lutas de rua, as mecânicas permanecem consistentes: gerencie sua distância, ajuste o tempo dos seus bloqueios e execute combos com precisão.
+
+O núcleo do sistema de combate se baseia em uma mistura de entradas leves e pesadas. Os ataques leves (M1) são usados para construir pressão e iniciar combos, enquanto os ataques pesados (M2) são projetados para quebrar guardas ou finalizar sequências com alto dano. Entender os frames de recuperação de cada movimento é essencial para evitar ser punido por oponentes experientes.
+
+| Categoria | Entrada | Ação | Uso Principal | Dica |
+| :--- | :--- | :--- | :--- | :--- |
+| **Movimento** | **W, A, S, D** | Mover | Posicionamento e deslocamento | Mude de direção para enganar M1s |
+| **Corrida** | **Shift** | Correr | Fechar distância ou escapar | Use com parcimônia para preservar a resistência |
+| **Combate** | **LMB (M1)** | Ataque Leve | Ataques corpo a corpo padrão | Ajuste o tempo dos golpes em vez de spamar |
+| **Combate** | **RMB (M2)** | Ataque Pesado | Quebrar guardas / Finalizador | Use quando o oponente bloqueia |
+| **Defesa** | **F (Manter)** | Bloqueio | Reduzir dano recebido | Preste atenção ao setup do ataque pesado |
+| **Utilitário** | **E** | Interagir | Interação com objetos/NPCs | Verifique por itens durante o tempo livre |
+| **Interface** | **P** | Telefone | Acessar menus e estatísticas | Feche antes de entrar em luta |
+
+<Callout type="tip" title="Mestre em Movimento">
+O sucesso em Gakuran geralmente depende de quem se move melhor. Sempre mantenha o **Shift-lock** ativado durante o combate para garantir que seus ataques sejam direcionados exatamente onde você está olhando. Isso permite o "circle-strafing", o que torna muito mais difícil para os oponentes acertar uma sequência completa de M1s em você.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de Níveis de Estilos de Luta para 2026">
+
+Escolher o estilo de luta correto é a decisão mais impactante que você tomar em relação ao **como lutar em gakuran**. Os estilos são categorizados com base em sua velocidade, alcance e capacidade de "pressão". No atual meta de 2026, os estilos que permitem reposicionamento rápido e resets de dano alto dominam os líderes das classificatórias escolares.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: O Meta">
+    - **Alta Mobilidade**: Distância de dash excelente.
+    - **Potencial Infinito**: Extensores de combo confiáveis.
+    - **Rápido Recuperação**: Difícil ser punido em falha.
+  </Card>
+  <Card title="A-Tier: Competitivo">
+    - **Dano Sólido**: Excelente para trocas rápidas.
+    - **Boa Alcance**: Mantém os inimigos afastados.
+    - **Versátil**: Funciona tanto em 1v1 quanto em grupos.
+  </Card>
+  <Card title="B-Tier: Equilibrado">
+    - **Confiável**: Mecânica padrão.
+    - **Ferramenta de Aprendizado**: Melhor para iniciantes.
+    - **Estável**: Sem grandes fraquezas ou forças.
+  </Card>
+</CardGrid>
+
+Embora a habilidade individual possa preencher a lacuna entre os níveis, as vantagens estatísticas dos estilos de ranking mais alto não podem ser ignoradas. Abaixo está uma avaliação detalhada de como os estilos são classificados com base na eficácia de combate.
+
+| Nível | Rótulo | Critérios de Classificação | Melhor Estilo de Jogo |
+| :--- | :--- | :--- | :--- |
+| **S** | **Top-Nível** | Pressão forte, poucas fraquezas, combos elite | PvP competitivo |
+| **A** | **Forte** | Boa velocidade e alcance, opções defensivas sólidas | Progressão regular |
+| **B** | **Equilibrado** | Fortes em situações, confiabilidade moderada | Fundamentos de aprendizado |
+| **C** | **Situaçãois** | Ataques mais lentos, pressão previsível | Nicho especializado |
+| **D** | **Baixo Nível** | Limitações significativas, consistência de combo fraca | Corridas de desafio apenas |
+
+<Callout type="warning" title="Estratégia de Reinício">
+Não desperdice seus reinícios limitados em estilos B-Tier se seu objetivo é o PvP competitivo. É melhor economizar seus códigos e recursos até poder visar pelo menos um estilo A-Tier que se encaixe no seu alcance de engajamento preferido.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo para a Maestria em Combate">
+
+Aprender a lutar **efetivamente em gakuran** requer uma abordagem estruturada. Novos jogadores geralmente entram em lutas sem entender o ritmo subjacente do jogo. Siga este caminho de progressão para melhorar sua taxa de vitória e subir nas classificatórias escolares.
+
+<Steps>
+  <Step num="1" title="Calibração do Personagem">
+    Complete sua configuração inicial de personagem. Certifique-se de que suas configurações de gráficos permitem uma taxa de quadros estável, pois é impossível executar blocos baseados em tempo com atraso. Revise seus traços iniciais para ver se eles oferecem quaisquer bônus de combate passivos.
+  </Step>
+  <Step num="2" title="Fase de Boxe de Sombra">
+    Encontre um local calmo no mapa da escola e pratique suas sequências M1. Você precisa saber exatamente quantos golpes seu estilo realiza antes do golpe de "empurrão". Pratique o sprint imediatamente após o terceiro ou quarto golpe para resetar sua posição.
+  </Step>
+  <Step num="3" title="Treinamentos Defensivos">
+    Pratique manter a tecla de bloqueio (F) enquanto se move. Aprenda os sinais visuais de diferentes estilos de luta. Cada estilo tem uma animação de "aquecimento" distinta para seu ataque pesado; reconhecer essas é a chave para evitar quebra de guarda.
+  </Step>
+  <Step num="4" title="Verificação do Telefone e Utilitário">
+    Familiarize-se com a interface de telefone no jogo. É aqui que você rastrea seu progresso, verifica códigos ativos e gerencia seu inventário. Saber como verificar rapidamente suas estatísticas entre combates é vital para um crescimento eficiente.
+  </Step>
+  <Step num="5" title="Treinamento de Sparring ao Vivo">
+    Envolva-se em duelos de baixo risco com outros estudantes. Concentre-se inteiramente na defesa nos primeiros minutos de um combate. Assim que puder bloquear ou esquivar-se consistentemente dos ataques deles, comece a procurar oportunidades de "falar" — atacando enquanto eles estão em seus quadros de recuperação de ataque.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Segredo de Reinício de Combinação">
+Uma técnica secreta usada pelos jogadores de topo envolve o "cancelamento de sprint". Ao sprintar lateralmente no meio de uma combinação, você pode frequentemente evitar o último golpe de empurrão de uma sequência M1, permitindo que você fique perto do oponente e comece uma segunda sequência antes que ele possa se recuperar.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Estratégias e Combinações Avançadas de PvP">
+
+Quando você dominar os fundamentos de **como lutar em gakuran**, você deve se adaptar a diferentes arquetipos de oponentes. O cenário japonês de escola de 2007 oferece vários ambientes, desde corredores apertados a pátios abertos, cada um favorecendo diferentes táticas.
+
+| Tipo de Oponente | Ameaça Primária | Estratégia de Contra |
+| :--- | :--- | :--- |
+| **O Spammer** | Pressão constante de M1 | Bloqueio perfeito em um counter pesado |
+| **O Corredor** | Sprint e kite | Use saltos de sprint para fechar a distância |
+| **O Tanque** | Saúde alta e bloqueio | M2s frequentes e quebra de guarda |
+| **O Deus de Combinação** | Sequências infinitas de golpes | Aguarde o reset de sprint para interromper |
+
+Uma PvP eficaz é sobre "ler" seu oponente. Se eles bloquearem frequentemente, puni-los com ataques pesados de M2. Se eles sprintarem constantemente, espere que eles esgotem sua resistência ou capture-los no final da animação de sprint.
+
+| Localização | Propósito | Vantagem em Combate |
+| :--- | :--- | :--- |
+| **Corredores da Escola** | Espaço reduzido | Favorável a estilos com alcance linear |
+| **Pátio** | Espaço aberto | Favorável a kite com alta mobilidade |
+| **Térreo** | Riscos altos | Risco de ser derrubado para dano |
+| **Beiradas** | Combates ocultos | Boa para praticar 1v1s longe da multidão |
+
+<Callout type="info" title="Gestão de Resistência">
+Cada ação em Gakuran—correndo, pulando e atacando pesadamente—consome uma recursos de resistência oculta. Se você notar que o seu personagem está se movendo lentamente ou não consegue correr, recue imediatamente. Lutar com zero resistência é a maneira mais fácil de ser "perfeito" por um oponente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Progressão e Lista de Verificação">
+
+Para verdadeiramente dominar Gakuran, você precisa definir marcos claros. A habilidade em combate representa 50% da equação; os outros 50% são ter o equipamento, traços e estilo de luta certos. Use esta lista de verificação para rastrear sua jornada de um trambiqueiro de calouro ao melhor lutador da escola.
+
+<Checklist
+  id="gakuran-progression"
+  title="Milestones de Excelência em Combate:"
+  items={[
+    "Desbloquear um estilo de luta A-Tier ou S-Tier por meio de rerolls",
+    "Mestre o tempo para um M1 de 3 golpes seguido de um reset de corrida",
+    "Lançar com sucesso 10 bloqueios perfeitos em uma única sessão",
+    "Memorizar o layout do mapa para escapar rapidamente durante lutas de grupo",
+    "Alcançar o limite de nível para maximizar seu dano e saúde básicos",
+    "Coletar todos os acessórios de alto nível para melhorar seus stats de combate"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como melhorar no gakuran e como lutar se continuo a perder?",
+    answer: "Concentre-se no tempo de defesa. A maioria dos novos jogadores perde porque atacam muito. Gaste algumas partidas apenas bloqueando e esquivando-se para aprender o ritmo dos ataques do oponente."
+  },
+  {
+    question: "Qual é o melhor estilo de luta para iniciantes em Gakuran?",
+    answer: "Qualquer estilo B-Tier é excelente para aprender. Eles geralmente têm stats equilibrados e rotas de combo previsíveis que ajudam a dominar os fundamentos antes de passar para estilos complexos S-Tier."
+  },
+  {
+    question: "Os códigos realmente ajudam na luta?",
+    answer: "Sim, indiretamente. Os códigos frequentemente oferecem rerolls gratuitos, permitindo que você mude de um estilo de luta fraco para um de topo sem gastar Robux ou esforço por horas."
+  },
+  {
+    question: "Como quebro o bloqueio de um oponente?",
+    answer: "Use seu M2 (Ataque Pesado). Um acerto bem-sucedido no oponente que está bloqueando o M2 o stunará brevemente, abrindo-o para uma sequência de combo M1 completa."
+  }
+]} />
+
+</Section>

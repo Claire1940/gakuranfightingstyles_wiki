@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gakuran Fighting: Melhores Estilos e Estratégias de Contra-ataque",
+  description: "Domine o meta de combate de Gakuran. Aprenda como contra-atacar Boxe, Wrestling, Kensei e outros estilos de elite em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Gakuran+Fighting+Guide",
+  date: "2026-07-21",
+  author: "Equipe Wiki Gakuran",
+  keywords: "gakuran fighting, estilos de luta, guia de combate, boxe, wrestling, kensei"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Gakuran Fighting**: O sucesso depende da memorização de frame data específicos e estratégias de contra-ataque.
+- **Ameaça Lendária**: Wrestling e Boxe dominam o meta de alto nível com ataques críticos devastadores.
+- **Prioridade Defensiva**: Saber quando bloquear, aparar (parry) ou usar o dash determina o resultado de duelos de alto nível.
+- **Fluidez de Combate**: Use vantagens de alcance e puna as animações de início (startup) lentas de estilos comuns.
+</Callout>
+
+<Section icon={Swords} title="Visão Geral dos Estilos de Luta Gakuran">
+
+Para sobreviver a partidas de alto nível, dominar o meta de combate de **gakuran fighting** é absolutamente essencial. Cada estilo possui frame data únicos, golpes críticos distintos e vantagens passivas que podem mudar rapidamente o rumo da batalha. Entender esses confrontos permite prever os movimentos do oponente e executar manobras defensivas impecáveis.
+
+**Destaques do Vídeo:**
+- **Counter de Boxe**: Aprenda a lidar com a hitbox instantânea do M1 e bloquear o crítico de dois golpes.
+- **Blur do Wrestling**: Descubra o segredo para sobreviver ao estado de cegueira pós-slam sem tropeçar.
+- **Defesa de Kensei**: Entenda o bloqueio de aparo (parry) de 2 segundos e como bloquear com segurança.
+- **Confrontos Raros**: Dicas para cancelar críticos de ragdoll de Karatê e Muay Thai usando o alcance.
+
+<YouTubeEmbed videoId="AkKMrecVb2g" title="Como Vencer Todos os Estilos de Luta em Gakuran" />
+
+Nossa análise abrangente categoriza cada estilo por seu nível (tier), principal ameaça e dificuldade geral de contra-ataque. Use esta tabela para identificar o que você enfrentará antes de iniciar o combate.
+
+| Estilo | Nível | Ameaça Principal | Impacto na Postura |
+| :--- | :--- | :--- | :--- |
+| Boxe | Lendário | M1 Instantâneo e Crítico Rápido | Alto |
+| Wrestling | Lendário | Crítico de Slam com Hiper-Armadura | Extremo |
+| Kensei (Curie) | Lendário | Debuff Anti-Parry | Alto |
+| Capoeira | Lendário | Alta Mobilidade e Dash | Médio |
+| Karatê | Raro | Crítico Ragdoll e Regen. de Postura | Médio |
+| Muay Thai | Raro | Crítico Ragdoll | Médio |
+| Hikari | Comum | Animações Lentas | Baixo |
+| Slugger | Comum | Animações Lentas | Baixo |
+
+<Callout type="success" title="Insight do Meta">
+A altura do personagem desempenha um papel enorme no combate. Builds altas se destacam em manter distância e atacar de longe, enquanto builds baixas devem focar na pressão de curto alcance.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Contra-atacando Estilos Lendários">
+
+Estilos Lendários representam o auge do meta de combate. Eles apresentam habilidades passivas poderosas e ataques críticos altamente perigosos. Enfrentá-los exige paciência e timing preciso.
+
+### Boxe
+O estilo Boxe é notório por sua velocidade. Seu primeiro ataque M1 tem uma hitbox que registra ligeiramente antes da animação física ocorrer. Para lidar com o crítico do Boxe, lembre-se de que ele consiste em dois golpes distintos. Se você mantiver a postura cheia, pode bloquear ambos com segurança. Se o primeiro golpe conectar, tente aparar (parry) o segundo imediatamente.
+
+### Wrestling
+O Wrestling apresenta o ataque crítico mais devastador do jogo, apoiado por uma robusta hiper-armadura. O jogo passivo é altamente eficaz aqui; Wrestlers inteligentes tentarão induzir você ao ataque para que possam trocar golpes com seu crítico. Se você for arremessado (slam), sua tela ficará severamente borrada por três a quatro segundos. Durante esta janela, você não deve usar o dash, ou irá tropeçar e cair.
+
+### Kensei (Curie)
+O estilo Kensei utiliza um debuff único que impede você de aparar (parry) por dois segundos após o acerto de seu crítico. Não entre em pânico e não tente aparar durante este bloqueio. Em vez disso, segure o bloqueio imediatamente para absorver dois ataques M1 e, em seguida, use o dash para resetar o jogo neutro.
+
+### Capoeira
+Jogadores de Capoeira se beneficiam de uma redução passiva de 25% no cooldown do dash. Espere que eles joguem com alta mobilidade, entrando e saindo do seu alcance constantemente. Embora suas animações de M1 sejam erráticas, elas se tornam altamente previsíveis assim que você se familiariza com o ritmo.
+
+<CardGrid cols={3}>
+  <Card title="Estratégia contra Boxe">
+    - **Mantenha distância** de builds baixas
+    - Bloqueie críticos de dois golpes com postura cheia
+    - Apare o segundo golpe se o primeiro conectar
+  </Card>
+  <Card title="Estratégia contra Wrestling">
+    - **Nunca use dash** enquanto a tela estiver borrada
+    - Tente um aparo defensivo enquanto estiver cego
+    - Espere táticas de isca passiva
+  </Card>
+  <Card title="Estratégia contra Kensei">
+    - **Segure o bloqueio** por exatamente dois M1s após o crítico
+    - Evite tentar aparar durante o debuff de 2 segundos
+    - Jogue de forma ultra-passiva quando o oponente estiver com pouca vida
+  </Card>
+</CardGrid>
+
+| Estilo | Ação Defensiva | O que Evitar | Resposta Ideal |
+| :--- | :--- | :--- | :--- |
+| Boxe | Bloqueio duplo / Aparar 2º golpe | Deixar builds baixas se aproximarem | Manter distância segura |
+| Wrestling | Aparo defensivo enquanto cego | Usar dash imediatamente após o slam | Dash apenas após 4 segundos |
+| Kensei | Bloquear 2 M1s e sair com dash | Tentativas de parry durante o debuff | Jogo passivo com vida baixa |
+| Capoeira | Prever dashes de alta frequência | Confundir-se com as animações de M1 | Prática consistente de parry |
+
+<Callout type="warning" title="Aviso Crítico">
+Jogadores de Wrestling jogarão deliberadamente de forma passiva para atrair seus ataques M1. O crítico deles irá "puxar" a hitbox do seu M1 para o ataque deles, garantindo um slam gratuito.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Vencendo Estilos Raros e Comuns">
+
+Estilos Raros e Comuns são significativamente mais fáceis de lidar devido às suas animações altamente telegrafadas e falta de hiper-armadura. No entanto, eles ainda podem punir jogadores despreparados.
+
+Karatê e Muay Thai dependem fortemente de críticos de ragdoll. Ao contrário do Wrestling, esses críticos não possuem hiper-armadura, o que significa que você pode cancelá-los facilmente com ataques M1 bem cronometrados ou um dash rápido. Jogadores de Karatê também se beneficiam da regeneração passiva de postura, tornando o jogo defensivo passivo contra eles menos eficaz.
+
+<Steps>
+  <Step num="1" title="Avaliação de Alcance">
+    Identifique a altura do seu oponente. Se você for mais alto, abuse do seu alcance para mantê-los fora da distância do crítico deles.
+  </Step>
+  <Step num="2" title="Interrupção de Crítico">
+    Fique atento à animação de início dos críticos de Karatê ou Muay Thai. Execute uma sequência rápida de M1 para cancelar o ataque inteiramente.
+  </Step>
+  <Step num="3" title="Esquiva Tradicional">
+    Se você perder a janela de interrupção, execute um dash padrão para trás para evitar completamente o efeito de ragdoll.
+  </Step>
+</Steps>
+
+Para Hikari e Slugger, o contra-ataque é incrivelmente simples. Ambos os estilos apresentam animações de M1 e crítico extremamente lentas e telegrafadas. Basta observar os frames de início e aparar cada ataque com facilidade.
+
+| Estilo | Velocidade de Ataque | Fraqueza Principal | Alcance Ideal |
+| :--- | :--- | :--- | :--- |
+| Karatê | Rápido | Crítico Interrompível | Médio Alcance |
+| Muay Thai | Rápido | Crítico Interrompível | Médio Alcance |
+| Hikari | Lento | Muitos Frames de Início | Curto Alcance |
+| Slugger | Lento | Ataques Telegrafados | Curto Alcance |
+
+<Callout type="tip" title="Dica Pro">
+Como o Karatê regenera postura constantemente, não tente vencê-los no estilo "tartaruga". Jogue agressivamente para interromper a recuperação passiva deles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Táticas de Combate Avançadas">
+
+Para vencer confrontos consistentemente na arena, você deve integrar hábitos defensivos avançados ao seu estilo de jogo. Use este checklist para acompanhar sua maestria nestes conceitos centrais.
+
+<Checklist
+  id="combat-mastery"
+  title="Marcos de Combate:"
+  items={[
+    "Dominar a sequência de bloqueio e dash de 2 segundos contra Kensei",
+    "Executar com sucesso um aparo defensivo enquanto cegado pelo Wrestling",
+    "Cancelar consistentemente os críticos de ragdoll de Karatê e Muay Thai com M1s",
+    "Manter a distância perfeita contra builds de Boxe curtas",
+    "Aparar as animações lentas de Hikari e Slugger com 100% de precisão"
+  ]}
+/>
+
+<Callout type="success" title="Recompensa de Maestria">
+Aperfeiçoar essas sequências defensivas reduzirá significativamente o dano recebido, permitindo que você derrote estilos de tiers mais altos usando builds básicas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o estilo mais eficaz em gakuran fighting?",
+    answer: "Embora Boxe e Wrestling dominem o meta devido à alta pressão e hiper-armadura, não existe um estilo absolutamente melhor. O sucesso depende de entender as fraquezas do seu oponente e executar counters precisos."
+  },
+  {
+    question: "Como eu sobrevivo ao estado de cegueira do slam do Wrestling?",
+    answer: "Não tente usar o dash imediatamente após ser arremessado, pois você irá tropeçar e cair. Em vez disso, segure o bloqueio ou tente um aparo defensivo por 3 a 4 segundos até que o efeito de desfoque desapareça."
+  },
+  {
+    question: "Eu posso aparar (parry) o ataque crítico do Kensei?",
+    answer: "Sim, você pode aparar o golpe crítico inicial. No entanto, se o crítico conectar, você será impedido de aparar por 2 segundos. Nesse caso, você deve bloquear dois M1s e depois usar o dash para se afastar."
+  },
+  {
+    question: "Por que o Karatê é difícil de derrotar com jogo defensivo?",
+    answer: "O Karatê possui uma vantagem passiva que regenera postura constantemente. Isso permite que jogadores de Karatê bloqueiem significativamente mais ataques do que outros estilos, tornando a pressão ofensiva agressiva a melhor estratégia."
+  }
+]} />
+
+<Callout type="info" title="Recursos da Comunidade">
+Para discussões mais avançadas, dados de confrontos e eventos da comunidade, considere participar de grupos de jogadores locais e compartilhar seus clipes de combate.
+</Callout>
+
+</Section>

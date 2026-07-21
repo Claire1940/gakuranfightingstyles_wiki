@@ -192,6 +192,28 @@
         "file": "gakuran-codes"
       }
     ],
+    "combat": [
+      {
+        "slug": "gakuran-best-build",
+        "file": "gakuran-best-build"
+      },
+      {
+        "slug": "gakuran-combat",
+        "file": "gakuran-combat"
+      },
+      {
+        "slug": "gakuran-fighting",
+        "file": "gakuran-fighting"
+      },
+      {
+        "slug": "gakuran-height-build",
+        "file": "gakuran-height-build"
+      },
+      {
+        "slug": "gakuran-how-to-fight",
+        "file": "gakuran-how-to-fight"
+      }
+    ],
     "controls": [
       {
         "slug": "gakuran-console-controls",
@@ -330,6 +352,28 @@
         "file": "gakuran-codes"
       }
     ],
+    "combat": [
+      {
+        "slug": "gakuran-best-build",
+        "file": "gakuran-best-build"
+      },
+      {
+        "slug": "gakuran-combat",
+        "file": "gakuran-combat"
+      },
+      {
+        "slug": "gakuran-fighting",
+        "file": "gakuran-fighting"
+      },
+      {
+        "slug": "gakuran-height-build",
+        "file": "gakuran-height-build"
+      },
+      {
+        "slug": "gakuran-how-to-fight",
+        "file": "gakuran-how-to-fight"
+      }
+    ],
     "controls": [
       {
         "slug": "gakuran-console-controls",
@@ -374,6 +418,10 @@
         "file": "gakuran-guide"
       },
       {
+        "slug": "gakuran-how-to-play",
+        "file": "gakuran-how-to-play"
+      },
+      {
         "slug": "gakuran-pvp-guide",
         "file": "gakuran-pvp-guide"
       },
@@ -394,6 +442,10 @@
       {
         "slug": "gakuran-music-room",
         "file": "gakuran-music-room"
+      },
+      {
+        "slug": "gakuran-school",
+        "file": "gakuran-school"
       },
       {
         "slug": "gakuran-underground",
@@ -458,6 +510,28 @@
       {
         "slug": "gakuran-codes",
         "file": "gakuran-codes"
+      }
+    ],
+    "combat": [
+      {
+        "slug": "gakuran-best-build",
+        "file": "gakuran-best-build"
+      },
+      {
+        "slug": "gakuran-combat",
+        "file": "gakuran-combat"
+      },
+      {
+        "slug": "gakuran-fighting",
+        "file": "gakuran-fighting"
+      },
+      {
+        "slug": "gakuran-height-build",
+        "file": "gakuran-height-build"
+      },
+      {
+        "slug": "gakuran-how-to-fight",
+        "file": "gakuran-how-to-fight"
       }
     ],
     "controls": [

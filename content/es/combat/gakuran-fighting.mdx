@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gakuran Fighting: Mejores Estilos y Estrategias de Contraataque",
+  description: "Domina el meta de combate de Gakuran Fighting. Aprende a contrarrestar el Boxeo, la Lucha Libre, Kensei y otros estilos principales en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Gakuran+Fighting+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Gakuran"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Gakuran Fighting**: El éxito depende de memorizar datos de fotogramas específicos y estrategias de contraataque.
+- **Amenaza Legendaria**: La Lucha Libre y el Boxeo dominan el meta de nivel alto con ataques críticos devastadores.
+- **Prioridad Defensiva**: Saber cuándo bloquear, hacer parry o esquivar determina el resultado de los duelos de alto nivel.
+- **Fluidez de Combate**: Utiliza las ventajas de alcance y castiga las animaciones de inicio lentas de los estilos comunes.
+</Callout>
+
+<Section icon={Swords} title="Resumen de los Estilos de Combate de Gakuran">
+
+Para sobrevivir a los combates de alto nivel, dominar el meta de combate de **gakuran fighting** es absolutamente esencial. Cada estilo posee datos de fotogramas únicos, ataques críticos distintos y ventajas pasivas que pueden cambiar rápidamente el rumbo de la batalla. Comprender estos enfrentamientos te permite predecir los movimientos del oponente y ejecutar maniobras defensivas impecables.
+
+**Puntos Destacados del Video:**
+- **Contraataque de Boxeo**: Aprende a lidiar con la hitbox instantánea del M1 y a bloquear el crítico de doble golpe.
+- **Ceguera de Lucha Libre**: Descubre el secreto para sobrevivir al estado de ceguera tras un azotón sin tropezar.
+- **Defensa de Kensei**: Comprende el bloqueo de parry de 2 segundos y cómo bloquear de forma segura durante este.
+- **Enfrentamientos Raros**: Consejos para cancelar los críticos de caída (ragdoll) de Kárate y Muay Thai usando el alcance.
+
+<YouTubeEmbed videoId="AkKMrecVb2g" title="Cómo vencer a todos los estilos de lucha en Gakuran" />
+
+Nuestro análisis exhaustivo categoriza cada estilo por su nivel (tier), amenaza principal y dificultad general para contrarrestarlo. Utiliza este desglose para identificar a qué te enfrentas antes de iniciar el combate.
+
+| Estilo | Rango (Tier) | Amenaza Principal | Impacto en la Postura |
+| :--- | :--- | :--- | :--- |
+| Boxeo | Legendario | M1 instantáneo y crítico rápido | Alto |
+| Lucha Libre | Legendario | Crítico de azotón con hiperarmadura | Extremo |
+| Kensei (Curie) | Legendario | Debilitamiento anti-parry | Alto |
+| Capoeira | Legendario | Alta movilidad y esquive | Medio |
+| Kárate | Raro | Crítico de caída y regeneración de postura | Medio |
+| Muay Thai | Raro | Crítico de caída | Medio |
+| Hikari | Común | Indicaciones visuales lentas | Bajo |
+| Slugger | Común | Indicaciones visuales lentas | Bajo |
+
+<Callout type="success" title="Perspectiva del Meta">
+La altura del personaje juega un papel fundamental en el combate. Las complexiones altas destacan al mantener la distancia y atacar desde lejos, mientras que las complexiones bajas deben confiar en la presión a corta distancia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Contrarrestar Estilos Legendarios">
+
+Los estilos legendarios representan la cúspide del meta de combate. Cuentan con poderosas habilidades pasivas y ataques críticos sumamente peligrosos. Luchar contra ellos requiere paciencia y una sincronización precisa.
+
+### Boxeo
+El estilo de Boxeo es famoso por su velocidad. Su primer ataque M1 tiene una hitbox que en realidad se registra un poco antes de que se reproduzca la animación física. Para lidiar con el crítico de Boxeo, ten en cuenta que consta de dos golpes distintos. Si mantienes la postura al máximo, puedes bloquear ambos golpes de forma segura. Si el primer golpe conecta, intenta hacer parry al segundo inmediatamente.
+
+### Lucha Libre
+La Lucha Libre cuenta con el ataque crítico más devastador del juego, respaldado por una sólida hiperarmadura. El juego pasivo es muy efectivo aquí; los luchadores inteligentes te provocarán para que ataques y así poder intercambiar golpes con su crítico. Si te azotan, tu pantalla se volverá extremadamente borrosa durante tres o cuatro segundos. Durante este periodo, no debes esquivar, o tropezarás y caerás.
+
+### Kensei (Curie)
+El estilo Kensei utiliza un debilitamiento único que te impide hacer parry durante dos segundos después de que conecta su crítico. No entres en pánico ni intentes hacer parry durante este bloqueo. En su lugar, mantén presionado tu bloqueo inmediatamente para absorber dos ataques M1 y luego esquiva para restablecer el juego neutral.
+
+### Capoeira
+Los jugadores de Capoeira se benefician de una reducción pasiva del 25% en el tiempo de recarga de los esquives. Espera que jueguen con gran movilidad, entrando y saliendo de tu alcance constantemente. Aunque sus animaciones de M1 son erráticas, se vuelven muy predecibles una vez que te familiarizas con su ritmo.
+
+<CardGrid cols={3}>
+  <Card title="Estrategia de Boxeo">
+    - **Mantén la distancia** con las complexiones bajas
+    - Bloquea los críticos de doble golpe con la postura al máximo
+    - Haz parry al segundo golpe si el primero conecta
+  </Card>
+  <Card title="Estrategia de Lucha Libre">
+    - **Nunca esquives** mientras la pantalla esté borrosa
+    - Intenta un parry defensivo mientras estés cegado
+    - Espera tácticas de provocación pasivas
+  </Card>
+  <Card title="Estrategia de Kensei">
+    - **Mantén el bloqueo** durante exactamente dos M1 tras el crítico
+    - Evita intentar hacer parry durante el debilitamiento de 2 segundos
+    - Juega de forma ultra pasiva cuando el oponente tenga poca salud
+  </Card>
+</CardGrid>
+
+| Estilo | Acción Defensiva | Qué Evitar | Respuesta Óptima |
+| :--- | :--- | :--- | :--- |
+| Boxeo | Bloqueo doble / Parry al 2.º golpe | Dejar que las complexiones bajas se acerquen | Jugar a mantener la distancia |
+| Lucha Libre | Parry defensivo mientras estés cegado | Esquivar inmediatamente después del azotón | Esquivar solo después de 4 segundos |
+| Kensei | Bloquear 2 M1 y esquivar hacia fuera | Intentar hacer parry durante el debilitamiento | Juego pasivo con poca salud |
+| Capoeira | Predecir esquives de alta frecuencia | Confundirse con las animaciones de M1 | Práctica constante de parry |
+
+<Callout type="warning" title="Advertencia Crítica">
+Los jugadores de Lucha Libre jugarán pasivamente a propósito para provocar tus ataques M1. Su crítico atraerá la hitbox de tu M1 hacia su ataque, otorgándoles un azotón gratuito.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Derrotar Estilos Raros y Comunes">
+
+Los estilos raros y comunes son significativamente más fáciles de manejar debido a sus animaciones sumamente evidentes y a la falta de hiperarmadura. Sin embargo, aún pueden castigar a los jugadores que no estén preparados.
+
+Tanto el Kárate como el Muay Thai dependen en gran medida de los críticos de caída. A diferencia de la Lucha Libre, estos críticos no cuentan con hiperarmadura, lo que significa que puedes cancelarlos fácilmente con ataques M1 bien sincronizados o con un esquive rápido. Los jugadores de Kárate también se benefician de una regeneración de postura pasiva, lo que hace que el juego defensivo pasivo contra ellos sea menos efectivo.
+
+<Steps>
+  <Step num="1" title="Evaluación del Alcance">
+    Identifica la altura de tu oponente. Si eres más alto, aprovecha tu alcance para mantenerlo fuera de su rango crítico.
+  </Step>
+  <Step num="2" title="Interrupción de Crítico">
+    Vigila la animación de inicio de los críticos de Kárate o Muay Thai. Ejecuta una cadena rápida de M1 para cancelar el ataque por completo.
+  </Step>
+  <Step num="3" title="Esquive Tradicional">
+    Si pierdes la oportunidad de interrupción, ejecuta un esquive estándar hacia atrás para evitar por completo el efecto de caída.
+  </Step>
+</Steps>
+
+Para Hikari y Slugger, la estrategia de contraataque es increíblemente sencilla. Ambos estilos presentan animaciones de M1 y de críticos extremadamente lentas y fáciles de anticipar. Simplemente observa sus fotogramas de inicio y haz parry a cada golpe entrante con facilidad.
+
+| Estilo | Velocidad de Ataque | Debilidad Principal | Alcance Óptimo |
+| :--- | :--- | :--- | :--- |
+| Kárate | Rápido | Crítico interrumpible | Alcance medio |
+| Muay Thai | Rápido | Crítico interrumpible | Alcance medio |
+| Hikari | Lento | Muchos fotogramas de inicio | Corto alcance |
+| Slugger | Lento | Ataques predecibles | Corto alcance |
+
+<Callout type="tip" title="Consejo Pro">
+Dado que el Kárate regenera la postura constantemente, no intentes jugar de forma ultra defensiva contra ellos. Juega agresivamente para interrumpir su recuperación pasiva.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Tácticas de Combate Avanzadas">
+
+Para ganar enfrentamientos de manera constante en la arena, debes integrar hábitos defensivos avanzados en tu estilo de juego. Utiliza esta lista de verificación para realizar un seguimiento de tu dominio de estos conceptos básicos de combate.
+
+<Checklist
+  id="combat-mastery"
+  title="Hitos de Combate:"
+  items={[
+    "Dominar la secuencia de bloqueo y esquive de 2 segundos contra Kensei",
+    "Ejecutar con éxito un parry defensivo mientras estás cegado por la Lucha Libre",
+    "Cancelar de manera constante los críticos de caída de Kárate y Muay Thai con golpes M1",
+    "Mantener la distancia perfecta para evitar el cuerpo a cuerpo contra las complexiones bajas de Boxeo",
+    "Hacer parry a las lentas animaciones de inicio de Hikari y Slugger con un 100% de precisión"
+  ]}
+/>
+
+<Callout type="success" title="Recompensa por Dominio">
+Perfeccionar estas secuencias defensivas reducirá significativamente el daño que recibes, lo que te permitirá derrotar fácilmente a los estilos de mayor nivel con complexiones básicas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el estilo más efectivo en Gakuran Fighting?",
+    answer: "Aunque el Boxeo y la Lucha Libre dominan el meta debido a su alta presión e hiperarmadura, no existe un estilo absolutamente mejor. El éxito depende de comprender las debilidades de tu oponente y ejecutar contraataques precisos."
+  },
+  {
+    question: "¿Cómo sobrevivo al estado de ceguera tras un azotón de Lucha Libre?",
+    answer: "No intentes esquivar inmediatamente después de ser azotado, ya que tropezarás y caerás. En su lugar, mantén tu bloqueo o intenta un parry defensivo durante 3 a 4 segundos hasta que el efecto de desenfoque desaparezca."
+  },
+  {
+    question: "¿Puedo hacer parry al ataque crítico de Kensei?",
+    answer: "Sí, puedes hacer parry al golpe crítico inicial. Sin embargo, si el crítico conecta, se te bloqueará el parry durante 2 segundos. In este caso, debes bloquear dos M1 y luego esquivar para alejarte."
+  },
+  {
+    question: "¿Por qué es difícil derrotar al Kárate con un juego defensivo pasivo?",
+    answer: "El Kárate cuenta con una ventaja pasiva que regenera la postura constantemente. Esto permite a los jugadores de Kárate bloquear significativamente más ataques que otros estilos, haciendo que la presión ofensiva agresiva sea la estrategia superior."
+  }
+]} />
+
+<Callout type="info" title="Recursos de la Comunidad">
+Para discusiones más avanzadas, datos de enfrentamientos y eventos comunitarios, considera unirte a los grupos de jugadores locales y compartir tus videos de combate.
+</Callout>
+
+</Section>

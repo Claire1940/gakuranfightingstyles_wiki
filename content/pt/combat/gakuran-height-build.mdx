@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build de Altura Gakuran: Guia de Mecânicas e Impactos nos Atributos",
+  description: "Domine o sistema de build de altura em Gakuran. Saiba como a altura influencia o HP, dano, alcance e velocidade de ataque para otimizar o desempenho do seu personagem.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Height+Build+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki Gakuran",
+  keywords: "gakuran, build de altura, mecânicas de combate, estatísticas de personagem"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **build de altura Gakuran** dita seus atributos principais de combate, incluindo HP, saída de dano e alcance corpo a corpo.
+- **Personagens altos** ganham bônus massivos de HP e dano, mas sofrem com animações de ataque mais lentas e hitboxes maiores.
+- **Personagens baixos** se destacam na velocidade e no potencial de combo, apresentando recuperação mais rápida e hitboxes menores ao custo de durabilidade.
+- **A altura é determinada** pela etnia do seu personagem, que é aleatória ao entrar no jogo pela primeira vez.
+- **Equilíbrio estratégico** é necessário para escolher entre uma build alta estilo 'Tanque' ou uma build baixa estilo 'Assassino'.
+</Callout>
+
+<Section icon={Map} title="Entendendo as Mecânicas de Altura em Gakuran">
+
+No mundo competitivo de Gakuran, sua estatura física é muito mais do que apenas uma escolha cosmética. A **build de altura Gakuran** que você recebe ou sorteia influencia diretamente cada interação no combate. Diferente de muitos RPGs onde a altura é puramente estética, este jogo usa um sistema de escala que troca velocidade por poder. Entender essas compensações é o primeiro passo para dominar o meta em 2026.
+
+**Destaques do Vídeo:**
+- Detalhamento da escala de HP e dano para personagens altos.
+- Comparação visual do alcance corpo a corpo entre diferentes níveis de altura.
+- Explicação das desvantagens da hitbox para builds maiores.
+- Visão geral do sistema de etnia e como ele dita sua altura inicial.
+
+<YouTubeEmbed videoId="gyhZGwxma8I" title="GUIA COMPLETO Sobre ALTURA em Gakuran! Roblox" />
+
+A altura afeta quatro pilares primários da jogabilidade: sobrevivência, pressão ofensiva, mobilidade e vulnerabilidade. Enquanto um jogador mais alto pode dominar em uma luta baseada em trocas de golpes, um jogador mais baixo pode frequentemente vencê-lo usando dados de quadros (frame data) e velocidades de recuperação superiores.
+
+<Callout type="warning" title="Aviso de Hitbox">
+Ser mais alto aumenta significativamente a hitbox do seu personagem. Isso faz de você um alvo muito mais fácil para ataques de projéteis e golpes corpo a corpo de longo alcance em comparação com jogadores mais baixos.
+</Callout>
+
+| Atributo | Impacto na Build Alta | Impacto na Build Baixa |
+| --- | --- | --- |
+| Pontos de Vida (HP) | Aumento Significativo | Diminuição Moderada |
+| Dano Bruto | Maior por Golpe | Menor por Golpe |
+| Alcance Corpo a Corpo | Alcance Estendido | Alcance Compacto |
+| Velocidade de Ataque | Golpes mais Lentos | Combos mais Rápidos |
+| Tempos de Recarga | Esperas mais Longas | Recuperação Rápida |
+| Tamanho da Hitbox | Grande (Fácil de acertar) | Pequena (Difícil de acertar) |
+
+</Section>
+
+<Section icon={Swords} title="Alto vs. Baixo: Escolhendo seu Estilo de Jogo">
+
+Decidir sobre a **build de altura Gakuran** correta depende inteiramente da sua filosofia de combate preferida. Não existe uma altura "perfeita", mas existem alturas ideais para funções específicas dentro de uma equipe ou duelo solo.
+
+<CardGrid cols={2}>
+  <Card title="O Juggernaut (Alto)">
+    - **Grande Reserva de HP**: Permite que você aguente múltiplos combos sem cair.
+    - **Domínio de Zoneamento**: Use seu alcance superior para atingir inimigos antes que eles possam se aproximar.
+    - **Rei das Trocas**: Você quase sempre ganhará uma troca de dano de 1 para 1 devido ao maior dano base.
+  </Card>
+  <Card title="O Atacante (Baixo)">
+    - **Loops de Combo**: A recuperação rápida permite sequências de combos mais curtas e punitivas.
+    - **Evasão**: Uma hitbox menor significa que muitos ataques de mira alta simplesmente passarão por cima da sua cabeça.
+    - **Baixo Risco**: Tempos de recarga mais curtos significam que você raramente fica vulnerável após um ataque perdido.
+  </Card>
+</CardGrid>
+
+Ao montar seu personagem, considere as armas que pretende usar. Uma arma pesada e lenta pode se beneficiar do alcance de uma build alta, criando uma ameaça de "um golpe". Por outro lado, estilos de artes marciais de ataque rápido prosperam com os bônus de velocidade fornecidos por uma estatura mais baixa.
+
+<Callout type="tip" title="Dica de Profissional">
+Se você estiver jogando com uma build baixa, foque no 'combate próximo'. Feche a distância rapidamente para anular a vantagem de alcance dos jogadores mais altos, então use sua velocidade de ataque superior para interromper os golpes mais lentos deles.
+</Callout>
+
+| Tipo de Build | Melhor Sinergia de Arma | Estratégia Primária |
+| --- | --- | --- |
+| Máximo Alto | Lâminas Pesadas / Porretes | Espaçamento e Zoneamento |
+| Médio Alto | Katanas Equilibradas | Contra-ataque Defensivo |
+| Médio Baixo | Adagas / Desarmado | Pressão Agressiva |
+| Máximo Baixo | Estilos de Ataque Rápido | Hit and Run / Evasão |
+
+</Section>
+
+<Section icon={Sparkles} title="Como Alterar e Influenciar a Altura">
+
+A pergunta mais comum em relação à **build de altura Gakuran** é como alterá-la. Atualmente, a altura é uma característica semipermanente ligada à etnia do seu personagem. Quando você começa sua jornada, o jogo atribui a você uma etnia aleatória, que atua como o modificador primário para sua altura.
+
+<Steps>
+  <Step num="1" title="Verificar Atributos Iniciais">
+    Ao surgir no jogo, observe o tamanho do seu personagem em relação aos NPCs. Verifique sua barra de HP; um HP inicial significativamente maior geralmente indica um sorteio de personagem alto.
+  </Step>
+  <Step num="2" title="Verificar Etnia">
+    O jogo apresenta uma chance de 95% de ser sorteado como Japonês. Os 5% restantes consistem em várias outras etnias que podem levar sua altura aos extremos do espectro.
+  </Step>
+  <Step num="3" title="Processo de Reroll">
+    Como você não pode dar reroll na altura diretamente através de um botão dedicado, você deve dar reroll na etnia do seu personagem. Isso é feito tipicamente através de moeda do jogo ou itens específicos de reset encontrados na loja.
+  </Step>
+  <Step num="4" title="Finalizando a Build">
+    Assim que você conseguir uma etnia que forneça a altura desejada, você pode começar a focar em equipamentos que complementem esses modificadores de atributos específicos.
+  </Step>
+</Steps>
+
+É importante notar que, embora a etnia seja o principal fator, pode haver atualizações futuras ou acessórios específicos que forneçam ajustes menores. No entanto, o núcleo da sua build sempre permanecerá atado a essa aleatoriedade inicial.
+
+<Callout type="info" title="Nota sobre Raridade">
+Etnias não japonesas são raras (5% no total). Se você conseguiu sortear uma que lhe dá altura extrema ou baixeza extrema, considere mantê-la, pois essas "Builds Extremas" são muito procuradas para o jogo competitivo especializado.
+</Callout>
+
+| Grupo Étnico | Probabilidade | Faixa de Altura Típica |
+| --- | --- | --- |
+| Japonês (Padrão) | 95% | Média a Levemente Alta |
+| Grupo Raro A | ~3% | Muito Alta / Build Pesada |
+| Grupo Raro B | ~2% | Muito Baixa / Build Esguia |
+
+</Section>
+
+<Section icon={Shield} title="Dinâmica de Combate e Otimização de Alcance">
+
+O fator "Alcance Corpo a Corpo" é talvez o aspecto mais subestimado da **build de altura Gakuran**. Em duelos de alto nível, o jogador que consegue desferir o primeiro golpe (a vitória no "neutro") geralmente dita o ritmo de toda a partida.
+
+Uma build alta permite o "Zoneamento". Este é o ato de manter seu oponente na ponta do alcance da sua arma. Como seus membros são mais longos, suas hitboxes ativas se estendem mais longe do seu ponto central. Isso cria uma "zona de perigo" que os jogadores mais baixos devem navegar com cuidado.
+
+**Tabela de Comparação de Alcance:**
+| Nível de Altura | Multiplicador de Alcance | Estratégia Eficaz |
+| --- | --- | --- |
+| Gigante | 1.2x | Cutucadas de longo alcance |
+| Alto | 1.1x | Domínio de médio alcance |
+| Médio | 1.0x | Jogabilidade padrão |
+| Baixo | 0.9x | Avanço de curto alcance |
+| Pequeno | 0.8x | Evasão máxima |
+
+No entanto, o atributo de "Recuperação" é a arma secreta da build baixa. Em Gakuran, cada ataque tem um "end-lag" — o tempo que você fica congelado após um golpe. Builds baixas têm end-lag reduzido, o que significa que se você errar um ataque, poderá bloquear ou esquivar muito mais cedo do que um jogador alto.
+
+<Callout type="success" title="Sucesso na Estratégia">
+As builds baixas mais bem-sucedidas focam em "Punição de Erro (Whiff Punishing)". Espere por um jogador alto atacar e errar, então capitalize no longo tempo de recuperação dele para desferir um combo completo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist para Otimizar sua Build de Altura">
+
+Para garantir que você está tirando o máximo proveito dos atributos físicos do seu personagem, siga este checklist de otimização.
+
+<Checklist
+  id="height-optimization"
+  title="Passos para a Perfeição da Build:"
+  items={[
+    "Identifique seu estilo de jogo preferido (Tanque vs. Velocista)",
+    "Dê reroll na etnia até que a altura corresponda ao seu estilo escolhido",
+    "Equipe armas que se beneficiem do alcance ou velocidade da sua altura",
+    "Ajuste seus hábitos defensivos com base no tamanho da sua hitbox",
+    "Pratique o espaçamento para maximizar sua vantagem de alcance específica",
+    "Memorize seus quadros de recuperação para seus combos mais usados"
+  ]}
+/>
+
+Lembre-se de que o meta pode mudar. Embora as builds altas possam ser dominantes na versão atual devido ao alto HP, uma atualização futura focada na escala de combos poderia facilmente devolver a vantagem para personagens mais baixos e rápidos. Mantenha-se sempre adaptável.
+
+| Foco da Build | Acessórios Recomendados | Atributo Chave para Observar |
+| --- | --- | --- |
+| Tanque de HP | Amuletos de Defesa / Capas Pesadas | Vida Total |
+| Dano | Anéis de Poder de Ataque | Dano por Golpe |
+| Mestre de Combo | Botas de Regen de Estamina | Velocidade de Ataque |
+| Especialista em Evasão | Itens de Aumento de Velocidade | Velocidade de Movimento |
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Posso mudar manualmente minha build de altura Gakuran sem trocar de etnia?",
+    answer: "Não, a partir das atualizações de 2026, a altura está intrinsecamente ligada à sua etnia. Você deve dar reroll na sua etnia para alterar sua altura base e os modificadores de atributos associados."
+  },
+  {
+    question: "A altura afeta a velocidade de movimento em Gakuran?",
+    answer: "A altura afeta principalmente a velocidade de ataque e os tempos de recuperação. Embora personagens mais altos tenham passadas mais longas, o jogo equilibra isso dando aos personagens mais baixos uma aceleração e recuperação de esquiva mais rápidas."
+  },
+  {
+    question: "É melhor ser alto ou baixo para o PVP?",
+    answer: "Depende do seu nível de habilidade. Builds altas são mais tolerantes para iniciantes devido ao alto HP. Builds baixas têm um teto de habilidade mais alto, permitindo que jogadores experientes desviem de ataques e realizem combos complexos."
+  },
+  {
+    question: "Certas armas anulam a desvantagem de alcance de ser baixo?",
+    answer: "Sim, usar armas de longo alcance como lanças em um personagem baixo pode ajudar a compensar a penalidade natural de alcance, embora você ainda não alcance tão longe quanto um personagem alto usando a mesma arma."
+  }
+]} />
+
+</Section>
