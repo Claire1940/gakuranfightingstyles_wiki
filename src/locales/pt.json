@@ -1,1 +1,606 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Gakuran Wiki - Códigos, Estilos & Guia de Luta",
+      "description": "O Wiki Gakuran cobre códigos Roblox, estilos de luta, controles, personagens, itens, atualizações e dicas PvP para a experiência de luta de roleplay japonês da escola.",
+      "keywords": "Gakuran, Wiki Gakuran, Roblox, códigos, estilos de luta, controles, PvP, roleplay",
+      "ogTitle": "Gakuran Wiki - Códigos, Estilos & Guia de Luta",
+      "ogDescription": "O Wiki Gakuran cobre códigos Roblox, estilos de luta, controles, personagens, itens, atualizações e dicas PvP para a experiência de luta de roleplay japonês da escola.",
+      "twitterTitle": "Gakuran Wiki - Códigos, Estilos & Guia de Luta",
+      "twitterDescription": "O Wiki Gakuran cobre códigos Roblox, estilos de luta, controles e dicas PvP para o jogo de luta de roleplay japonês da escola."
+    }
+  },
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guia",
+    "styles": "Estilos",
+    "controls": "Controles",
+    "combat": "Combate",
+    "characters": "Personagens",
+    "locations": "Localizações"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogue no Steam",
+    "switchLanguage": "Mude de Idioma",
+    "switchTheme": "Mude de Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Leia Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Experiência de Luta de Roleplay Escolar Japonês",
+    "title": "Wiki Gakuran",
+    "description": "Explore Gakuran, uma experiência de roleplay japonês da escola Roblox em 2007 Japão. Aprenda estilos de luta, controles, personalização de personagens, mecânica de jogo, atualizações e estratégias para iniciantes.",
+    "getFreeCodesCTA": "Ganhe Códigos Grátis",
+    "playOnSteamCTA": "Jogue no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "10M+",
+        "label": "Visitas Totais"
+      },
+      "stat2": {
+        "value": "Estilos de Luta",
+        "label": "Estilos Disponíveis"
+      },
+      "stat3": {
+        "value": "12+",
+        "label": "Códigos Ativos"
+      },
+      "stat4": {
+        "value": "Semanalmente",
+        "label": "Atualizações"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay Gakuran",
+    "description": "Explore uma escola japonesa de 2007 no Gakuran, aprenda estilos de luta, personalize seu personagem e batalhe contra outros alunos em combate PvP no Roblox."
+  },
+  "tools": {
+    "title": "Gakuran",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para dominar os estilos de luta Gakuran, códigos, controles e combate PvP.",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Códigos Gakuran",
+        "description": "Códigos ativos, re rolls e recompensas de resgate."
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guia Inicial",
+        "description": "Primeiros passos, exploração e progressão inicial."
+      },
+      {
+        "icon": "Trophy",
+        "title": "Lista de Níveis de Estilos de Luta",
+        "description": "Classifique cada estilo por velocidade, combos e poder PvP."
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Guia de Controles",
+        "description": "Movimento, combate, telefone e combinações de teclas."
+      },
+      {
+        "icon": "Swords",
+        "title": "Guia de Combate",
+        "description": "Ataques, bloqueio, evasão, combos e estratégia PvP."
+      },
+      {
+        "icon": "Mapa",
+        "title": "Mapa e Locais",
+        "description": "Áreas escolares, zonas de atividades e pontos de exploração."
+      },
+      {
+        "icon": "Jornal",
+        "title": "Atualizações e Notícias",
+        "description": "Notas de patch, novo conteúdo e mudanças de equilíbrio."
+      },
+      {
+        "icon": "Lâmpada",
+        "title": "Dicas e Truques",
+        "description": "Estratégias de progressão e erros comuns a evitar."
+      }
+    ]
+  },
+  "modules": {
+    "gakuranCodes": {
+      "title": "Últimos Códigos do Gakuran",
+      "intro": "Os códigos do Gakuran podem ajudar os jogadores a obter recompensas gratuitas sem gastar recursos adicionais. Digite cada código exatamente como mostrado, pois a capitalização, espaços e pontuação podem afetar a validação.",
+      "codes": [
+        {
+          "code": "Nenhum código ativo",
+          "reward": "Nenhum código de recompensa público está atualmente listado para Gakuran.",
+          "status": "Indisponível",
+          "action": "Verifique a seção de código no jogo após as próximas atualizações do Gakuran."
+        },
+        {
+          "code": "Guia de Redenção",
+          "reward": "Abra o Gakuran, localize a opção de redenção de código, insira um código ativo e confirme a entrada.",
+          "status": "Guia",
+          "action": "Digite os códigos exatamente como exibidos, incluindo capitalização."
+        },
+        {
+          "code": "Solução de Problemas de Código",
+          "reward": "Verifique a ortografia, capitalização, status de expiração e se o código já foi redimido.",
+          "status": "Ajuda",
+          "action": "Reingira no Gakuran se um código válido não se aplicar na primeira tentativa."
+        }
+      ]
+    },
+    "gakuranBeginnerGuide": {
+      "title": "Guia do Iniciante do Gakuran",
+      "intro": "Os novos jogadores devem se acostumar com o movimento e o combate antes de desafiar oponentes experientes. Explorar a escola, aprender os sistemas disponíveis e praticar ataques básicos facilitará o progresso inicial no Gakuran.",
+      "steps": [
+        {
+          "title": "Configure Seu Personagem",
+          "description": "Complete a configuração inicial do personagem e revise quaisquer opções de aparência, identidade ou opções de início disponíveis antes de entrar na área principal da escola.",
+          "tip": "Evite gastar rerolls limitados até que você entenda quais opções de personagem afetam o jogo."
+        },
+        {
+          "title": "Aprenda o Movimento Básico",
+          "description": "Pratique caminhar, sprintar, pular e se mover ao redor de obstáculos em uma área segura antes de começar o combate.",
+          "tip": "Um bom movimento ajuda você a evitar ataques e criar espaço durante as lutas."
+        },
+        {
+          "title": "Explore a Escola",
+          "description": "Passe pela escola e nas áreas ao redor para aprender onde estão localizados importantes personagens, atividades e pontos de interação.",
+          "tip": "Lembre-se dos locais frequentemente visitados para que você possa retornar rapidamente."
+        },
+        {
+          "title": "Abra o Telefone",
+          "description": "Verifique a interface do telefone e revise suas características disponíveis, menus e informações de progressão.",
+          "tip": "O telefone fornece acesso rápido a sistemas importantes do Gakuran."
+        },
+        {
+          "title": "Pratique Combate Básico",
+          "description": "Aprenda ataques normais, ações defensivas, movimento durante o combate e o tempo necessário para conectar múltiplos golpes.",
+          "tip": "Não ataque repetidamente sem observar o movimento do oponente."
+        },
+        {
+          "title": "Aprenda Seu Estilo de Luta",
+          "description": "Revise a velocidade, alcance, ataques e opções de combo do seu estilo de luta atual antes de tentar combates PvP sérios.",
+          "tip": "Um estilo de luta familiar geralmente é mais eficaz do que um estilo de alto ranking desconhecido."
+        },
+        {
+          "title": "Construa Progresso Inicial",
+          "description": "Complete atividades disponíveis, melhore seu conhecimento de combate e economize recursos valiosos para upgrades ou rerolls que ofereçam um benefício claro.",
+          "tip": "Priorize um progresso consistente em vez de lutar repetidamente contra jogadores mais fortes."
+        }
+      ]
+    },
+    "gakuranFightingStylesTierList": {
+      "title": "Lista de Níveis dos Estilos de Luta do Gakuran",
+      "intro": "Um estilo de luta desempenha melhor quando seu tempo de ataque, opções de movimento e rotas de combo combinam com o jogador que o usa. As categorias abaixo explicam como os estilos devem ser avaliados sem depender apenas do dano bruto.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Topo de Nível",
+          "criteria": "Estilos com combos confiáveis, forte pressão, mobilidade útil e poucas fraquezas principais.",
+          "bestFor": "PvP competitivo e jogadores experientes",
+          "points": [
+            "Iniciadores de combo consistentes",
+            "Potencial de dano forte",
+            "Movimento ou pressão confiável",
+            "Eficaz em múltiplos encontros"
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Forte",
+          "criteria": "Estilos que se desempenham bem na maioria das lutas, mas podem exigir melhor tempo ou ter uma limitação notável.",
+          "bestFor": "PvP geral e progressão regular",
+          "points": [
+            "Potencial de combo excelente",
+            "Velocidade e alcance sólidos",
+            "Opções defensivas úteis",
+            "Fraquezas gerenciáveis"
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Equilibrado",
+          "criteria": "Estilos com ferramentas úteis e dano razoável que dependem mais da habilidade do jogador ou de situações favoráveis.",
+          "bestFor": "Aprender os fundamentos de combate",
+          "points": [
+            "Desempenho equilibrado",
+            "Forças situacionais",
+            "Consistência de combo moderada",
+            "Requer conhecimento de confronto"
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Situacional",
+          "criteria": "Estilos que podem ganhar lutas mas são menos consistentes devido a ataques mais lentos, pressão limitada ou rotas de combo difíceis.",
+          "bestFor": "Estilos de jogo especializados e partidas casuais",
+          "points": [
+            "Ataques confiáveis limitados",
+            "Pressão previsível",
+            "Requisitos de execução mais altos",
+            "Dificuldades contra opções mais fortes"
+          ]
+        },
+        {
+          "tier": "D",
+          "label": "Baixa Categoria",
+          "criteria": "Estilos com limitações significativas que tornam combates competitivos mais difíceis sem uma habilidade do jogador significativamente maior.",
+          "bestFor": "Desafios, experimentação ou preferência pessoal",
+          "points": [
+            "Consistência de combo fraca",
+            "Mobilidade limitada",
+            "Baixa pressão",
+            "Múltiplos confrontos desfavoráveis"
+          ]
+        }
+      ]
+    },
+    "gakuranControlsGuide": {
+      "title": "Guia de Controles do Gakuran",
+      "intro": "Aprender os controles antes de entrar em PvP torna o movimento e o combate muito mais fáceis. Pratique cada ação separadamente, então combine movimento, ataques e ações defensivas durante as lutas.",
+      "controls": [
+        {
+          "category": "Movimento",
+          "input": "W, A, S, D",
+          "action": "Mover",
+          "usage": "Mover para frente, esquerda, para trás ou direita",
+          "tip": "Mude de direção frequentemente durante o combate."
+        },
+        {
+          "category": "Movimento",
+          "input": "Espaço",
+          "action": "Salto",
+          "usage": "Pule sobre obstáculos ou mude a posição vertical",
+          "tip": "Evite saltos desnecessários que tornam o movimento previsível."
+        },
+        {
+          "category": "Movimento",
+          "input": "Shift",
+          "action": "Correr",
+          "usage": "Mova mais rápido enquanto explora ou reposiciona",
+          "tip": "Use a corrida para controlar a distância dos oponentes."
+        },
+        {
+          "category": "Câmera",
+          "input": "Mouse",
+          "action": "Mover Câmera",
+          "usage": "Olhe em volta e faça rastreamento de jogadores próximos",
+          "tip": "Mantenha os oponentes visíveis durante as lutas."
+        },
+        {
+          "category": "Combate",
+          "input": "Botão Esquerdo do Mouse",
+          "action": "Ataque Básico",
+          "usage": "Realize ataques de combate corpo a corpo padrão",
+          "tip": "Aguarde ataques em vez de clicar continuamente."
+        },
+        {
+          "category": "Combate",
+          "input": "Botão Direito do Mouse",
+          "action": "Ação de Combate Secundária",
+          "usage": "Use a entrada de combate secundária ou defensiva disponível",
+          "tip": "Teste a ação de forma segura antes de confiar nela em PvP."
+        },
+        {
+          "category": "Interação",
+          "input": "E",
+          "action": "Interagir",
+          "usage": "Interaja com personagens, objetos ou prompts próximos",
+          "tip": "Fique atento a prompts de interação enquanto explora."
+        },
+        {
+          "category": "Telefone",
+          "input": "Tecla de Telefone ou Ícone na Tela",
+          "action": "Abra o Telefone",
+          "usage": "Acesse recursos do telefone e menus do jogo",
+          "tip": "Feche o telefone antes de entrar em combate."
+        },
+        {
+          "category": "Interface",
+          "input": "Esc",
+          "action": "Menu do Roblox",
+          "usage": "Abra configurações, opções de jogador e o menu de saída do jogo",
+          "tip": "Ajuste a câmera e as configurações de entrada quando os controles forem desconfortáveis."
+        }
+      ]
+    },
+    "gakuranCombatGuide": {
+      "title": "Guia de Combate Gakuran",
+      "intro": "Este guia explica os principais conceitos de combate no Gakuran, incluindo ataques, bloqueios, esquiva, timing de combos e preparação para batalhas. Os jogadores podem usar esses fundamentos para melhorar seu desempenho durante as lutas.",
+      "items": [
+        {
+          "title": "Ataques Básicos",
+          "description": "Aprenda a usar ataques padrão de forma eficaz e entenda o timing dos ataques durante as lutas."
+        },
+        {
+          "title": "Bloqueio",
+          "description": "Use técnicas defensivas para reduzir dano recebido e criar oportunidades contra os oponentes."
+        },
+        {
+          "title": "Esquiva",
+          "description": "Evite ataques inimigos melhorando a percepção de movimento e o tempo de reação."
+        },
+        {
+          "title": "Combos",
+          "description": "Combine ataques de forma suave para manter pressão e melhorar a eficiência de combate."
+        },
+        {
+          "title": "Estratégia PvP",
+          "description": "Melhore os resultados das batalhas aprendendo posicionamento, paciência e leitura do oponente."
+        }
+      ]
+    },
+    "gakuranMapLocationsGuide": {
+      "title": "Guia do Mapa e Locais Gakuran",
+      "intro": "Este guia organiza as principais áreas de exploração no Gakuran para ajudar os jogadores a entenderem o ambiente e se movimentarem entre as zonas importantes de forma mais eficiente.",
+      "locations": [
+        {
+          "location": "Área Escolar",
+          "purpose": "Ambiente principal para atividades e exploração dos jogadores.",
+          "details": "Área Central onde os jogadores interagem com o mundo do jogo."
+        },
+        {
+          "location": "Zonas de Atividade",
+          "purpose": "Áreas conectadas com atividades de jogo.",
+          "details": "Usado para diferentes interações de jogadores e atividades de progressão."
+        },
+        {
+          "location": "Pontos de Exploração",
+          "purpose": "Locais para descobrir durante o jogo.",
+          "details": "Pontos importantes que ajudam os jogadores a navegar no mapa."
+        }
+      ]
+    },
+    "gakuranUpdatesNews": {
+      "title": "Atualizações e Notícias Gakuran",
+      "intro": "Esta seção coleta atualizações importantes do Gakuran, incluindo melhorias no gameplay, novos recursos, eventos e mudanças de equilíbrio que afetam os jogadores.",
+      "items": [
+        {
+          "title": "Atualizações de Gameplay",
+          "description": "Informações sobre mudanças nos sistemas de jogo e melhorias na experiência do jogador."
+        },
+        {
+          "title": "Novo Conteúdo",
+          "description": "Destaca novos recursos, atividades e conteúdo disponível."
+        },
+        {
+          "title": "Mudanças de Equilíbrio",
+          "description": "Rastrea ajustes que afetam o combate e o equilíbrio de jogo."
+        },
+        {
+          "title": "Anúncios do Desenvolvedor",
+          "description": "Coleta mensagens oficiais e informações importantes do jogo."
+        }
+      ]
+    },
+    "gakuranTipsTricks": {
+      "title": "Dicas e Trucos Gakuran",
+      "intro": "Este guia fornece conselhos práticos para jogadores novos e experientes, cobrindo hábitos de progressão, melhorias no combate e decisões de jogo eficientes.",
+      "items": [
+        {
+          "title": "Aprenda o Timing de Combate",
+          "description": "Pratique o timing de ataques, reações de defesa e controle de movimento para melhorar as lutas."
+        },
+        {
+          "title": "Explore o Mundo",
+          "description": "Visite diferentes áreas e aprenda o ambiente para navegar de forma mais eficiente."
+        },
+        {
+          "title": "Melhore a Progressão",
+          "description": "Foco em jogo consistente e escolhas eficazes para avançar mais rápido."
+        },
+        {
+          "title": "Evite Erros Comuns",
+          "description": "Entenda erros de iniciantes e melhore a tomada de decisão durante o jogo."
+        },
+        {
+          "title": "Pratique Habilidades PvP",
+          "description": "Desenvolva uma melhor percepção de combate através de batalhas repetidas e ajustes de estratégia."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "titleHighlight": "Tudo o que você precisa saber sobre Gakuran.",
+    "subtitle": "O que é Gakuran no Roblox?",
+    "questions": [
+      {
+        "question": "Gakuran é uma experiência de roleplay de escola japonesa no Roblox, situada em 2007 no Japão, que combina exploração, interação social e luta PvP com múltiplos estilos de luta.",
+        "answer": "Quantos estilos de luta há em Gakuran?"
+      },
+      {
+        "question": "Gakuran oferece vários estilos de luta, cada um com diferentes velocidades, alcance, potencial de combo e forças PvP. Nossa Lista de Níveis de Estilos de Luta do Gakuran as classifica por utilidade geral.",
+        "answer": "Existem códigos ativos de Gakuran?"
+      },
+      {
+        "question": "Os códigos de Gakuran podem proporcionar rerolls gratuitos e recompensas quando disponíveis. Verifique nossa seção de Códigos de Gakuran para os últimos códigos ativos e passos de resgate.",
+        "answer": "Gakuran é gratuito para jogar?"
+      },
+      {
+        "question": "Sim. Gakuran é gratuito para jogar no Roblox em PC, mobile e consoles compatíveis, com compras in-game opcionais.",
+        "answer": "Gakuran suporta combate PvP?"
+      },
+      {
+        "question": "Sim. Gakuran se concentra no combate PvP, onde os jogadores lutam usando diferentes estilos de luta. Aprender os comandos, bloqueio, esquiva e combos melhora seus resultados.",
+        "answer": "Onde posso jogar Gakuran?"
+      },
+      {
+        "question": "Você pode jogar Gakuran na página oficial do jogo do Roblox. Use nosso Guia de Controles de Gakuran para configurar seus atalhos de teclado antes da sua primeira luta.",
+        "answer": "Pronto para Mestre Gakuran?"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Junte-se à comunidade de Gakuran para guias de estilo de luta, códigos, atualizações e discussões de PvP!",
+    "description": "Junte-se à Comunidade",
+    "joinCommunity": "Jogue no Roblox",
+    "joinGame": "Wiki dos Estilos de Luta de Gakuran"
+  },
+  "footer": {
+    "title": "Seu hub completo de recursos para códigos de Gakuran, estilos de luta, controles, personagens, itens e guias de PvP.",
+    "description": "Recursos",
+    "resources": "Comunidade",
+    "community": "Legal",
+    "legal": "Discord",
+    "discord": "X / Twitter",
+    "twitter": "Grupo do Roblox",
+    "steamCommunity": "Jogo do Roblox",
+    "steamStore": "Sobre",
+    "about": "Política de Privacidade",
+    "privacy": "Termos de Serviço",
+    "terms": "Direitos Autorais",
+    "copyrightNotice": "© 2026 Wiki dos Estilos de Luta de Gakuran. Não está associado aos desenvolvedores de Gakuran.",
+    "copyright": "Website de recursos fan-made não oficial.",
+    "disclaimer": "Códigos dos Estilos de Luta de Gakuran"
+  },
+  "pages": {
+    "codes": {
+      "title": "Últimos códigos funcionais dos Estilos de Luta de Gakuran para rodadas gratuitas, rerolls de traços e cosméticos exclusivos. Atualizado diariamente com códigos verificados.",
+      "description": "Códigos dos Estilos de Luta de Gakuran - Rodadas Gratuitas & Rerolls de Traços",
+      "metaTitle": "Ganhe rodadas gratuitas, rerolls de traços e cosméticos exclusivos com códigos ativos dos Estilos de Luta de Gakuran. Atualizado diariamente com códigos verificados funcionais.",
+      "metaDescription": "RESGATE CÓDIGOS",
+      "categoryLabel": "O que são Códigos?",
+      "whatIs": "Os códigos de resgate são códigos promocionais gratuitos lançados pelos desenvolvedores dos Estilos de Luta de Gakuran que concedem recompensas no jogo, como rodadas, rerolls de traços, chips de estatísticas e cosméticos limitados.",
+      "whatIsDescription": "Por que resgatar códigos?",
+      "why": "Recursos Grátis",
+      "whySteps": {
+        "step1Title": "Reclame rodadas e chips de estatísticas sem gastar Robux",
+        "step1Description": "Rerolagem de Traços",
+        "step2Title": "Reinicie seus traços de estilo de luta até que você role a construção perfeita",
+        "step2Description": "Mantenha-se Atualizado",
+        "step3Title": "Novos códigos são lançados com cada atualização do jogo e evento de marco",
+        "step3Description": "Destaque & Essencial"
+      },
+      "featured": "Todos os Códigos",
+      "all": "Guias dos Estilos de Luta de Gakuran"
+    },
+    "guide": {
+      "title": "Guias completos dos Estilos de Luta de Gakuran desde o básico até estratégias avançadas de PvP. Domine o combate, exploração e progresso do personagem.",
+      "description": "Guias dos Estilos de Luta de Gakuran - Estratégias de Básico a Avançado",
+      "metaTitle": "Guias completos dos Estilos de Luta de Gakuran cobrindo dicas básicas, combate PvP, exploração, progresso do personagem e táticas avançadas para o RPG de escola do Roblox.",
+      "metaDescription": "O que são Guias?",
+      "categoryLabel": "Guias completos cobrindo os mecanismos de jogo dos Estilos de Luta de Gakuran, domínio de estilos de luta, exploração da escola e estratégias PvP para jogadores de todos os níveis de habilidade.",
+      "whatIs": "Por que ler guias?",
+      "whatIsDescription": "Aprenda Mecânicas Básicas",
+      "why": "Entenda estilos de luta, defesa e gerenciamento de resistência\n---",
+      "whySteps": {
+        "step1Title": "Learn Core Mechanics",
+        "step1Description": "Entenda os estilos de luta, desferimento e gerenciamento de resistência.",
+        "step2Title": "Progressão Rápida",
+        "step2Description": "Siga caminhos provados para subir de nível e desbloquear novas habilidades",
+        "step3Title": "Domine o PvP",
+        "step3Description": "Desenvolva táticas avançadas para dominar as lutas escolares"
+      },
+      "featured": "Destaque & Essencial",
+      "all": "Todos os Guias"
+    },
+    "styles": {
+      "title": "Lista de Estilos de Luta Gakuran",
+      "description": "Lista completa de Estilos de Luta Gakuran e análise. Compare estilos lendários, taxas de queda e encontre o melhor estilo para sua construção.",
+      "metaTitle": "Gakuran Fighting Styles - Lista de Níveis & Guia dos Melhores Estilos",
+      "metaDescription": "Descubra os melhores Estilos de Luta Gakuran com nossa lista completa. Compare estilos lendários, chances de queda e requisitos de desbloqueio para cada construção.",
+      "categoryLabel": "ESTILOS DE LUTA",
+      "whatIs": "O que são Estilos de Luta?",
+      "whatIsDescription": "Estilos de luta são as disciplinas de combate que seu personagem Gakuran Fighting Styles pode aprender, cada um com conjuntos de movimentos únicos, tipos de dano e níveis de raridade desde o comum ao lendário.",
+      "why": "Por que escolher o estilo certo?",
+      "whySteps": {
+        "step1Title": "Optimize sua Construção",
+        "step1Description": "Combine seu estilo de luta com sua distribuição de estatísticas e estilo de jogo",
+        "step2Title": "Entenda as Raridades",
+        "step2Description": "Estilos lendários têm chances de queda mais baixas, mas conjuntos de movimentos mais fortes",
+        "step3Title": "Planeje suas Rolar",
+        "step3Description": "Saiba as chances antes de gastar giros em rerolls"
+      },
+      "featured": "Destaque & Essencial",
+      "all": "Todos os Estilos de Luta"
+    },
+    "controls": {
+      "title": "Controles de Luta Gakuran",
+      "description": "Controles completos de Estilos de Luta Gakuran para PC, console e mobile. Domine os atalhos de teclado, entradas de combate e combinações de movimento.",
+      "metaTitle": "Controles de Estilos de Luta Gakuran - Atalhos de Teclado para PC, Console & Mobile",
+      "metaDescription": "Domine os controles de Estilos de Luta Gakuran em PC, console e mobile. Atalhos completos de teclado, entradas de combate, bloqueio e combinações de movimento explicados.",
+      "categoryLabel": "CONTROLES",
+      "whatIs": "O que são Controles?",
+      "whatIsDescription": "Controles cobrem todas as entradas que seu personagem Gakuran Fighting Styles usa, desde o movimento básico e câmera até combinações de combate, bloqueio, esquivas e expressões em todas as plataformas.",
+      "why": "Por que aprender controles?",
+      "whySteps": {
+        "step1Title": "Reaja mais rápido",
+        "step1Description": "Atalhos memorizados permitem que você bloquee e contramine em PvP em tempo real",
+        "step2Title": "Realize Combinações",
+        "step2Description": "Encadeie ataques e movimentos especiais sem errar entradas",
+        "step3Title": "Jogue em Qualquer Plataforma",
+        "step3Description": "Encontre o melhor layout, seja você jogue em PC, console ou mobile"
+      },
+      "featured": "Destaque & Essencial",
+      "all": "Todos os Controles"
+    },
+    "combat": {
+      "title": "Combate Gakuran",
+      "description": "Domine o combate Gakuran com construções PvP, distribuição de estatísticas e táticas de luta. Aprenda a melhor construção de altura e estratégias de luta.",
+      "metaTitle": "Combate Gakuran - Construções PvP & Melhores Estatísticas",
+      "metaDescription": "Domine o combate Gakuran com as melhores construções PvP, mecânica de altura, distribuição de estatísticas e táticas de luta para cada estilo de luta.",
+      "categoryLabel": "COMBATE",
+      "whatIs": "O que é Combate?",
+      "whatIsDescription": "O combate em Gakuran Fighting Styles cobre lutas PvP, construções de estatísticas, vantagens de altura e o uso tático dos estilos de luta para superar adversários em lutas escolares.",
+      "why": "Por que dominar o combate?",
+      "whySteps": {
+        "step1Title": "Construa Inteligente",
+        "step1Description": "Distribua estatísticas e escolha a altura certa para seu estilo de jogo",
+        "step2Title": "Ganhe Lutas",
+        "step2Description": "Aplique dados de frame e espaçamento para vencer adversários mais fortes",
+        "step3Title": "Suba nas Classificações",
+        "step3Description": "Vitórias consistentes em PvP desbloqueiam reputação e recompensas"
+      },
+      "featured": "Destaque & Essencial",
+      "all": "Todos os Guias de Combate"
+    },
+    "characters": {
+      "title": "Personagens Gakuran Fighting Styles",
+      "description": "Personalize seu personagem Gakuran Fighting Styles com os melhores nomes, presets de rosto, penteados, cores de cabelo e configurações de altura para se destacar na escola.",
+      "metaTitle": "Personagens Gakuran Fighting Styles - Nomes, Penteados & Altura",
+      "metaDescription": "Crie o personagem perfeito Gakuran Fighting Styles com ideias de nomes, presets de rosto, penteados, cores de cabelo e configurações de altura para um estudante único.",
+      "categoryLabel": "PERSONAGENS",
+      "whatIs": "O que são Personagens?",
+      "whatIsDescription": "Personagens cobrem tudo sobre personalizar seu estudante do Gakuran Fighting Styles, incluindo opções de nome, pré-ajustes faciais, penteados, cores de cabelo e altura que afeta o combate.",
+      "why": "Por que personalizar seu personagem?",
+      "whySteps": {
+        "step1Title": "Seja Você Mesmo",
+        "step1Description": "Destaque-se com um nome único e um visual de assinatura",
+        "step2Title": "Altura Estratégica",
+        "step2Description": "A altura muda sua alcance e hitbox no combate PvP",
+        "step3Title": "Ideias de Nome Novas",
+        "step3Description": "Escolha entre nomes inspirados no Japão curados que se encaixam no cenário"
+      },
+      "featured": "Destaque e Essencial",
+      "all": "Todos os Guia de Personagens"
+    },
+    "locations": {
+      "title": "Locais do Gakuran Fighting Styles",
+      "description": "Explore todos os locais do Gakuran Fighting Styles, incluindo a escola, sala de música, subterrâneo e o mapa completo. Encontre segredos, NPC's e áreas PvP.",
+      "metaTitle": "Locais do Gakuran Fighting Styles - Escola, Subterrâneo e Mapa",
+      "metaDescription": "Explore todos os locais do Gakuran Fighting Styles, incluindo a escola, sala de música, áreas subterrâneas e o mapa completo com segredos, NPC's e áreas PvP.",
+      "categoryLabel": "LOCAIS",
+      "whatIs": "O que são Locais?",
+      "whatIsDescription": "Os locais são as áreas exploráveis do Gakuran Fighting Styles, desde o campus da escola e a sala de música até as zonas subterrâneas escondidas, cada uma com NPC's, segredos e locais PvP.",
+      "why": "Por que explorar locais?",
+      "whySteps": {
+        "step1Title": "Encontre Segredos",
+        "step1Description": "Descubra quartos escondidos, itens e NPC's raras",
+        "step2Title": "Saiba sobre Zonas PvP",
+        "step2Description": "Aprenda onde os confrontos acontecem e onde escapar",
+        "step3Title": "Complete Objetivos",
+        "step3Description": "Navegue no mapa de maneira eficiente para missões e eventos"
+      },
+      "featured": "Destaque e Essencial",
+      "all": "Todos os Locais"
+    }
+  }
+}
